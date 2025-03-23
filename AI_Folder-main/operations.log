@@ -1,0 +1,12 @@
+{"operation": "encrypt", "details": {"file": "D:\\CLLG\\project.pdf\\project.pdf"}}
+{"operation": "encrypt", "details": {"file": "D:\\CLLG\\project.pdf\\project.pdf"}}
+{"operation": "encrypt", "details": {"file": "D:\\CLLG\\project.pdf\\project.pdf"}}
+{"operation": "encrypt", "details": {"file": "D:\\CLLG\\project.pdf\\project.pdf"}}
+{"operation": "encrypt", "details": {"file": "D:\\CLLG\\project.pdf\\project.pdf"}}
+{"operation": "encrypt", "details": {"file": "D:\\CLLG\\project.pdf\\project.pdf"}}
+{"operation": "encrypt", "details": {"file": "D:\\CLLG\\project.pdf\\project.pdf"}}
+{"operation": "move", "details": {"source": "D:\\AI_Folder-main\\soucre\\Portfolio.docx", "target": "D:\\AI_Folder-main\\target\\Word Documents\\Portfolio.docx"}}
+{"operation": "create_directory", "details": {"path": "D:\\AI_Folder-main\\Satish"}}
+{"operation": "delete_directory", "details": {"path": "D:\\AI_Folder-main\\Satish"}}
+{"operation": "rename_directory", "details": {"from": "D:\\AI_Folder-main\\source", "to": "D:\\AI_Folder-main\\SOURCE"}}
+{"operation": "rename_directory", "details": {"from": "D:\\AI_Folder-main\\target", "to": "D:\\AI_Folder-main\\TARGET"}}

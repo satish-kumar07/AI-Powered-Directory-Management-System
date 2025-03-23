@@ -1,0 +1,7 @@
+feature1,feature2,feature3,category
+1,0,0,Images
+0,1,0,Documents
+0,0,1,Videos
+1,1,0,Images
+0,1,1,Documents
+1,0,1,Videos
