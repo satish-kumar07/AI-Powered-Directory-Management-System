@@ -7,7 +7,7 @@ from utils.file_operations import (
     organize_files, find_duplicates, search_files, summarize_file, monitor_directory, display_log,
     sort_files_by_date, encrypt_file, decrypt_file, move_file, copy_file, delete_file, create_directory,
     delete_directory, list_files_in_directory, rename_directory, create_text_file, create_video_file, create_word_file,
-    compress_directory, decompress_file, view_file_metadata, preview_file
+    compress_directory, decompress_file, view_file_metadata, preview_file, deorganize_files
 )
 from utils.undo import undo_last_operation
 
@@ -130,6 +130,10 @@ def main():
     parser_preview.add_argument("file_path", help="The path to the text file.")
     parser_preview.add_argument("--lines", type=int, default=10, help="Number of lines to preview (default: 10).")
 
+    # Deorganize files
+    parser_deorganize = subparsers.add_parser("deorganize", help="Moves files from subdirectories back to the main directory.")
+    parser_deorganize.add_argument("source_directory", help="The source directory to deorganize.")
+
     args = parser.parse_args()
 
     if args.command == "organize":
@@ -188,6 +192,8 @@ def main():
         content = preview_file(args.file_path, args.lines)
         if content:
             print(content)
+    elif args.command == "deorganize":
+        deorganize_files(args.source_directory)
     else:
         parser.print_help()
 

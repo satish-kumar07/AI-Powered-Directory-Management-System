@@ -119,6 +119,33 @@ def organize_files(source_dir, target_dir, model):
             move_file(file_path, os.path.join(target_folder, file_name))
     logging.info("File organization completed.")
 
+def deorganize_files(source_dir):
+    """Move files from subdirectories back to the main directory."""
+    if not os.path.exists(source_dir):
+        logging.error(f"Source directory {source_dir} does not exist.")
+        return
+
+    try:
+        for root, dirs, files in os.walk(source_dir):
+            for file_name in files:
+                file_path = os.path.join(root, file_name)
+                if root != source_dir:  # Avoid moving files already in the main directory
+                    target_path = os.path.join(source_dir, file_name)
+                    shutil.move(file_path, target_path)
+                    logging.info(f"Moved {file_path} to {target_path}")
+
+        # Remove empty subdirectories
+        for root, dirs, _ in os.walk(source_dir, topdown=False):
+            for dir_name in dirs:
+                dir_path = os.path.join(root, dir_name)
+                if not os.listdir(dir_path):  # Check if the directory is empty
+                    os.rmdir(dir_path)
+                    logging.info(f"Removed empty directory: {dir_path}")
+
+        logging.info("Deorganization completed.")
+    except Exception as e:
+        logging.error(f"Error during deorganization: {e}")
+
 def hash_file(file_path):
     """Generate a hash for the given file."""
     hasher = hashlib.md5()
