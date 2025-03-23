@@ -48,7 +48,7 @@ class TestFileOperations(unittest.TestCase):
             "Audio": [".mp3", ".wav", ".flac"],
             "Code": [".py", ".java", ".cpp", ".html", ".css", ".js"],
             "Archives": [".zip", ".rar", ".tar", ".gz"],
-            "Others": []  # Default for uncategorized files
+            "Others": [] 
         }
         self.assertEqual(categorize_file('image.jpg', categories), 'Images')
         self.assertEqual(categorize_file('document.pdf', categories), 'Documents')

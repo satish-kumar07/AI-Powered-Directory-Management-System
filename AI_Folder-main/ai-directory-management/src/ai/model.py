@@ -55,7 +55,7 @@ class AIModel:
         self.model = None
 
     def train(self, training_data):
-        # Mock training process
+    
         self.model = "trained_model"
 
     def predict_category(self, file_metadata):
@@ -92,5 +92,4 @@ class AIModel:
             return 'Others'
 
     def evaluate(self, test_data):
-        # Mock evaluation process
-        return 0.95  # Assume 85% accuracy for testing purposes
+        return 0.95  

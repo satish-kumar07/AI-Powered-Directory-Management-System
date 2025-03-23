@@ -13,7 +13,7 @@ import stat
 from docx import Document
 import zipfile
 
-# Configure logging
+
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 def move_file(source_path, target_path):
@@ -52,7 +52,7 @@ def delete_file(path):
     """Delete a specified file or folder."""
     try:
         if os.path.isdir(path):
-            # Change permissions if necessary
+           
             for root, dirs, files in os.walk(path):
                 for dir in dirs:
                     os.chmod(os.path.join(root, dir), stat.S_IWRITE)
@@ -75,8 +75,8 @@ def summarize_file(file_path):
     try:
         with open(file_path, 'r') as file:
             content = file.read()
-            # Placeholder for AI-based summarization logic
-            summary = content[:100]  # Example: take the first 100 characters as a summary
+            
+            summary = content[:100]  
             logging.info(f"Summary for {file_path}: {summary}")
             return summary
     except Exception as e:
@@ -136,16 +136,16 @@ def deorganize_files(source_dir):
         for root, dirs, files in os.walk(source_dir):
             for file_name in files:
                 file_path = os.path.join(root, file_name)
-                if root != source_dir:  # Avoid moving files already in the main directory
+                if root != source_dir:  
                     target_path = os.path.join(source_dir, file_name)
                     shutil.move(file_path, target_path)
                     logging.info(f"Moved {file_path} to {target_path}")
 
-        # Remove empty subdirectories
+        
         for root, dirs, _ in os.walk(source_dir, topdown=False):
             for dir_name in dirs:
                 dir_path = os.path.join(root, dir_name)
-                if not os.listdir(dir_path):  # Check if the directory is empty
+                if not os.listdir(dir_path):
                     os.rmdir(dir_path)
                     logging.info(f"Removed empty directory: {dir_path}")
 
@@ -317,19 +317,19 @@ def sort_files_by_date(source_directory, target_directory):
     for file_name in os.listdir(source_directory):
         file_path = os.path.join(source_directory, file_name)
         if os.path.isfile(file_path):
-            # Get the file's modification time
+            
             mod_time = os.path.getmtime(file_path)
             mod_time_struct = time.localtime(mod_time)
             year = mod_time_struct.tm_year
             month = mod_time_struct.tm_mon
             day = mod_time_struct.tm_mday
 
-            # Create target subdirectory based on the modification date
+            
             target_subdir = os.path.join(target_directory, f"{year}-{month:02d}-{day:02d}")
             if not os.path.exists(target_subdir):
                 os.makedirs(target_subdir)
 
-            # Move the file to the target subdirectory
+            
             target_path = os.path.join(target_subdir, file_name)
             try:
                 shutil.move(file_path, target_path)
@@ -353,7 +353,7 @@ def load_key():
 def encrypt_file(file_path):
     """Encrypt a file for security."""
     try:
-        # Generate or load the encryption key
+        
         if not os.path.exists('encryption.key'):
             key = generate_key()
         else:
@@ -361,14 +361,13 @@ def encrypt_file(file_path):
 
         fernet = Fernet(key)
 
-        # Read the file data
         with open(file_path, 'rb') as file:
             file_data = file.read()
 
-        # Encrypt the file data
+       
         encrypted_data = fernet.encrypt(file_data)
 
-        # Write the encrypted data back to the file
+       
         with open(file_path, 'wb') as file:
             file.write(encrypted_data)
 

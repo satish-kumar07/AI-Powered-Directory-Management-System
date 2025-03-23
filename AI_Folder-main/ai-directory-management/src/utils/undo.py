@@ -33,10 +33,10 @@ def undo_last_operation():
             logging.info(f"Undid copy operation: Deleted {target}")
         elif operation == 'delete':
             path = details['path']
-            # Note: Undoing a delete operation is not straightforward without a backup.
+            
             logging.warning(f"Cannot undo delete operation for {path}")
 
-        # Remove the last operation from the log
+        
         with open('operations.log', 'w') as log_file:
             log_file.writelines(lines[:-1])
     except Exception as e:

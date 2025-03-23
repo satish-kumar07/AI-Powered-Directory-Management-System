@@ -6,7 +6,7 @@ from sklearn.metrics import classification_report
 import joblib
 import logging
 
-# Configure logging
+
 logging.basicConfig(level=logging.INFO)
 
 class ModelTrainer:
@@ -25,8 +25,8 @@ class ModelTrainer:
 
     def preprocess_data(self, data):
         """Preprocess the data for training."""
-        X = data.drop('category', axis=1)  # Features
-        y = data['category']  # Target
+        X = data.drop('category', axis=1)  
+        y = data['category'] 
         return train_test_split(X, y, test_size=0.2, random_state=42)
 
     def train_model(self, X_train, y_train):
@@ -54,10 +54,10 @@ class ModelTrainer:
             self.evaluate_model(X_test, y_test)
             self.save_model()
 
-# Example usage
+
 if __name__ == "__main__":
-    data_file = "d:/LANGUAGE/workspace/ai-directory-management/src/ai/labeled_data.csv"  # Replace with your labeled data file path
-    model_file = "d:/LANGUAGE/workspace/ai-directory-management/src/ai/model.pkl"  # Replace with your desired model file path
+    data_file = "d:/LANGUAGE/workspace/ai-directory-management/src/ai/labeled_data.csv"
+    model_file = "d:/LANGUAGE/workspace/ai-directory-management/src/ai/model.pkl"
 
     trainer = ModelTrainer(data_file, model_file)
     trainer.run()
