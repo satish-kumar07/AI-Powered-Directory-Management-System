@@ -8,6 +8,7 @@ from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 import time
 from cryptography.fernet import Fernet
+import stat
 
 from docx import Document
 import zipfile
