@@ -51,11 +51,17 @@ def delete_file(path):
     """Delete a specified file or folder."""
     try:
         if os.path.isdir(path):
+            # Change permissions if necessary
+            for root, dirs, files in os.walk(path):
+                for dir in dirs:
+                    os.chmod(os.path.join(root, dir), stat.S_IWRITE)
+                for file in files:
+                    os.chmod(os.path.join(root, file), stat.S_IWRITE)
             shutil.rmtree(path)
         else:
+            os.chmod(path, stat.S_IWRITE)
             os.remove(path)
         logging.info(f"Deleted {path}")
-        log_operation('delete', {'path': path})
     except Exception as e:
         logging.error(f"Error deleting {path}: {e}")
 

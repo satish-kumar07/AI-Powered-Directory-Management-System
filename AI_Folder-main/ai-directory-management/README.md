@@ -151,6 +151,7 @@ Replace `<command>` and `[arguments]` with the actual command and arguments.
 - **Continuous Monitoring**: Optionally monitor the source directory for changes and automatically organize new files.
 - **Directory Management**: Create, delete, list, and rename directories.
 
+
 ## Techniques Used
 The AI Directory Management System uses a combination of techniques to categorize and organize files:
 
