@@ -139,6 +139,26 @@ Replace `<command>` and `[arguments]` with the actual command and arguments.
   ```sh
   python src/main.py rename-directory <path> <current_name> <new_name>
   ```
+- **deorganize**: Moves files from subdirectories back to the main directory.
+  ```sh
+  python src/main.py deorganize <source_directory>
+  ```
+- **compress**: Compresses a directory into a zip file.
+  ```sh
+  python src/main.py compress <path> <output_name>
+  ```
+- **decompress**: Decompresses a zip file into a directory.
+  ```sh
+  python src/main.py decompress <zip_path> <extract_to>
+  ```
+- **view-metadata**: Displays metadata of a file.
+  ```sh
+  python src/main.py view-metadata <file_path>
+  ```
+- **preview**: Previews the first few lines of a text file.
+  ```sh
+  python src/main.py preview <file_path> [--lines <number_of_lines>]
+  ```
 
 ## Features
 - **AI-based File Categorization**: Uses content and metadata analysis to categorize files into predefined categories.
@@ -150,7 +170,8 @@ Replace `<command>` and `[arguments]` with the actual command and arguments.
 - **File Sorting by Date**: Organizes files based on their creation or modification date.
 - **Continuous Monitoring**: Optionally monitor the source directory for changes and automatically organize new files.
 - **Directory Management**: Create, delete, list, and rename directories.
-
+- **Deorganization**: Moves files from subdirectories back to the main directory.
+- **Compression and Decompression**: Compresses directories into zip files and extracts them.
 
 ## Techniques Used
 The AI Directory Management System uses a combination of techniques to categorize and organize files:
@@ -167,6 +188,10 @@ The AI Directory Management System uses a combination of techniques to categoriz
 3. **File Organization**:
    - The system organizes files into folders based on their predicted categories.
    - This is done using the `organize_files` function in the `file_operations.py` module, which moves files to the appropriate target directories based on their categories.
+
+4. **Deorganization**:
+   - The system can reverse the organization process by moving files from subdirectories back to the main directory.
+   - This is done using the `deorganize_files` function in the `file_operations.py` module.
 
 ## Import Libraries
 The following libraries are used in this project:
