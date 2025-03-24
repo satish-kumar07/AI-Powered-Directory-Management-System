@@ -92,11 +92,11 @@ def main():
 
     # View metadata
     parser_metadata = subparsers.add_parser("view-metadata", help="View metadata of a file.")
-    parser_metadata.add_argument("file_path", help="The path to the file.")
+    parser_metadata.add_argument("-f", "--file-path", required=False, help="The path to the file.")
 
     # Preview text file
     parser_preview = subparsers.add_parser("preview", help="Preview the first few lines of a text file.")
-    parser_preview.add_argument("file_path", help="The path to the text file.")
+    parser_preview.add_argument("-f", "--file-path", required=False, help="The path to the text file.")
     parser_preview.add_argument("--lines", type=int, default=10, help="Number of lines to preview (default: 10).")
 
     # Deorganize files
@@ -244,15 +244,31 @@ def main():
             if file_path:
                 metadata = view_file_metadata(file_path)
                 if metadata:
-                    print(metadata)
+                    print("\nFile Metadata:")
+                    for key, value in metadata.items():
+                        print(f"  {key}: {value}")
 
         elif args.command == "preview":
-            file_path = FileSelector.select_file("Select Text File to Preview")
+            file_path = FileSelector.select_file(
+                "Select Text File to Preview", 
+                filetypes=[("Text files", "*.txt"), ("All files", "*.*")]
+            )
             if file_path:
-                lines = int(input("Enter the number of lines to preview (default: 10): ") or 10)
-                content = preview_file(file_path, lines)
-                if content:
-                    print(content)
+                lines_str = FileSelector.get_input(
+                    "Preview Lines",
+                    "Enter the number of lines to preview",
+                    "10"
+                )
+                if lines_str:
+                    try:
+                        lines = int(lines_str)
+                        content = preview_file(file_path, lines)
+                        if content:
+                            print("\nFile Preview:")
+                            print(content)
+                    except ValueError:
+                        logging.error("Please enter a valid number")
+                        FileSelector.show_message("Error", "Please enter a valid number", "error")
 
         elif args.command == "deorganize":
             source_directory = FileSelector.select_directory("Select Directory to Deorganize")
@@ -385,16 +401,24 @@ def main():
             else:
                 logging.error("File path is required in CLI mode")
 
-
         elif args.command == "view-metadata":
-            metadata = view_file_metadata(args.file_path)
-            if metadata:
-                print(metadata)
+            if args.file_path:
+                metadata = view_file_metadata(args.file_path)
+                if metadata:
+                    print("\nFile Metadata:")
+                    for key, value in metadata.items():
+                        print(f"  {key}: {value}")
+            else:
+                logging.error("File path is required in CLI mode")
 
         elif args.command == "preview":
-            content = preview_file(args.file_path, args.lines)
-            if content:
-                print(content)
+            if args.file_path:
+                content = preview_file(args.file_path, args.lines)
+                if content:
+                    print("\nFile Preview:")
+                    print(content)
+            else:
+                logging.error("File path is required in CLI mode")
 
         elif args.command == "deorganize":
             if args.source_directory:
