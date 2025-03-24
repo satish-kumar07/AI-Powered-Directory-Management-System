@@ -7,7 +7,7 @@ from utils.file_operations import (
     organize_files, find_duplicates, search_files, summarize_file, monitor_directory, display_log,
     sort_files_by_date, encrypt_file, decrypt_file, move_file, copy_file, delete_file, create_directory,
     delete_directory, list_files_in_directory, rename_directory, create_text_file, create_video_file, create_word_file,
-    compress_directory, decompress_file, view_file_metadata, preview_file, deorganize_files, batch_rename_files,
+    compress_directory, decompress_file, view_file_metadata, preview_file, deorganize_files, batch_rename_files, analyze_disk_usage,
 )
 from utils.undo import undo_last_operation
 
@@ -140,6 +140,11 @@ def main():
     parser_batch_rename.add_argument("pattern", help="The pattern to search for in filenames.")
     parser_batch_rename.add_argument("replacement", help="The replacement text.")
 
+    # Analyze disk usage
+    parser_disk_usage = subparsers.add_parser("disk-usage", help="Analyze disk usage of directories and files.")
+    parser_disk_usage.add_argument("directory", help="The directory to analyze.")
+
+    
     args = parser.parse_args()
 
     if args.command == "organize":
@@ -202,6 +207,14 @@ def main():
         deorganize_files(args.source_directory)
     elif args.command == "batch-rename":
         batch_rename_files(args.directory, args.pattern, args.replacement)
+    elif args.command == "disk-usage":
+        usage_data = analyze_disk_usage(args.directory)
+        if usage_data:
+            print("\nDisk Usage Analysis:")
+            for dir_path, data in usage_data.items():
+                print(f"{dir_path}:")
+                print(f"  Size: {data['size']/1024/1024:.2f} MB")
+                print(f"  Percentage: {data['percentage']:.2f}%")
     else:
         parser.print_help()
 

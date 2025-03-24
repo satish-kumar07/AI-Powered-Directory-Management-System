@@ -566,3 +566,39 @@ def batch_rename_files(directory, pattern, replacement):
     except Exception as e:
         logging.error(f"Error during batch rename in {directory}: {e}")
 
+def analyze_disk_usage(directory):
+    """Analyze disk usage of directories and files."""
+    try:
+        if not os.path.exists(directory):
+            logging.error(f"Directory {directory} does not exist.")
+            return None
+
+        usage_data = {}
+        total_size = 0
+
+        for root, dirs, files in os.walk(directory):
+            dir_size = 0
+            for file in files:
+                file_path = os.path.join(root, file)
+                file_size = os.path.getsize(file_path)
+                dir_size += file_size
+                total_size += file_size
+            
+            usage_data[root] = {
+                'size': dir_size,
+                'percentage': 0  # Will be calculated after total is known
+            }
+
+        # Calculate percentages
+        for dir_path in usage_data:
+            usage_data[dir_path]['percentage'] = (usage_data[dir_path]['size'] / total_size) * 100
+
+        logging.info(f"Disk usage analysis for {directory}:")
+        for dir_path, data in usage_data.items():
+            logging.info(f"{dir_path}: {data['size']/1024/1024:.2f} MB ({data['percentage']:.2f}%)")
+
+        return usage_data
+    except Exception as e:
+        logging.error(f"Error analyzing disk usage for {directory}: {e}")
+        return None
+
