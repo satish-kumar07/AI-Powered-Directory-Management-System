@@ -7,7 +7,7 @@ from utils.file_operations import (
     organize_files, find_duplicates, summarize_file, monitor_directory, display_log,
     sort_files_by_date, encrypt_file, decrypt_file, move_file, copy_file, delete_file, create_directory,
     delete_directory, list_files_in_directory, rename_directory,
-    compress_directory, decompress_file, view_file_metadata, preview_file, deorganize_files, batch_rename_files, analyze_disk_usage, compare_directories
+    view_file_metadata, preview_file, deorganize_files, batch_rename_files, analyze_disk_usage, compare_directories
 )
 from utils.undo import undo_last_operation
 from utils.gui_operations import FileSelector
@@ -89,33 +89,6 @@ def main():
     # Decrypt file
     parser_decrypt = subparsers.add_parser("decrypt", help="Decrypt a file.")
     parser_decrypt.add_argument("-f", "--file", required=False, help="File to decrypt.")
-
-    # Create text file
-    parser_create_text_file = subparsers.add_parser("create-text-file", help="Creates a new text file.")
-    parser_create_text_file.add_argument("-p", "--path", required=False, help="The path where the text file will be created.")
-    parser_create_text_file.add_argument("-n", "--name", required=False, help="The name of the text file (without extension).")
-    parser_create_text_file.add_argument("--content", help="Optional content for the text file.", default="")
-
-    # Create video file
-    parser_create_video_file = subparsers.add_parser("create-video-file", help="Creates a new video file.")
-    parser_create_video_file.add_argument("path", help="The path where the video file will be created.")
-    parser_create_video_file.add_argument("name", help="The name of the video file (without extension).")
-
-    # Create Word file
-    parser_create_word_file = subparsers.add_parser("create-word-file", help="Creates a new MS Word document.")
-    parser_create_word_file.add_argument("path", help="The path where the Word document will be created.")
-    parser_create_word_file.add_argument("name", help="The name of the Word document (without extension).")
-    parser_create_word_file.add_argument("--content", help="Optional content for the Word document.", default="")
-
-    # Compress directory
-    parser_compress = subparsers.add_parser("compress", help="Compress a directory into a zip file.")
-    parser_compress.add_argument("path", help="The directory to compress.")
-    parser_compress.add_argument("output_name", help="The name of the output zip file (without extension).")
-
-    # Decompress zip file
-    parser_decompress = subparsers.add_parser("decompress", help="Decompress a zip file.")
-    parser_decompress.add_argument("zip_path", help="The path to the zip file.")
-    parser_decompress.add_argument("extract_to", help="The directory to extract the contents to.")
 
     # View metadata
     parser_metadata = subparsers.add_parser("view-metadata", help="View metadata of a file.")
@@ -264,19 +237,8 @@ def main():
                 if FileSelector.show_confirm("Confirm Decrypt", 
                     f"Are you sure you want to decrypt '{os.path.basename(file)}'?"):
                     decrypt_file(file)
-        elif args.command == "compress":
-            path = FileSelector.select_directory("Select Directory to Compress")
-            if path:
-                output_name = input("Enter the name of the output zip file (without extension): ")
-                compress_directory(path, output_name)
 
-        elif args.command == "decompress":
-            zip_path = FileSelector.select_file("Select Zip File to Decompress")
-            if zip_path:
-                extract_to = FileSelector.select_directory("Select Directory to Extract Contents")
-                if extract_to:
-                    decompress_file(zip_path, extract_to)
-
+ 
         elif args.command == "view-metadata":
             file_path = FileSelector.select_file("Select File to View Metadata")
             if file_path:
@@ -423,12 +385,6 @@ def main():
             else:
                 logging.error("File path is required in CLI mode")
 
-        
-        elif args.command == "compress":
-            compress_directory(args.path, args.output_name)
-
-        elif args.command == "decompress":
-            decompress_file(args.zip_path, args.extract_to)
 
         elif args.command == "view-metadata":
             metadata = view_file_metadata(args.file_path)

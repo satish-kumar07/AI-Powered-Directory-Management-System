@@ -16,6 +16,9 @@ from utils.gui_operations import FileSelector
 from concurrent.futures import ThreadPoolExecutor
 import fnmatch
 import mmap
+from tqdm import tqdm
+import threading
+import queue
 
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -459,29 +462,6 @@ def rename_directory(parent_path, old_name, new_name):
     except Exception as e:
         logging.error(f"Error renaming directory: {str(e)}")
         return False
-    
-def compress_directory(path, output_name):
-    """Compress a directory into a zip file."""
-    try:
-        with zipfile.ZipFile(f"{output_name}.zip", 'w') as zipf:
-            for root, dirs, files in os.walk(path):
-                for file in files:
-                    zipf.write(os.path.join(root, file),
-                               os.path.relpath(os.path.join(root, file), path))
-        logging.info(f"Compressed directory {path} into {output_name}.zip")
-        log_operation('compress_directory', {'path': path, 'output': f"{output_name}.zip"})
-    except Exception as e:
-        logging.error(f"Error compressing directory {path}: {e}")
-
-def decompress_file(zip_path, extract_to):
-    """Decompress a zip file into a directory."""
-    try:
-        with zipfile.ZipFile(zip_path, 'r') as zipf:
-            zipf.extractall(extract_to)
-        logging.info(f"Decompressed {zip_path} into {extract_to}")
-        log_operation('decompress_file', {'zip_path': zip_path, 'extract_to': extract_to})
-    except Exception as e:
-        logging.error(f"Error decompressing file {zip_path}: {e}")
 
 def view_file_metadata(file_path):
     """View metadata of a file."""
