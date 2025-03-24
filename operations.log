@@ -46,3 +46,7 @@
 {"operation": "move", "details": {"source": "D:\\SAMPLE\\TARGET", "target": "D:\\SAMPLE\\Source"}}
 {"operation": "move", "details": {"source": "D:\\SAMPLE\\TARGET", "target": "D:\\SAMPLE\\Source"}}
 {"operation": "copy", "details": {"source": "D:\\SAMPLE\\TARGET", "target": "D:\\SAMPLE\\Source"}}
+{"operation": "batch_rename", "details": {"directory": "D:\\SAMPLE\\Source", "pattern": "text_plain_", "replacement": "TEXT"}}
+{"operation": "batch_rename", "details": {"directory": "D:\\SAMPLE\\Source", "pattern": "text_plain_", "replacement": "TEXT_"}}
+{"operation": "batch_rename", "details": {"directory": "D:\\SAMPLE\\Source", "pattern": "TEXT", "replacement": "TEXT_"}}
+{"operation": "batch_rename", "details": {"directory": "D:\\SAMPLE\\Source", "pattern": "TEXT_", "replacement": "TEXT__"}}

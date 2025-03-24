@@ -7,7 +7,7 @@ from utils.file_operations import (
     organize_files, find_duplicates, search_files, summarize_file, monitor_directory, display_log,
     sort_files_by_date, encrypt_file, decrypt_file, move_file, copy_file, delete_file, create_directory,
     delete_directory, list_files_in_directory, rename_directory, create_text_file, create_video_file, create_word_file,
-    compress_directory, decompress_file, view_file_metadata, preview_file, deorganize_files
+    compress_directory, decompress_file, view_file_metadata, preview_file, deorganize_files, batch_rename_files,
 )
 from utils.undo import undo_last_operation
 
@@ -134,6 +134,12 @@ def main():
     parser_deorganize = subparsers.add_parser("deorganize", help="Moves files from subdirectories back to the main directory.")
     parser_deorganize.add_argument("source_directory", help="The source directory to deorganize.")
 
+    # Batch rename
+    parser_batch_rename = subparsers.add_parser("batch-rename", help="Rename multiple files based on a pattern.")
+    parser_batch_rename.add_argument("directory", help="The directory containing files to rename.")
+    parser_batch_rename.add_argument("pattern", help="The pattern to search for in filenames.")
+    parser_batch_rename.add_argument("replacement", help="The replacement text.")
+
     args = parser.parse_args()
 
     if args.command == "organize":
@@ -194,6 +200,8 @@ def main():
             print(content)
     elif args.command == "deorganize":
         deorganize_files(args.source_directory)
+    elif args.command == "batch-rename":
+        batch_rename_files(args.directory, args.pattern, args.replacement)
     else:
         parser.print_help()
 

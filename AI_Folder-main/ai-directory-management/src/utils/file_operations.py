@@ -543,3 +543,26 @@ def preview_file(file_path, lines=10):
     except Exception as e:
         logging.error(f"Error previewing file {file_path}: {e}")
         return None
+
+def batch_rename_files(directory, pattern, replacement):
+    """Batch rename files in a directory based on a pattern."""
+    try:
+        if not os.path.exists(directory):
+            logging.error(f"Directory {directory} does not exist.")
+            return
+
+        renamed_count = 0
+        for filename in os.listdir(directory):
+            if pattern in filename:
+                new_name = filename.replace(pattern, replacement)
+                old_path = os.path.join(directory, filename)
+                new_path = os.path.join(directory, new_name)
+                os.rename(old_path, new_path)
+                renamed_count += 1
+                logging.info(f"Renamed: {filename} -> {new_name}")
+        
+        logging.info(f"Batch rename completed. {renamed_count} files renamed.")
+        log_operation('batch_rename', {'directory': directory, 'pattern': pattern, 'replacement': replacement})
+    except Exception as e:
+        logging.error(f"Error during batch rename in {directory}: {e}")
+
