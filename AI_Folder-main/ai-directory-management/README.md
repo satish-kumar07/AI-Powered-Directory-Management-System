@@ -69,112 +69,155 @@ ai-directory-management
 3. Configure the application settings in `src/config/settings.py` to specify the source and target directories.
 
 ## Usage
-To run the application, execute the following command:
+To run the application, execute one of the following commands:
+
+### GUI Mode
+```sh
+python src/main.py --gui <command>
+```
+
+### CLI Mode
 ```sh
 python src/main.py <command> [arguments]
 ```
-Replace `<command>` and `[arguments]` with the actual command and arguments.
 
 ### Available Commands
 - **organize**: Categorizes and moves files into relevant folders.
   ```sh
+  # GUI Mode
+  python src/main.py --gui organize
+
+  # CLI Mode
   python src/main.py organize <source_directory> <target_directory>
   ```
+
 - **find-duplicates**: Detects and lists duplicate files.
   ```sh
+  # GUI Mode
+  python src/main.py --gui find-duplicates
+
+  # CLI Mode
   python src/main.py find-duplicates <directory>
   ```
+
 - **move**: Moves a file or folder to a new location.
   ```sh
   python src/main.py move <source> <destination>
   ```
+
 - **copy**: Copies a file or folder to a new location.
   ```sh
   python src/main.py copy <source> <destination>
   ```
+
 - **delete**: Deletes a specified file or folder.
   ```sh
   python src/main.py delete <path>
   ```
-- **search**: Finds files using AI-powered semantic search.
-  ```sh
-  python src/main.py search <directory> <keyword>
-  ```
+
 - **summarize**: Generates an AI-based summary of a text file.
   ```sh
   python src/main.py summarize <file>
   ```
+
 - **monitor**: Watches the directory and organizes new files in real time.
   ```sh
   python src/main.py monitor <source_directory> <target_directory>
   ```
+
 - **undo**: Reverts the last file operation.
   ```sh
   python src/main.py undo
   ```
+
 - **log**: Displays a log of previous operations.
   ```sh
   python src/main.py log
   ```
+
 - **sort-by-date**: Organizes files based on creation/modification date.
   ```sh
   python src/main.py sort-by-date <source_directory> <target_directory>
   ```
+
 - **encrypt**: Encrypts a file for security.
   ```sh
   python src/main.py encrypt <file>
   ```
+
 - **decrypt**: Decrypts an encrypted file.
   ```sh
   python src/main.py decrypt <file>
   ```
+
 - **create-directory**: Creates a new directory.
   ```sh
   python src/main.py create-directory <path> <directory_name>
   ```
+
 - **delete-directory**: Deletes a specified directory.
   ```sh
   python src/main.py delete-directory <path> <directory_name>
   ```
+
 - **list-files**: Lists files in a specified directory.
   ```sh
   python src/main.py list-files <directory>
   ```
+
 - **rename-directory**: Renames a specified directory.
   ```sh
   python src/main.py rename-directory <path> <current_name> <new_name>
   ```
+
 - **deorganize**: Moves files from subdirectories back to the main directory.
   ```sh
   python src/main.py deorganize <source_directory>
   ```
-- **compress**: Compresses a directory into a zip file.
-  ```sh
-  python src/main.py compress <path> <output_name>
-  ```
-- **decompress**: Decompresses a zip file into a directory.
-  ```sh
-  python src/main.py decompress <zip_path> <extract_to>
-  ```
+
 - **view-metadata**: Displays metadata of a file.
   ```sh
-  python src/main.py view-metadata <file_path>
+  # GUI Mode
+  python src/main.py --gui view-metadata
+
+  # CLI Mode
+  python src/main.py view-metadata -f <file_path>
   ```
+
 - **preview**: Previews the first few lines of a text file.
   ```sh
-  python src/main.py preview <file_path> [--lines <number_of_lines>]
+  # GUI Mode
+  python src/main.py --gui preview
+
+  # CLI Mode
+  python src/main.py preview -f <file_path> --lines <number_of_lines>
   ```
+
 - **batch-rename**: Renames multiple files in a directory based on a pattern.
   ```sh
-  python src/main.py batch-rename <directory> <pattern> <replacement>
+  # GUI Mode
+  python src/main.py --gui batch-rename
+
+  # CLI Mode
+  python src/main.py batch-rename -d <directory> -p <pattern> -r <replacement>
   ```
+
 - **disk-usage**: Analyzes disk usage of directories and files.
   ```sh
-  python src/main.py disk-usage <directory>
+  # GUI Mode
+  python src/main.py --gui disk-usage
+
+  # CLI Mode
+  python src/main.py disk-usage -d <directory>
   ```
+
 - **compare**: Compares two directories and reports differences.
   ```sh
-  python src/main.py compare <dir1> <dir2>
+  # GUI Mode
+  python src/main.py --gui compare
+
+  # CLI Mode
+  python src/main.py compare -d1 <first_directory> -d2 <second_directory>
   ```
 
 ## Features
