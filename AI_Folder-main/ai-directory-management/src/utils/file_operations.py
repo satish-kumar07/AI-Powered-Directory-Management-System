@@ -16,9 +16,6 @@ from utils.gui_operations import FileSelector
 from concurrent.futures import ThreadPoolExecutor
 import fnmatch
 import mmap
-import re
-from collections import defaultdict
-import threading
 
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -227,6 +224,16 @@ def rename_files(directory):
                     logging.info(f"Skipped renaming file {file_path}")
             else:
                 logging.warning(f"Could not determine MIME type for file {file_path}")
+
+
+def log_operation(operation, details):
+    """Log an operation to the operations log."""
+    log_entry = {
+        'operation': operation,
+        'details': details
+    }
+    with open('operations.log', 'a') as log_file:
+        log_file.write(json.dumps(log_entry) + '\n')
 
 class DirectoryEventHandler(FileSystemEventHandler):
     def __init__(self, model, target_directory):
@@ -452,42 +459,7 @@ def rename_directory(parent_path, old_name, new_name):
     except Exception as e:
         logging.error(f"Error renaming directory: {str(e)}")
         return False
-
-def create_text_file(path, name, content=""):
-    """Create a new text file with optional content."""
-    try:
-        full_path = os.path.join(path, f"{name}.txt")
-        with open(full_path, 'w') as file:
-            file.write(content)
-        logging.info(f"Created text file: {full_path}")
-        log_operation('create_text_file', {'path': full_path, 'content': content})
-    except Exception as e:
-        logging.error(f"Error creating text file {full_path}: {e}")
-
-def create_video_file(path, name):
-    """Create a placeholder video file."""
-    try:
-        full_path = os.path.join(path, f"{name}.mp4")
-        with open(full_path, 'wb') as file:
-            # Write a placeholder header for an MP4 file
-            file.write(b'\x00\x00\x00\x18ftypmp42\x00\x00\x00\x00mp42isom')
-        logging.info(f"Created video file: {full_path}")
-        log_operation('create_video_file', {'path': full_path})
-    except Exception as e:
-        logging.error(f"Error creating video file {full_path}: {e}")
-
-def create_word_file(path, name, content=""):
-    """Create a new MS Word document with optional content."""
-    try:
-        full_path = os.path.join(path, f"{name}.docx")
-        document = Document()
-        document.add_paragraph(content)
-        document.save(full_path)
-        logging.info(f"Created Word document: {full_path}")
-        log_operation('create_word_file', {'path': full_path, 'content': content})
-    except Exception as e:
-        logging.error(f"Error creating Word document {full_path}: {e}")
-
+    
 def compress_directory(path, output_name):
     """Compress a directory into a zip file."""
     try:

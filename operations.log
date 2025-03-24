@@ -190,3 +190,7 @@
 {"operation": "delete_directory", "details": {"path": "D:/SAMPLE\\directory"}}
 {"operation": "rename_directory", "details": {"parent_path": "D:/SAMPLE", "old_name": "Source", "new_name": "Sourcesd"}}
 {"operation": "rename_directory", "details": {"parent_path": "D:/SAMPLE", "old_name": "Sourcesd", "new_name": "SOURCE"}}
+{"operation": "encrypt", "details": {"file": "D:/SAMPLE/SOURCE/Images/image_jpeg_GAP.jpg"}}
+{"operation": "decrypt", "details": {"file": "D:/SAMPLE/SOURCE/Images/image_jpeg_GAP.jpg"}}
+{"operation": "encrypt", "details": {"file": "D:/SAMPLE/SOURCE/Images/image_jpeg_GAP.jpg"}}
+{"operation": "decrypt", "details": {"file": "D:/SAMPLE/SOURCE/Images/image_jpeg_GAP.jpg"}}

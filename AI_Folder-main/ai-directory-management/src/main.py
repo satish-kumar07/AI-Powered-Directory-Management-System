@@ -4,9 +4,9 @@ import logging
 import argparse
 from ai.model import FileCategorizer
 from utils.file_operations import (
-    organize_files, find_duplicates, search_files, summarize_file, monitor_directory, display_log,
+    organize_files, find_duplicates, summarize_file, monitor_directory, display_log,
     sort_files_by_date, encrypt_file, decrypt_file, move_file, copy_file, delete_file, create_directory,
-    delete_directory, list_files_in_directory, rename_directory, create_text_file, create_video_file, create_word_file,
+    delete_directory, list_files_in_directory, rename_directory,
     compress_directory, decompress_file, view_file_metadata, preview_file, deorganize_files, batch_rename_files, analyze_disk_usage, compare_directories
 )
 from utils.undo import undo_last_operation
@@ -64,33 +64,36 @@ def main():
 
     # Summarize file
     parser_summarize = subparsers.add_parser("summarize", help="Generates an AI-based summary of a text file.")
-    parser_summarize.add_argument("file", help="File to summarize.")
+    parser_summarize.add_argument("-f", "--file", required=False, help="File to summarize.")
 
     # Monitor directory
     parser_monitor = subparsers.add_parser("monitor", help="Watches the directory and organizes new files in real time.")
-    parser_monitor.add_argument("source_directory", help="The source directory to monitor.")
-    parser_monitor.add_argument("target_directory", help="The target directory where organized files will be placed.")
+    parser_monitor.add_argument("-s", "--source-directory", required=False, help="The source directory to monitor.")
+    parser_monitor.add_argument("-t", "--target-directory", required=False, help="The target directory where organized files will be placed.")
 
     # Undo last operation
     subparsers.add_parser("undo", help="Reverts the last file operation.")
 
+    # Display log
+    subparsers.add_parser("log", help="Displays a log of previous operations.")
+
     # Sort files by date
     parser_sort_by_date = subparsers.add_parser("sort-by-date", help="Organizes files based on creation/modification date.")
-    parser_sort_by_date.add_argument("source_directory", help="The source directory containing files to sort.")
-    parser_sort_by_date.add_argument("target_directory", help="The target directory where sorted files will be placed.")
+    parser_sort_by_date.add_argument("-s", "--source-directory", required=False, help="The source directory containing files to sort.")
+    parser_sort_by_date.add_argument("-t", "--target-directory", required=False, help="The target directory where sorted files will be placed.")
 
     # Encrypt file
     parser_encrypt = subparsers.add_parser("encrypt", help="Encrypts a file for security.")
-    parser_encrypt.add_argument("file", help="File to encrypt.")
+    parser_encrypt.add_argument("-f", "--file", required=False, help="File to encrypt.")
 
     # Decrypt file
     parser_decrypt = subparsers.add_parser("decrypt", help="Decrypt a file.")
-    parser_decrypt.add_argument("file", help="File to decrypt.")
+    parser_decrypt.add_argument("-f", "--file", required=False, help="File to decrypt.")
 
     # Create text file
     parser_create_text_file = subparsers.add_parser("create-text-file", help="Creates a new text file.")
-    parser_create_text_file.add_argument("path", help="The path where the text file will be created.")
-    parser_create_text_file.add_argument("name", help="The name of the text file (without extension).")
+    parser_create_text_file.add_argument("-p", "--path", required=False, help="The path where the text file will be created.")
+    parser_create_text_file.add_argument("-n", "--name", required=False, help="The name of the text file (without extension).")
     parser_create_text_file.add_argument("--content", help="Optional content for the text file.", default="")
 
     # Create video file
@@ -216,72 +219,51 @@ def main():
                     rename_directory(parent_path, current_name, new_name)
 
         elif args.command == "summarize":
-            file = FileSelector.select_file("Select File to Summarize")
-            if file:
-                summarize_file(file)
+            file_path = FileSelector.select_file("Select File to Summarize", 
+                                                 filetypes=[("Text files", "*.txt"),
+                                                            ("All files", "*.*")])
+            if file_path:
+                summarize_file(file_path)
 
         elif args.command == "monitor":
             source_directory = FileSelector.select_directory("Select Source Directory to Monitor")
             if source_directory:
-                target_directory = FileSelector.select_directory("Select Target Directory")
+                target_directory = FileSelector.select_directory("Select Target Directory for Organized Files")
                 if target_directory:
-                    model = FileCategorizer()
-                    model.load_model()
-                    monitor_directory(source_directory, target_directory, model)
+                    if FileSelector.show_confirm("Start Monitoring", 
+                        f"Start monitoring '{source_directory}'?\nFiles will be organized into '{target_directory}'"):
+                        model = FileCategorizer()
+                        model.load_model()
+                        monitor_directory(source_directory, target_directory, model)
 
         elif args.command == "undo":
             undo_last_operation()
 
+        elif args.command == "log":
+            display_log()
 
         elif args.command == "sort-by-date":
             source_directory = FileSelector.select_directory("Select Source Directory to Sort")
             if source_directory:
                 target_directory = FileSelector.select_directory("Select Target Directory")
                 if target_directory:
-                    sort_files_by_date(source_directory, target_directory)
+                    if FileSelector.show_confirm("Confirm Sort", 
+                        f"Sort files from '{source_directory}' by date into '{target_directory}'?"):
+                        sort_files_by_date(source_directory, target_directory)
 
         elif args.command == "encrypt":
             file = FileSelector.select_file("Select File to Encrypt")
             if file:
-                encrypt_file(file)
+                if FileSelector.show_confirm("Confirm Encrypt", 
+                    f"Are you sure you want to encrypt '{os.path.basename(file)}'?"):
+                    encrypt_file(file)
 
         elif args.command == "decrypt":
             file = FileSelector.select_file("Select File to Decrypt")
             if file:
-                decrypt_file(file)
-
-        elif args.command == "create-text-file":
-            path = FileSelector.select_directory("Select Directory")
-            if path:
-                file_info = FileSelector.get_file_info(
-                    title="Create Text File",
-                    name_prompt="Enter file name (without extension):",
-                    content_prompt="Enter file content (optional):"
-                )
-                if file_info["name"]:
-                    create_text_file(path, file_info["name"], file_info.get("content", ""))
-
-        elif args.command == "create-video-file":
-            path = FileSelector.select_directory("Select Directory")
-            if path:
-                file_info = FileSelector.get_file_info(
-                    title="Create Video File",
-                    name_prompt="Enter video file name (without extension):"
-                )
-                if file_info["name"]:
-                    create_video_file(path, file_info["name"])
-
-        elif args.command == "create-word-file":
-            path = FileSelector.select_directory("Select Directory")
-            if path:
-                file_info = FileSelector.get_file_info(
-                    title="Create Word Document",
-                    name_prompt="Enter document name (without extension):",
-                    content_prompt="Enter document content (optional):"
-                )
-                if file_info["name"]:
-                    create_word_file(path, file_info["name"], file_info.get("content", ""))
-
+                if FileSelector.show_confirm("Confirm Decrypt", 
+                    f"Are you sure you want to decrypt '{os.path.basename(file)}'?"):
+                    decrypt_file(file)
         elif args.command == "compress":
             path = FileSelector.select_directory("Select Directory to Compress")
             if path:
@@ -403,19 +385,19 @@ def main():
             else:
                 logging.error("Path, old name, and new name are required in CLI mode")
 
-        elif args.command == "search":
-            if args.directory and args.keyword:
-                search_files(args.directory, args.keyword)
-            else:
-                logging.error("Directory and keyword are required in CLI mode")
-
         elif args.command == "summarize":
-            summarize_file(args.file)
+            if args.file:
+                summarize_file(args.file)
+            else:
+                logging.error("File path is required in CLI mode")
 
         elif args.command == "monitor":
-            model = FileCategorizer()
-            model.load_model()
-            monitor_directory(args.source_directory, args.target_directory, model)
+            if args.source_directory and args.target_directory:
+                model = FileCategorizer()
+                model.load_model()
+                monitor_directory(args.source_directory, args.target_directory, model)
+            else:
+                logging.error("Source and target directories are required in CLI mode")
 
         elif args.command == "undo":
             undo_last_operation()
@@ -424,23 +406,24 @@ def main():
             display_log()
 
         elif args.command == "sort-by-date":
-            sort_files_by_date(args.source_directory, args.target_directory)
+            if args.source_directory and args.target_directory:
+                sort_files_by_date(args.source_directory, args.target_directory)
+            else:
+                logging.error("Source and target directories are required in CLI mode")
 
         elif args.command == "encrypt":
-            encrypt_file(args.file)
+            if args.file:
+                encrypt_file(args.file)
+            else:
+                logging.error("File path is required in CLI mode")
 
         elif args.command == "decrypt":
-            decrypt_file(args.file)
+            if args.file:
+                decrypt_file(args.file)
+            else:
+                logging.error("File path is required in CLI mode")
 
-        elif args.command == "create-text-file":
-            create_text_file(args.path, args.name, args.content)
-
-        elif args.command == "create-video-file":
-            create_video_file(args.path, args.name)
-
-        elif args.command == "create-word-file":
-            create_word_file(args.path, args.name, args.content)
-
+        
         elif args.command == "compress":
             compress_directory(args.path, args.output_name)
 
