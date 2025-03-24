@@ -12,20 +12,23 @@ import stat
 
 from docx import Document
 import zipfile
+from utils.gui_operations import FileSelector
 
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-def move_file(source_path, target_path):
+def move_file(source_path, target_path, show_dialog=True):
     """Move a file or folder to a new location."""
     try:
         shutil.move(source_path, target_path)
         logging.info(f"Moved {source_path} to {target_path}")
         log_operation('move', {'source': source_path, 'target': target_path})
+        if show_dialog:
+            FileSelector.show_message("Success", f"Moved {os.path.basename(source_path)} successfully")
     except Exception as e:
         logging.error(f"Error moving {source_path} to {target_path}: {e}")
-        logging.error(f"Source path: {source_path}, Target path: {target_path}")
-        logging.error(f"Exception details: {e}")
+        if show_dialog:
+            FileSelector.show_message("Error", f"Error moving file: {str(e)}", "error")
 
 def copy_file(source_path, target_path):
     """Copy a file or folder to a new location."""
@@ -123,8 +126,9 @@ def organize_files(source_dir, target_dir, model):
             target_folder = os.path.join(target_dir, category)
             if not os.path.exists(target_folder):
                 os.makedirs(target_folder)
-            move_file(file_path, os.path.join(target_folder, file_name))
+            move_file(file_path, os.path.join(target_folder, file_name), show_dialog=False)
     logging.info("File organization completed.")
+    FileSelector.show_message("Success", "Files organized successfully")
 
 def deorganize_files(source_dir):
     """Move files from subdirectories back to the main directory."""
