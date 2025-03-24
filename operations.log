@@ -185,3 +185,4 @@
 {"operation": "move", "details": {"source": "D:/SAMPLE/Source\\TEXT__MATH LIBRARY.txt", "target": "D:/SAMPLE/Source\\Text\\TEXT__MATH LIBRARY.txt"}}
 {"operation": "move", "details": {"source": "D:/SAMPLE/Source\\TEXT__Project.txt", "target": "D:/SAMPLE/Source\\Text\\TEXT__Project.txt"}}
 {"operation": "move", "details": {"source": "D:/SAMPLE/Source\\video sample.mp4", "target": "D:/SAMPLE/Source\\Video\\video sample.mp4"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/Source/Documents/application_pdf_antiragging by student.pdf", "target": "D:/SAMPLE/TARGET\\application_pdf_antiragging by student.pdf"}}

@@ -41,12 +41,12 @@ def main():
 
     # Delete file or folder
     parser_delete = subparsers.add_parser("delete", help="Deletes a specified file or folder.")
-    parser_delete.add_argument("path", help="The file or folder to delete.")
+    parser_delete.add_argument("-p", "--path", required=False, help="The file or folder to delete.")
 
     # Create directory
     parser_create_directory = subparsers.add_parser("create-directory", help="Creates a new directory.")
-    parser_create_directory.add_argument("path", help="The path where the new directory will be created.")
-    parser_create_directory.add_argument("name", help="The name of the new directory.")
+    parser_create_directory.add_argument("-p", "--path", required=False, help="The path where the new directory will be created.")
+    parser_create_directory.add_argument("-n", "--name", required=False, help="The name of the new directory.")
 
     # Delete directory
     parser_delete_directory = subparsers.add_parser("delete-directory", help="Deletes a specified directory.")
@@ -185,15 +185,17 @@ def main():
 
         # Handle other commands in GUI mode
         elif args.command == "delete":
-            path = FileSelector.select_file("Select File to Delete")
+            path = FileSelector.select_file("Select File or Folder to Delete")
             if path:
-                delete_file(path)
+                if FileSelector.show_confirm("Confirm Delete", f"Are you sure you want to delete {os.path.basename(path)}?"):
+                    delete_file(path)
 
         elif args.command == "create-directory":
             path = FileSelector.select_directory("Select Parent Directory")
             if path:
-                name = input("Enter the name of the new directory: ")
-                create_directory(path, name)
+                name = FileSelector.get_input("Create Directory", "Enter the name of the new directory:")
+                if name:
+                    create_directory(path, name)
 
         elif args.command == "delete-directory":
             path = FileSelector.select_directory("Select Directory to Delete")
@@ -368,10 +370,16 @@ def main():
             copy_file(args.source, args.destination)
 
         elif args.command == "delete":
-            delete_file(args.path)
+            if args.path:
+                delete_file(args.path)
+            else:
+                logging.error("Path is required in CLI mode")
 
         elif args.command == "create-directory":
-            create_directory(args.path, args.name)
+            if args.path and args.name:
+                create_directory(args.path, args.name)
+            else:
+                logging.error("Path and name are required in CLI mode")
 
         elif args.command == "delete-directory":
             delete_directory(args.path, args.name)
