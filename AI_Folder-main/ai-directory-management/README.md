@@ -42,7 +42,8 @@ ai-directory-management
 │   │   └── train.py           # Functions for training the AI model
 │   ├── utils
 │   │   ├── file_operations.py  # Utility functions for file operations
-│   │   └── logging_config.py   # Logging configuration
+│   │   ├── logging_config.py   # Logging configuration
+│   │   └── undo.py             # Undo functionality for file operations
 │   ├── config
 │   │   └── settings.py        # Configuration settings for the application
 │   └── tests
@@ -123,6 +124,10 @@ Replace `<command>` and `[arguments]` with the actual command and arguments.
   ```sh
   python src/main.py encrypt <file>
   ```
+- **decrypt**: Decrypts an encrypted file.
+  ```sh
+  python src/main.py decrypt <file>
+  ```
 - **create-directory**: Creates a new directory.
   ```sh
   python src/main.py create-directory <path> <directory_name>
@@ -159,6 +164,18 @@ Replace `<command>` and `[arguments]` with the actual command and arguments.
   ```sh
   python src/main.py preview <file_path> [--lines <number_of_lines>]
   ```
+- **batch-rename**: Renames multiple files in a directory based on a pattern.
+  ```sh
+  python src/main.py batch-rename <directory> <pattern> <replacement>
+  ```
+- **disk-usage**: Analyzes disk usage of directories and files.
+  ```sh
+  python src/main.py disk-usage <directory>
+  ```
+- **compare**: Compares two directories and reports differences.
+  ```sh
+  python src/main.py compare <dir1> <dir2>
+  ```
 
 ## Features
 - **AI-based File Categorization**: Uses content and metadata analysis to categorize files into predefined categories.
@@ -172,6 +189,9 @@ Replace `<command>` and `[arguments]` with the actual command and arguments.
 - **Directory Management**: Create, delete, list, and rename directories.
 - **Deorganization**: Moves files from subdirectories back to the main directory.
 - **Compression and Decompression**: Compresses directories into zip files and extracts them.
+- **Batch Rename**: Renames multiple files in a directory based on a pattern.
+- **Disk Usage Analysis**: Analyzes disk usage of directories and files.
+- **Directory Comparison**: Compares two directories and reports differences.
 
 ## Techniques Used
 The AI Directory Management System uses a combination of techniques to categorize and organize files:
@@ -192,6 +212,15 @@ The AI Directory Management System uses a combination of techniques to categoriz
 4. **Deorganization**:
    - The system can reverse the organization process by moving files from subdirectories back to the main directory.
    - This is done using the `deorganize_files` function in the `file_operations.py` module.
+
+5. **Batch Rename**:
+   - Renames multiple files in a directory based on a pattern.
+
+6. **Disk Usage Analysis**:
+   - Analyzes disk usage of directories and files.
+
+8. **Directory Comparison**:
+   - Compares two directories and reports differences.
 
 ## Import Libraries
 The following libraries are used in this project:
