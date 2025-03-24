@@ -1,5 +1,5 @@
 import tkinter as tk
-from tkinter import filedialog, messagebox
+from tkinter import filedialog, messagebox, simpledialog
 
 class FileSelector:
     @staticmethod
@@ -75,3 +75,67 @@ class FileSelector:
         
         root.mainloop()
         return result[0]
+
+    @staticmethod
+    def get_directory_name():
+        """Shows a simplified input dialog for directory name."""
+        root = tk.Tk()
+        root.withdraw()
+        name = simpledialog.askstring("Create Directory", "Enter directory name:")
+        return name
+
+    @staticmethod
+    def get_file_info(title="Create File", name_prompt="File name:", content_prompt=None):
+        """Get file name and optional content in a single dialog."""
+        root = tk.Tk()
+        root.title(title)
+        
+        # Center window
+        window_width = 400
+        window_height = 200
+        screen_width = root.winfo_screenwidth()
+        screen_height = root.winfo_screenheight()
+        x = (screen_width - window_width) // 2
+        y = (screen_height - window_height) // 2
+        root.geometry(f"{window_width}x{window_height}+{x}+{y}")
+
+        # File name entry
+        tk.Label(root, text=name_prompt).pack(pady=5)
+        name_entry = tk.Entry(root, width=40)
+        name_entry.pack(pady=5)
+        name_entry.focus()
+
+        # Content entry if needed
+        content_entry = None
+        if content_prompt:
+            tk.Label(root, text=content_prompt).pack(pady=5)
+            content_entry = tk.Text(root, width=40, height=4)
+            content_entry.pack(pady=5)
+
+        result = {"name": None, "content": None}
+
+        def on_submit():
+            result["name"] = name_entry.get()
+            if content_entry:
+                result["content"] = content_entry.get("1.0", tk.END).strip()
+            root.destroy()
+
+        def on_cancel():
+            root.destroy()
+
+        # Buttons
+        button_frame = tk.Frame(root)
+        button_frame.pack(pady=10)
+        tk.Button(button_frame, text="Create", command=on_submit).pack(side=tk.LEFT, padx=10)
+        tk.Button(button_frame, text="Cancel", command=on_cancel).pack(side=tk.LEFT)
+
+        root.mainloop()
+        return result
+
+    @staticmethod
+    def get_simple_input(prompt, default=""):
+        """Shows a simplified input dialog with default value."""
+        root = tk.Tk()
+        root.withdraw()
+        result = simpledialog.askstring("Input", prompt, initialvalue=default)
+        return result

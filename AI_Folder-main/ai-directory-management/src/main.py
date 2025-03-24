@@ -50,23 +50,17 @@ def main():
 
     # Delete directory
     parser_delete_directory = subparsers.add_parser("delete-directory", help="Deletes a specified directory.")
-    parser_delete_directory.add_argument("path", help="The path of the directory to delete.")
-    parser_delete_directory.add_argument("name", help="The name of the directory to delete.")
+    parser_delete_directory.add_argument("-p", "--path", required=False, help="The path of the directory to delete.")
+    parser_delete_directory.add_argument("-n", "--name", required=False, help="The name of the directory to delete.")
 
     # List files in directory
     parser_list_files = subparsers.add_parser("list-files", help="Lists files in a specified directory.")
-    parser_list_files.add_argument("path", help="The path of the directory to list files in.")
+    parser_list_files.add_argument("-p", "--path", required=False, help="The path of the directory to list files in.")
 
     # Rename directory
     parser_rename_directory = subparsers.add_parser("rename-directory", help="Renames a specified directory.")
-    parser_rename_directory.add_argument("current_path", help="The current path of the directory.")
-    parser_rename_directory.add_argument("current_name", help="The current name of the directory.")
-    parser_rename_directory.add_argument("new_name", help="The new name of the directory.")
-
-    # Search files
-    parser_search = subparsers.add_parser("search", help="Finds files using AI-powered semantic search.")
-    parser_search.add_argument("directory", help="The directory to search in.")
-    parser_search.add_argument("keyword", help="Keyword to search for.")
+    parser_rename_directory.add_argument("-p", "--path", required=False, help="The directory to rename.")
+    parser_rename_directory.add_argument("-n", "--new-name", required=False, help="The new name for the directory.")
 
     # Summarize file
     parser_summarize = subparsers.add_parser("summarize", help="Generates an AI-based summary of a text file.")
@@ -79,9 +73,6 @@ def main():
 
     # Undo last operation
     subparsers.add_parser("undo", help="Reverts the last file operation.")
-
-    # Display log
-    subparsers.add_parser("log", help="Displays a log of previous operations.")
 
     # Sort files by date
     parser_sort_by_date = subparsers.add_parser("sort-by-date", help="Organizes files based on creation/modification date.")
@@ -193,7 +184,8 @@ def main():
         elif args.command == "create-directory":
             path = FileSelector.select_directory("Select Parent Directory")
             if path:
-                name = FileSelector.get_input("Create Directory", "Enter the name of the new directory:")
+                # Use a simplified input dialog
+                name = FileSelector.get_directory_name()
                 if name:
                     create_directory(path, name)
 
@@ -201,25 +193,27 @@ def main():
             path = FileSelector.select_directory("Select Directory to Delete")
             if path:
                 name = os.path.basename(path)
-                delete_directory(os.path.dirname(path), name)
+                parent_path = os.path.dirname(path)
+                if FileSelector.show_confirm("Confirm Delete", f"Are you sure you want to delete directory '{name}'?"):
+                    delete_directory(parent_path, name)
 
         elif args.command == "list-files":
             path = FileSelector.select_directory("Select Directory to List Files")
             if path:
-                list_files_in_directory(path)
+                files = list_files_in_directory(path)
+                if files:
+                    print("\nFiles in directory:")
+                    for file in files:
+                        print(f"  {file}")
 
         elif args.command == "rename-directory":
             current_path = FileSelector.select_directory("Select Directory to Rename")
             if current_path:
+                parent_path = os.path.dirname(current_path)
                 current_name = os.path.basename(current_path)
-                new_name = input("Enter the new name of the directory: ")
-                rename_directory(os.path.dirname(current_path), current_name, new_name)
-
-        elif args.command == "search":
-            directory = FileSelector.select_directory("Select Directory to Search")
-            if directory:
-                keyword = input("Enter the keyword to search for: ")
-                search_files(directory, keyword)
+                new_name = FileSelector.get_simple_input("Enter new name:", current_name)
+                if new_name and new_name != current_name:
+                    rename_directory(parent_path, current_name, new_name)
 
         elif args.command == "summarize":
             file = FileSelector.select_file("Select File to Summarize")
@@ -238,8 +232,6 @@ def main():
         elif args.command == "undo":
             undo_last_operation()
 
-        elif args.command == "log":
-            display_log()
 
         elif args.command == "sort-by-date":
             source_directory = FileSelector.select_directory("Select Source Directory to Sort")
@@ -259,24 +251,36 @@ def main():
                 decrypt_file(file)
 
         elif args.command == "create-text-file":
-            path = FileSelector.select_directory("Select Directory to Create Text File")
+            path = FileSelector.select_directory("Select Directory")
             if path:
-                name = input("Enter the name of the text file (without extension): ")
-                content = input("Enter the content of the text file (optional): ")
-                create_text_file(path, name, content)
+                file_info = FileSelector.get_file_info(
+                    title="Create Text File",
+                    name_prompt="Enter file name (without extension):",
+                    content_prompt="Enter file content (optional):"
+                )
+                if file_info["name"]:
+                    create_text_file(path, file_info["name"], file_info.get("content", ""))
 
         elif args.command == "create-video-file":
-            path = FileSelector.select_directory("Select Directory to Create Video File")
+            path = FileSelector.select_directory("Select Directory")
             if path:
-                name = input("Enter the name of the video file (without extension): ")
-                create_video_file(path, name)
+                file_info = FileSelector.get_file_info(
+                    title="Create Video File",
+                    name_prompt="Enter video file name (without extension):"
+                )
+                if file_info["name"]:
+                    create_video_file(path, file_info["name"])
 
         elif args.command == "create-word-file":
-            path = FileSelector.select_directory("Select Directory to Create Word File")
+            path = FileSelector.select_directory("Select Directory")
             if path:
-                name = input("Enter the name of the Word document (without extension): ")
-                content = input("Enter the content of the Word document (optional): ")
-                create_word_file(path, name, content)
+                file_info = FileSelector.get_file_info(
+                    title="Create Word Document",
+                    name_prompt="Enter document name (without extension):",
+                    content_prompt="Enter document content (optional):"
+                )
+                if file_info["name"]:
+                    create_word_file(path, file_info["name"], file_info.get("content", ""))
 
         elif args.command == "compress":
             path = FileSelector.select_directory("Select Directory to Compress")
@@ -382,16 +386,28 @@ def main():
                 logging.error("Path and name are required in CLI mode")
 
         elif args.command == "delete-directory":
-            delete_directory(args.path, args.name)
+            if args.path and args.name:
+                delete_directory(args.path, args.name)
+            else:
+                logging.error("Path and name are required in CLI mode")
 
         elif args.command == "list-files":
-            list_files_in_directory(args.path)
+            if args.path:
+                list_files_in_directory(args.path)
+            else:
+                logging.error("Path is required in CLI mode")
 
         elif args.command == "rename-directory":
-            rename_directory(args.current_path, args.current_name, args.new_name)
+            if args.path and args.old_name and args.new_name:
+                rename_directory(args.path, args.old_name, args.new_name)
+            else:
+                logging.error("Path, old name, and new name are required in CLI mode")
 
         elif args.command == "search":
-            search_files(args.directory, args.keyword)
+            if args.directory and args.keyword:
+                search_files(args.directory, args.keyword)
+            else:
+                logging.error("Directory and keyword are required in CLI mode")
 
         elif args.command == "summarize":
             summarize_file(args.file)

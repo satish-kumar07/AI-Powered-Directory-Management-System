@@ -186,3 +186,7 @@
 {"operation": "move", "details": {"source": "D:/SAMPLE/Source\\TEXT__Project.txt", "target": "D:/SAMPLE/Source\\Text\\TEXT__Project.txt"}}
 {"operation": "move", "details": {"source": "D:/SAMPLE/Source\\video sample.mp4", "target": "D:/SAMPLE/Source\\Video\\video sample.mp4"}}
 {"operation": "move", "details": {"source": "D:/SAMPLE/Source/Documents/application_pdf_antiragging by student.pdf", "target": "D:/SAMPLE/TARGET\\application_pdf_antiragging by student.pdf"}}
+{"operation": "create_directory", "details": {"path": "D:/SAMPLE", "name": "directory"}}
+{"operation": "delete_directory", "details": {"path": "D:/SAMPLE\\directory"}}
+{"operation": "rename_directory", "details": {"parent_path": "D:/SAMPLE", "old_name": "Source", "new_name": "Sourcesd"}}
+{"operation": "rename_directory", "details": {"parent_path": "D:/SAMPLE", "old_name": "Sourcesd", "new_name": "SOURCE"}}

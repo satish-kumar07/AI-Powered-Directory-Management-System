@@ -13,6 +13,12 @@ import stat
 from docx import Document
 import zipfile
 from utils.gui_operations import FileSelector
+from concurrent.futures import ThreadPoolExecutor
+import fnmatch
+import mmap
+import re
+from collections import defaultdict
+import threading
 
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -222,44 +228,6 @@ def rename_files(directory):
             else:
                 logging.warning(f"Could not determine MIME type for file {file_path}")
 
-def search_files(directory, keyword):
-    """Find files using AI-powered semantic search."""
-    if not os.path.exists(directory):
-        logging.error(f"Directory {directory} does not exist.")
-        return
-
-    matching_files = []
-
-    for root, _, files in os.walk(directory):
-        for file_name in files:
-            file_path = os.path.join(root, file_name)
-            if keyword.lower() in file_name.lower():
-                matching_files.append(file_path)
-            else:
-                try:
-                    with open(file_path, 'r', errors='ignore') as file:
-                        content = file.read()
-                        if keyword.lower() in content.lower():
-                            matching_files.append(file_path)
-                except Exception as e:
-                    logging.error(f"Error reading file {file_path}: {e}")
-
-    if matching_files:
-        logging.info("Matching files found:")
-        for file in matching_files:
-            logging.info(file)
-    else:
-        logging.info("No matching files found.")
-
-def log_operation(operation, details):
-    """Log an operation to the operations log."""
-    log_entry = {
-        'operation': operation,
-        'details': details
-    }
-    with open('operations.log', 'a') as log_file:
-        log_file.write(json.dumps(log_entry) + '\n')
-
 class DirectoryEventHandler(FileSystemEventHandler):
     def __init__(self, model, target_directory):
         self.model = model
@@ -402,18 +370,41 @@ def decrypt_file(file_path):
     except Exception as e:
         logging.error(f"Error decrypting file {file_path}: {e}")
 
-def create_directory(path, name):
-    """Create a new directory."""
+def create_directory(parent_path, directory_name, show_dialog=True):
+    """Create a new directory at the specified path."""
     try:
-        full_path = os.path.join(path, name)
-        if not os.path.exists(full_path):
-            os.makedirs(full_path)
-            logging.info(f"Created directory: {full_path}")
-            log_operation('create_directory', {'path': full_path})
-        else:
-            logging.warning(f"Directory already exists: {full_path}")
+        # Validate inputs
+        if not parent_path or not directory_name:
+            raise ValueError("Parent path and directory name are required")
+
+        # Create full path
+        new_dir_path = os.path.join(parent_path, directory_name)
+
+        # Check if directory already exists
+        if os.path.exists(new_dir_path):
+            msg = f"Directory '{directory_name}' already exists"
+            logging.warning(msg)
+            if show_dialog:
+                FileSelector.show_message("Warning", msg, "warning")
+            return False
+
+        # Create directory
+        os.makedirs(new_dir_path)
+        
+        # Log success
+        logging.info(f"Created directory: {new_dir_path}")
+        log_operation('create_directory', {'path': parent_path, 'name': directory_name})
+        
+        if show_dialog:
+            FileSelector.show_message("Success", f"Created directory '{directory_name}'")
+        return True
+
     except Exception as e:
-        logging.error(f"Error creating directory {full_path}: {e}")
+        error_msg = f"Error creating directory: {str(e)}"
+        logging.error(error_msg)
+        if show_dialog:
+            FileSelector.show_message("Error", error_msg, "error")
+        return False
 
 def delete_directory(path, name):
     """Delete a specified directory."""
@@ -442,19 +433,25 @@ def list_files_in_directory(path):
         logging.error(f"Error listing files in directory {path}: {e}")
         return []
 
-def rename_directory(current_path, current_name, new_name):
-    """Rename a specified directory."""
+def rename_directory(parent_path, old_name, new_name):
+    """Rename a directory with optimized performance."""
     try:
-        full_current_path = os.path.join(current_path, current_name)
-        full_new_path = os.path.join(current_path, new_name)
-        if os.path.exists(full_current_path) and os.path.isdir(full_current_path):
-            os.rename(full_current_path, full_new_path)
-            logging.info(f"Renamed directory from {full_current_path} to {full_new_path}")
-            log_operation('rename_directory', {'from': full_current_path, 'to': full_new_path})
-        else:
-            logging.warning(f"Directory does not exist: {full_current_path}")
+        old_path = os.path.join(parent_path, old_name)
+        new_path = os.path.join(parent_path, new_name)
+        
+        if not os.path.exists(old_path):
+            raise FileNotFoundError(f"Directory '{old_name}' not found")
+        if os.path.exists(new_path):
+            raise FileExistsError(f"Directory '{new_name}' already exists")
+
+        os.rename(old_path, new_path)
+        logging.info(f"Renamed directory from '{old_name}' to '{new_name}'")
+        log_operation('rename_directory', {'parent_path': parent_path, 'old_name': old_name, 'new_name': new_name})
+        return True
+
     except Exception as e:
-        logging.error(f"Error renaming directory from {full_current_path} to {full_new_path}: {e}")
+        logging.error(f"Error renaming directory: {str(e)}")
+        return False
 
 def create_text_file(path, name, content=""):
     """Create a new text file with optional content."""
