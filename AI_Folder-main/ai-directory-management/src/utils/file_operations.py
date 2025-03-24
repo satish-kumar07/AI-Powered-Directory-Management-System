@@ -602,3 +602,54 @@ def analyze_disk_usage(directory):
         logging.error(f"Error analyzing disk usage for {directory}: {e}")
         return None
 
+
+def compare_directories(dir1, dir2):
+    """Compare two directories and report differences."""
+    try:
+        if not (os.path.exists(dir1) and os.path.exists(dir2)):
+            logging.error("One or both directories do not exist.")
+            return None
+
+        differences = {
+            'only_in_first': [],
+            'only_in_second': [],
+            'different_files': []
+        }
+
+        dir1_files = {}
+        dir2_files = {}
+
+        # Get all files and their hashes from first directory
+        for root, _, files in os.walk(dir1):
+            for file in files:
+                path = os.path.join(root, file)
+                rel_path = os.path.relpath(path, dir1)
+                dir1_files[rel_path] = hash_file(path)
+
+        # Get all files and their hashes from second directory
+        for root, _, files in os.walk(dir2):
+            for file in files:
+                path = os.path.join(root, file)
+                rel_path = os.path.relpath(path, dir2)
+                dir2_files[rel_path] = hash_file(path)
+
+        # Compare files
+        for file in dir1_files:
+            if file not in dir2_files:
+                differences['only_in_first'].append(file)
+            elif dir1_files[file] != dir2_files[file]:
+                differences['different_files'].append(file)
+
+        for file in dir2_files:
+            if file not in dir1_files:
+                differences['only_in_second'].append(file)
+
+        logging.info("Directory comparison completed")
+        logging.info(f"Files only in {dir1}: {len(differences['only_in_first'])}")
+        logging.info(f"Files only in {dir2}: {len(differences['only_in_second'])}")
+        logging.info(f"Different files: {len(differences['different_files'])}")
+
+        return differences
+    except Exception as e:
+        logging.error(f"Error comparing directories: {e}")
+        return None

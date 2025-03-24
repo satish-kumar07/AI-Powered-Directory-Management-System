@@ -7,7 +7,7 @@ from utils.file_operations import (
     organize_files, find_duplicates, search_files, summarize_file, monitor_directory, display_log,
     sort_files_by_date, encrypt_file, decrypt_file, move_file, copy_file, delete_file, create_directory,
     delete_directory, list_files_in_directory, rename_directory, create_text_file, create_video_file, create_word_file,
-    compress_directory, decompress_file, view_file_metadata, preview_file, deorganize_files, batch_rename_files, analyze_disk_usage,
+    compress_directory, decompress_file, view_file_metadata, preview_file, deorganize_files, batch_rename_files, analyze_disk_usage, compare_directories
 )
 from utils.undo import undo_last_operation
 
@@ -144,7 +144,11 @@ def main():
     parser_disk_usage = subparsers.add_parser("disk-usage", help="Analyze disk usage of directories and files.")
     parser_disk_usage.add_argument("directory", help="The directory to analyze.")
 
-    
+    # Compare directories
+    parser_compare = subparsers.add_parser("compare", help="Compare two directories and report differences.")
+    parser_compare.add_argument("dir1", help="First directory to compare.")
+    parser_compare.add_argument("dir2", help="Second directory to compare.")
+
     args = parser.parse_args()
 
     if args.command == "organize":
@@ -215,6 +219,19 @@ def main():
                 print(f"{dir_path}:")
                 print(f"  Size: {data['size']/1024/1024:.2f} MB")
                 print(f"  Percentage: {data['percentage']:.2f}%")
+    elif args.command == "compare":
+        differences = compare_directories(args.dir1, args.dir2)
+        if differences:
+            print("\nDirectory Comparison Results:")
+            print(f"\nFiles only in {args.dir1}:")
+            for file in differences['only_in_first']:
+                print(f"  {file}")
+            print(f"\nFiles only in {args.dir2}:")
+            for file in differences['only_in_second']:
+                print(f"  {file}")
+            print("\nFiles with different content:")
+            for file in differences['different_files']:
+                print(f"  {file}")
     else:
         parser.print_help()
 
