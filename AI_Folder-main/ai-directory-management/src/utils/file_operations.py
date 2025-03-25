@@ -504,57 +504,65 @@ def batch_rename_files(directory, pattern, replacement):
             logging.error(f"Directory {directory} does not exist.")
             return
 
-        renamed_count = 0
+        renamed_count = 0 
         for filename in os.listdir(directory):
             if pattern in filename:
                 new_name = filename.replace(pattern, replacement)
-                old_path = os.path.join(directory, filename)
+                old_path = os.path.join(directory, filename)  
                 new_path = os.path.join(directory, new_name)
+
+                # Rename the file
                 os.rename(old_path, new_path)
-                renamed_count += 1
+                renamed_count += 1 
                 logging.info(f"Renamed: {filename} -> {new_name}")
-        
+
+        # Log the completion of the batch rename operation
         logging.info(f"Batch rename completed. {renamed_count} files renamed.")
         log_operation('batch_rename', {'directory': directory, 'pattern': pattern, 'replacement': replacement})
     except Exception as e:
+        # Log any errors that occur during the operation
         logging.error(f"Error during batch rename in {directory}: {e}")
 
 def analyze_disk_usage(directory):
     """Analyze disk usage of directories and files."""
     try:
+        # Check if the directory exists
         if not os.path.exists(directory):
             logging.error(f"Directory {directory} does not exist.")
             return None
 
-        usage_data = {}
-        total_size = 0
+        usage_data = {} 
+        total_size = 0  
 
+        # Walk through the directory tree
         for root, dirs, files in os.walk(directory):
-            dir_size = 0
+            dir_size = 0  
             for file in files:
-                file_path = os.path.join(root, file)
-                file_size = os.path.getsize(file_path)
-                dir_size += file_size
-                total_size += file_size
-            
+                file_path = os.path.join(root, file)  
+                file_size = os.path.getsize(file_path) 
+                dir_size += file_size 
+                total_size += file_size  
+
+            # Store the size of the current directory
             usage_data[root] = {
                 'size': dir_size,
-                'percentage': 0  # Will be calculated after total is known
+                'percentage': 0  
             }
 
-        # Calculate percentages
+
         for dir_path in usage_data:
             usage_data[dir_path]['percentage'] = (usage_data[dir_path]['size'] / total_size) * 100
 
+       
         logging.info(f"Disk usage analysis for {directory}:")
         for dir_path, data in usage_data.items():
             logging.info(f"{dir_path}: {data['size']/1024/1024:.2f} MB ({data['percentage']:.2f}%)")
 
         return usage_data
     except Exception as e:
+        # Log any errors that occur during the operation
         logging.error(f"Error analyzing disk usage for {directory}: {e}")
         return None
-
 
 def compare_directories(dir1, dir2):
     """Compare two directories and report differences."""

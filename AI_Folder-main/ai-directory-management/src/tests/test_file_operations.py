@@ -3,12 +3,13 @@ import unittest
 import sys
 
 # Add the src directory to the Python path
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src', 'utils')))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'utils')))
 
 from file_operations import move_file, categorize_file
 
 class TestFileOperations(unittest.TestCase):
 
+    # Create test files and directories
     def setUp(self):
         self.test_source_dir = 'test_source'
         self.test_target_dir = 'test_target'
@@ -28,6 +29,7 @@ class TestFileOperations(unittest.TestCase):
             with open(os.path.join(self.test_source_dir, file_name), 'w') as f:
                 f.write(content)
 
+    # Remove the test files and directories
     def tearDown(self):
         for file_name in self.test_files.keys():
             try:
@@ -40,6 +42,7 @@ class TestFileOperations(unittest.TestCase):
         except OSError:
             pass
 
+    # Test the categorize_file function
     def test_categorize_file(self):
         categories = {
             "Images": [".jpg", ".jpeg", ".png", ".gif", ".bmp"],
@@ -57,6 +60,7 @@ class TestFileOperations(unittest.TestCase):
         self.assertEqual(categorize_file('script.py', categories), 'Code')
         self.assertEqual(categorize_file('unknown_file.xyz', categories), 'Others')
 
+    # Test the move_file function
     def test_move_file(self):
         move_file(os.path.join(self.test_source_dir, 'image.jpg'), os.path.join(self.test_target_dir, 'image.jpg'))
         self.assertTrue(os.path.exists(os.path.join(self.test_target_dir, 'image.jpg')))

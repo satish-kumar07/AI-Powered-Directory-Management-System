@@ -2,7 +2,7 @@ import unittest
 import sys
 import os
 
-
+# Add the ai directory to the sys.path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'ai')))
 
 from model import AIModel
@@ -19,6 +19,7 @@ class TestAIModel(unittest.TestCase):
         ]
         self.model.train(self.training_data) 
 
+    # Test the predict_category method
     def test_predict_category(self):
    
         test_file_metadata = {
@@ -29,6 +30,7 @@ class TestAIModel(unittest.TestCase):
         predicted_category = self.model.predict_category(test_file_metadata)
         self.assertEqual(predicted_category, 'Documents')
 
+    # Test the predict_category method with an edge case
     def test_predict_category_edge_case(self):
     
         test_file_metadata = {
@@ -39,6 +41,7 @@ class TestAIModel(unittest.TestCase):
         predicted_category = self.model.predict_category(test_file_metadata)
         self.assertEqual(predicted_category, 'Others')
 
+    # Test the model accuracy
     def test_model_accuracy(self):
    
         test_data = [

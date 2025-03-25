@@ -3,6 +3,7 @@ import shutil
 import logging
 import json
 
+# Set up logging
 def undo_last_operation():
     """Revert the last file operation."""
     try:
