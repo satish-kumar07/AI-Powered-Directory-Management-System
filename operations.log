@@ -288,4 +288,3 @@
 {"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__Project.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__Project.txt"}}
 {"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\video sample.mp4", "target": "D:/SAMPLE/SOURCE\\Video\\video sample.mp4"}}
 {"operation": "batch_rename", "details": {"directory": "D:/SAMPLE/SOURCE/Text", "pattern": "TEXT___", "replacement": "TEXT__"}}
-{"operation": "batch_rename", "details": {"directory": "D:/SAMPLE/SOURCE/Text", "pattern": "HANUMAN", "replacement": "JAI"}}
