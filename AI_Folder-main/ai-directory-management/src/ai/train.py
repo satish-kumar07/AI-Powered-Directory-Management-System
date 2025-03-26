@@ -14,7 +14,7 @@ class ModelTrainer:
     def __init__(self, data_path, model_path):
         self.data_path = data_path
         self.model_path = model_path
-        self.model = RandomForestClassifier()
+        self.model = RandomForestClassifier(n_estimators=100, max_depth=10, random_state=42)  # Adjust hyperparameters
 
     # Load labeled data for training
     def load_data(self):
@@ -28,8 +28,9 @@ class ModelTrainer:
     # Preprocess the data for training
     def preprocess_data(self, data):
         """Preprocess the data for training."""
-        X = data.drop('category', axis=1)  
-        y = data['category'] 
+        X = data.drop('category', axis=1)
+        y = data['category']
+        # Remove stratify parameter
         return train_test_split(X, y, test_size=0.2, random_state=42)
 
     # Train the AI model
@@ -42,7 +43,7 @@ class ModelTrainer:
     def evaluate_model(self, X_test, y_test):
         """Evaluate the trained model."""
         predictions = self.model.predict(X_test)
-        report = classification_report(y_test, predictions)
+        report = classification_report(y_test, predictions, zero_division=1)  # Avoid undefined metrics
         logging.info(f"Model evaluation report:\n{report}")
 
     # Save the trained model to a file
