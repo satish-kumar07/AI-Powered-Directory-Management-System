@@ -114,3 +114,15 @@ class FileSelector:
 
         root.mainloop()
         return result
+
+    @staticmethod
+    def get_directory_name():
+        """Prompt the user to input a directory name."""
+        import tkinter as tk
+        from tkinter.simpledialog import askstring
+
+        root = tk.Tk()
+        root.withdraw()  # Hide the main window
+        directory_name = askstring("Directory Name", "Enter the name of the new directory:")
+        root.destroy()
+        return directory_name

@@ -11,14 +11,12 @@ from cryptography.fernet import Fernet
 import stat
 
 from docx import Document
-import zipfile
+
 from utils.gui_operations import FileSelector
-from concurrent.futures import ThreadPoolExecutor
-import fnmatch
-import mmap
-from tqdm import tqdm
-import threading
-import queue
+
+
+
+
 
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')

@@ -379,3 +379,5 @@
 {"operation": "move", "details": {"source": "D:\\SAMPLE\\SOURCE\\TEXT__MATH LIBRARY.txt", "target": "D:\\SAMPLE\\SOURCE\\Text\\TEXT__MATH LIBRARY.txt"}}
 {"operation": "move", "details": {"source": "D:\\SAMPLE\\SOURCE\\TEXT__Project.txt", "target": "D:\\SAMPLE\\SOURCE\\Text\\TEXT__Project.txt"}}
 {"operation": "move", "details": {"source": "D:\\SAMPLE\\SOURCE\\video sample.mp4", "target": "D:\\SAMPLE\\SOURCE\\Video\\video sample.mp4"}}
+{"operation": "create_directory", "details": {"path": "D:/SAMPLE", "name": "SATISH"}}
+{"operation": "delete_directory", "details": {"path": "D:/SAMPLE\\SATISH"}}
