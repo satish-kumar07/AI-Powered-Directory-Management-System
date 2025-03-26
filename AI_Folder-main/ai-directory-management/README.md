@@ -82,13 +82,14 @@ python src/main.py <command> [arguments]
 ```
 
 ### Available Commands
+
 - **organize**: Categorizes and moves files into relevant folders.
   ```sh
   # GUI Mode
   python src/main.py --gui organize
 
   # CLI Mode
-  python src/main.py organize <source_directory> <target_directory>
+  python src/main.py organize -s <source_directory> -t <target_directory>
   ```
 
 - **find-duplicates**: Detects and lists duplicate files.
@@ -97,32 +98,32 @@ python src/main.py <command> [arguments]
   python src/main.py --gui find-duplicates
 
   # CLI Mode
-  python src/main.py find-duplicates <directory>
+  python src/main.py find-duplicates --directory <directory>
   ```
 
 - **move**: Moves a file or folder to a new location.
   ```sh
-  python src/main.py move <source> <destination>
+  python src/main.py move --source <source> --destination <destination>
   ```
 
 - **copy**: Copies a file or folder to a new location.
   ```sh
-  python src/main.py copy <source> <destination>
+  python src/main.py copy --source <source> --destination <destination>
   ```
 
 - **delete**: Deletes a specified file or folder.
   ```sh
-  python src/main.py delete <path>
+  python src.main.py delete -p <path>
   ```
 
 - **summarize**: Generates an AI-based summary of a text file.
   ```sh
-  python src/main.py summarize <file>
+  python src/main.py summarize -f <file>
   ```
 
 - **monitor**: Watches the directory and organizes new files in real time.
   ```sh
-  python src/main.py monitor <source_directory> <target_directory>
+  python src/main.py monitor -s <source_directory> -t <target_directory>
   ```
 
 - **undo**: Reverts the last file operation.
@@ -137,42 +138,42 @@ python src/main.py <command> [arguments]
 
 - **sort-by-date**: Organizes files based on creation/modification date.
   ```sh
-  python src/main.py sort-by-date <source_directory> <target_directory>
+  python src/main.py sort-by-date -s <source_directory> -t <target_directory>
   ```
 
 - **encrypt**: Encrypts a file for security.
   ```sh
-  python src/main.py encrypt <file>
+  python src/main.py encrypt -f <file>
   ```
 
 - **decrypt**: Decrypts an encrypted file.
   ```sh
-  python src/main.py decrypt <file>
+  python src/main.py decrypt -f <file>
   ```
 
 - **create-directory**: Creates a new directory.
   ```sh
-  python src/main.py create-directory <path> <directory_name>
+  python src/main.py create-directory -p <path> -n <directory_name>
   ```
 
 - **delete-directory**: Deletes a specified directory.
   ```sh
-  python src/main.py delete-directory <path> <directory_name>
+  python src/main.py delete-directory -p <path> -n <directory_name>
   ```
 
 - **list-files**: Lists files in a specified directory.
   ```sh
-  python src/main.py list-files <directory>
+  python src/main.py list-files -p <directory>
   ```
 
 - **rename-directory**: Renames a specified directory.
   ```sh
-  python src/main.py rename-directory <path> <current_name> <new_name>
+  python src/main.py rename-directory -p <path> -n <new_name>
   ```
 
 - **deorganize**: Moves files from subdirectories back to the main directory.
   ```sh
-  python src/main.py deorganize <source_directory>
+  python src/main.py deorganize -s <source_directory>
   ```
 
 - **view-metadata**: Displays metadata of a file.
