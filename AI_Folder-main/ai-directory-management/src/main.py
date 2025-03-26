@@ -3,14 +3,13 @@ import sys
 import logging
 import argparse
 from ai.model import FileCategorizer
+from utils.gui_operations import FileSelector
 from utils.file_operations import (
     organize_files, find_duplicates, summarize_file, monitor_directory, display_log,
     sort_files_by_date, encrypt_file, decrypt_file, move_file, copy_file, delete_file, create_directory,
     delete_directory, list_files_in_directory, rename_directory,
     view_file_metadata, preview_file, deorganize_files, batch_rename_files, analyze_disk_usage, compare_directories
 )
-from utils.undo import undo_last_operation
-from utils.gui_operations import FileSelector
 
 def main():
     # Initialize logging
@@ -71,9 +70,7 @@ def main():
     parser_monitor.add_argument("-s", "--source-directory", required=False, help="The source directory to monitor.")
     parser_monitor.add_argument("-t", "--target-directory", required=False, help="The target directory where organized files will be placed.")
 
-    # Undo last operation
-    subparsers.add_parser("undo", help="Reverts the last file operation.")
-
+   
     # Display log
     subparsers.add_parser("log", help="Displays a log of previous operations.")
 
@@ -209,8 +206,6 @@ def main():
                         model.load_model()
                         monitor_directory(source_directory, target_directory, model)
 
-        elif args.command == "undo":
-            undo_last_operation()
 
         elif args.command == "log":
             display_log()
@@ -385,9 +380,6 @@ def main():
                 monitor_directory(args.source_directory, args.target_directory, model)
             else:
                 logging.error("Source and target directories are required in CLI mode")
-
-        elif args.command == "undo":
-            undo_last_operation()
 
         elif args.command == "log":
             display_log()

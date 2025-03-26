@@ -10,8 +10,9 @@ import time
 from cryptography.fernet import Fernet
 import stat
 from utils.gui_operations import FileSelector
+from threading import Thread
 
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(asctime)s - %(message)s')
 
 def move_file(source_path, target_path, show_dialog=True):
     """Move a file or folder to a new location."""
@@ -21,6 +22,8 @@ def move_file(source_path, target_path, show_dialog=True):
         log_operation('move', {'source': source_path, 'target': target_path})
         if show_dialog:
             FileSelector.show_message("Success", f"Moved {os.path.basename(source_path)} successfully")
+    except PermissionError as e:
+        logging.error(f"Permission denied: {e}")
     except Exception as e:
         logging.error(f"Error moving {source_path} to {target_path}: {e}")
         if show_dialog:
@@ -44,6 +47,8 @@ def copy_file(source_path, target_path):
             shutil.copy2(source_path, target_path)
         logging.info(f"Copied {source_path} to {target_path}")
         log_operation('copy', {'source': source_path, 'target': target_path})
+    except PermissionError as e:
+        logging.error(f"Permission denied: {e}")
     except Exception as e:
         logging.error(f"Error copying {source_path} to {target_path}: {e}")
 
@@ -62,25 +67,31 @@ def delete_file(path):
             os.chmod(path, stat.S_IWRITE)
             os.remove(path)
         logging.info(f"Deleted {path}")
+    except PermissionError as e:
+        logging.error(f"Permission denied: {e}")
     except Exception as e:
         logging.error(f"Error deleting {path}: {e}")
 
 def summarize_file(file_path):
     """Generate an AI-based summary of a text file."""
     if not os.path.isfile(file_path):
-        logging.error(f"Error summarizing file {file_path}: Not a file.")
-        return None
+        logging.error(f"File not found: {file_path}")
+        return
 
     try:
-        with open(file_path, 'r') as file:
+        # Open the file with a fallback encoding and handle decoding errors
+        with open(file_path, "r", encoding="utf-8", errors="replace") as file:
             content = file.read()
-            
-            summary = content[:100]  
-            logging.info(f"Summary for {file_path}: {summary}")
-            return summary
+
+        # Perform the summarization (replace this with your actual summarization logic)
+        summary = f"Summary of {file_path}:\n{content[:200]}..."  # Example: First 200 characters
+        logging.info(f"File summarized successfully: {file_path}")
+        print(summary)
+
+    except PermissionError as e:
+        logging.error(f"Permission denied: {e}")
     except Exception as e:
         logging.error(f"Error summarizing file {file_path}: {e}")
-        return None
 
 def display_log():
     """Display a log of previous operations."""
@@ -89,6 +100,8 @@ def display_log():
             log_content = log_file.read()
             print(log_content)
             logging.info("Displayed log content.")
+    except PermissionError as e:
+        logging.error(f"Permission denied: {e}")
     except Exception as e:
         logging.error(f"Error displaying log: {e}")
 
@@ -126,30 +139,32 @@ def organize_files(source_dir, target_dir, model):
     logging.info("File organization completed.")
     FileSelector.show_message("Success", "Files organized successfully")
 
-def deorganize_files(source_dir):
-    """Move files from subdirectories back to the main directory."""
-    if not os.path.exists(source_dir):
-        logging.error(f"Source directory {source_dir} does not exist.")
-        return
-
+def deorganize_files(source_directory):
+    """Moves files from subdirectories back to the main directory."""
     try:
-        for root, dirs, files in os.walk(source_dir):
-            for file_name in files:
-                file_path = os.path.join(root, file_name)
-                if root != source_dir:  
-                    target_path = os.path.join(source_dir, file_name)
-                    shutil.move(file_path, target_path)
-                    logging.info(f"Moved {file_path} to {target_path}")
+        for root, dirs, files in os.walk(source_directory):
+            for file in files:
+                # Skip system files like desktop.ini
+                if file.lower() == "desktop.ini":
+                    logging.info(f"Skipping system file: {file}")
+                    continue
 
-        
-        for root, dirs, _ in os.walk(source_dir, topdown=False):
-            for dir_name in dirs:
-                dir_path = os.path.join(root, dir_name)
-                if not os.listdir(dir_path):
-                    os.rmdir(dir_path)
-                    logging.info(f"Removed empty directory: {dir_path}")
+                source_path = os.path.join(root, file)
+                target_path = os.path.join(source_directory, file)
 
-        logging.info("Deorganization completed.")
+                # Avoid overwriting existing files
+                if os.path.exists(target_path):
+                    logging.warning(f"File already exists: {target_path}")
+                    continue
+
+                try:
+                    os.rename(source_path, target_path)
+                    logging.info(f"Moved {source_path} to {target_path}")
+                except PermissionError as e:
+                    logging.error(f"Permission denied: {e}")
+                except Exception as e:
+                    logging.error(f"Error moving file {file}: {e}")
+
     except Exception as e:
         logging.error(f"Error during deorganization: {e}")
 
@@ -160,6 +175,9 @@ def hash_file(file_path):
         with open(file_path, 'rb') as f:
             while chunk := f.read(8192):
                 hasher.update(chunk)
+    except PermissionError as e:
+        logging.error(f"Permission denied: {e}")
+        return None
     except Exception as e:
         logging.error(f"Error reading file {file_path}: {e}")
         return None
@@ -211,6 +229,8 @@ def rename_files(directory):
                     try:
                         os.rename(file_path, new_file_path)
                         logging.info(f"Renamed file {file_path} to {new_file_path}")
+                    except PermissionError as e:
+                        logging.error(f"Permission denied: {e}")
                     except Exception as e:
                         logging.error(f"Error renaming file {file_path} to {new_file_path}: {e}")
                 else:
@@ -218,15 +238,17 @@ def rename_files(directory):
             else:
                 logging.warning(f"Could not determine MIME type for file {file_path}")
 
-
 def log_operation(operation, details):
     """Log an operation to the operations log."""
     log_entry = {
         'operation': operation,
         'details': details
     }
-    with open('operations.log', 'a') as log_file:
-        log_file.write(json.dumps(log_entry) + '\n')
+    try:
+        with open('operations.log', 'a') as log_file:
+            log_file.write(json.dumps(log_entry) + '\n')
+    except PermissionError as e:
+        logging.error(f"Permission denied: {e}")
 
 class DirectoryEventHandler(FileSystemEventHandler):
     def __init__(self, model, target_directory):
@@ -252,6 +274,9 @@ class DirectoryEventHandler(FileSystemEventHandler):
             try:
                 os.makedirs(target_folder)
                 logging.info(f"Created directory: {target_folder}")
+            except PermissionError as e:
+                logging.error(f"Permission denied: {e}")
+                return
             except Exception as e:
                 logging.error(f"Error creating directory {target_folder}: {e}")
                 return
@@ -259,23 +284,55 @@ class DirectoryEventHandler(FileSystemEventHandler):
             logging.info(f"Directory already exists: {target_folder}")
         try:
             move_file(file_path, os.path.join(target_folder, file_name))
+        except PermissionError as e:
+            logging.error(f"Permission denied: {e}")
         except Exception as e:
             logging.error(f"Error moving file {file_path} to {target_folder}: {e}")
 
 def monitor_directory(source_directory, target_directory, model):
-    """Watch the directory and organize new files in real time."""
-    event_handler = DirectoryEventHandler(model, target_directory)
-    observer = Observer()
-    observer.schedule(event_handler, path=source_directory, recursive=False)
-    observer.start()
+    """Monitors a directory and organizes new files in real time."""
     logging.info("Monitoring directory...")
+    
+    processed_files = set()
 
+    while True:
+        try:
+            for file_name in os.listdir(source_directory):
+                file_path = os.path.join(source_directory, file_name)
+                if os.path.isfile(file_path) and file_path not in processed_files:
+                    logging.info(f"New file detected: {file_path}")
+                    processed_files.add(file_path)
+                    # Process the file (e.g., move it to the target directory)
+                    process_file(file_path, target_directory, model)
+        except Exception as e:
+            logging.error(f"Error monitoring directory: {e}")
+        time.sleep(1)  # Adjust the interval as needed
+
+def process_file(file_path, target_directory, model):
+    """Process a new file."""
     try:
-        while True:
-            time.sleep(1)
-    except KeyboardInterrupt:
-        observer.stop()
-    observer.join()
+        file_metadata = {
+            'name': os.path.basename(file_path),
+            'size': os.path.getsize(file_path),
+            'type': mimetypes.guess_type(file_path)[0] or 'application/octet-stream'
+        }
+        category = model.predict_category(file_metadata)
+        target_folder = os.path.join(target_directory, category)
+
+        if not os.path.exists(target_folder):
+            os.makedirs(target_folder)
+            logging.info(f"Created directory: {target_folder}")
+        else:
+            logging.info(f"Directory already exists: {target_folder}")
+
+        target_path = os.path.join(target_folder, os.path.basename(file_path))
+        os.rename(file_path, target_path)
+        logging.info(f"Moved {file_path} to {target_path}")
+
+    except PermissionError as e:
+        logging.error(f"Permission denied: {e}")
+    except Exception as e:
+        logging.error(f"Error moving file {file_path}: {e}")
 
 def sort_files_by_date(source_directory, target_directory):
     """Organize files based on creation/modification date."""
@@ -306,6 +363,8 @@ def sort_files_by_date(source_directory, target_directory):
             try:
                 shutil.move(file_path, target_path)
                 logging.info(f"Moved {file_path} to {target_path}")
+            except PermissionError as e:
+                logging.error(f"Permission denied: {e}")
             except Exception as e:
                 logging.error(f"Error moving {file_path} to {target_path}: {e}")
 
@@ -314,13 +373,20 @@ def sort_files_by_date(source_directory, target_directory):
 def generate_key():
     """Generate a key for encryption."""
     key = Fernet.generate_key()
-    with open('encryption.key', 'wb') as key_file:
-        key_file.write(key)
+    try:
+        with open('encryption.key', 'wb') as key_file:
+            key_file.write(key)
+    except PermissionError as e:
+        logging.error(f"Permission denied: {e}")
     return key
 
 def load_key():
     """Load the encryption key from a file."""
-    return open('encryption.key', 'rb').read()
+    try:
+        return open('encryption.key', 'rb').read()
+    except PermissionError as e:
+        logging.error(f"Permission denied: {e}")
+        return None
 
 def encrypt_file(file_path):
     """Encrypt a file for security."""
@@ -330,6 +396,9 @@ def encrypt_file(file_path):
             key = generate_key()
         else:
             key = load_key()
+
+        if key is None:
+            return
 
         fernet = Fernet(key)
 
@@ -345,6 +414,8 @@ def encrypt_file(file_path):
 
         logging.info(f"Encrypted file: {file_path}")
         log_operation('encrypt', {'file': file_path})
+    except PermissionError as e:
+        logging.error(f"Permission denied: {e}")
     except Exception as e:
         logging.error(f"Error encrypting file {file_path}: {e}")
 
@@ -355,6 +426,8 @@ def decrypt_file(file_path):
             logging.error("Encryption key not found.")
             return
         key = load_key()
+        if key is None:
+            return
         fernet = Fernet(key)
 
         with open(file_path, 'rb') as file:
@@ -367,6 +440,8 @@ def decrypt_file(file_path):
 
         logging.info(f"Decrypted file: {file_path}")
         log_operation('decrypt', {'file': file_path})
+    except PermissionError as e:
+        logging.error(f"Permission denied: {e}")
     except Exception as e:
         logging.error(f"Error decrypting file {file_path}: {e}")
 
@@ -399,6 +474,8 @@ def create_directory(parent_path, directory_name, show_dialog=True):
             FileSelector.show_message("Success", f"Created directory '{directory_name}'")
         return True
 
+    except PermissionError as e:
+        logging.error(f"Permission denied: {e}")
     except Exception as e:
         error_msg = f"Error creating directory: {str(e)}"
         logging.error(error_msg)
@@ -416,6 +493,8 @@ def delete_directory(path, name):
             log_operation('delete_directory', {'path': full_path})
         else:
             logging.warning(f"Directory does not exist: {full_path}")
+    except PermissionError as e:
+        logging.error(f"Permission denied: {e}")
     except Exception as e:
         logging.error(f"Error deleting directory {full_path}: {e}")
 
@@ -429,6 +508,8 @@ def list_files_in_directory(path):
         else:
             logging.warning(f"Directory does not exist: {path}")
             return []
+    except PermissionError as e:
+        logging.error(f"Permission denied: {e}")
     except Exception as e:
         logging.error(f"Error listing files in directory {path}: {e}")
         return []
@@ -449,6 +530,8 @@ def rename_directory(parent_path, old_name, new_name):
         log_operation('rename_directory', {'parent_path': parent_path, 'old_name': old_name, 'new_name': new_name})
         return True
 
+    except PermissionError as e:
+        logging.error(f"Permission denied: {e}")
     except Exception as e:
         logging.error(f"Error renaming directory: {str(e)}")
         return False
@@ -468,6 +551,8 @@ def view_file_metadata(file_path):
         else:
             logging.warning(f"File does not exist: {file_path}")
             return None
+    except PermissionError as e:
+        logging.error(f"Permission denied: {e}")
     except Exception as e:
         logging.error(f"Error retrieving metadata for {file_path}: {e}")
         return None
@@ -483,6 +568,8 @@ def preview_file(file_path, lines=10):
         else:
             logging.warning(f"File does not exist or is not a text file: {file_path}")
             return None
+    except PermissionError as e:
+        logging.error(f"Permission denied: {e}")
     except Exception as e:
         logging.error(f"Error previewing file {file_path}: {e}")
         return None
@@ -509,6 +596,8 @@ def batch_rename_files(directory, pattern, replacement):
         # Log the completion of the batch rename operation
         logging.info(f"Batch rename completed. {renamed_count} files renamed.")
         log_operation('batch_rename', {'directory': directory, 'pattern': pattern, 'replacement': replacement})
+    except PermissionError as e:
+        logging.error(f"Permission denied: {e}")
     except Exception as e:
         # Log any errors that occur during the operation
         logging.error(f"Error during batch rename in {directory}: {e}")
@@ -549,6 +638,8 @@ def analyze_disk_usage(directory):
             logging.info(f"{dir_path}: {data['size']/1024/1024:.2f} MB ({data['percentage']:.2f}%)")
 
         return usage_data
+    except PermissionError as e:
+        logging.error(f"Permission denied: {e}")
     except Exception as e:
         # Log any errors that occur during the operation
         logging.error(f"Error analyzing disk usage for {directory}: {e}")
@@ -601,6 +692,8 @@ def compare_directories(dir1, dir2):
         logging.info(f"Different files: {len(differences['different_files'])}")
 
         return differences
+    except PermissionError as e:
+        logging.error(f"Permission denied: {e}")
     except Exception as e:
         logging.error(f"Error comparing directories: {e}")
         return None

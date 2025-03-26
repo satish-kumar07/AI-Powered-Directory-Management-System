@@ -381,3 +381,561 @@
 {"operation": "move", "details": {"source": "D:\\SAMPLE\\SOURCE\\video sample.mp4", "target": "D:\\SAMPLE\\SOURCE\\Video\\video sample.mp4"}}
 {"operation": "create_directory", "details": {"path": "D:/SAMPLE", "name": "SATISH"}}
 {"operation": "delete_directory", "details": {"path": "D:/SAMPLE\\SATISH"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\#GST.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\#GST.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\#PAN.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\#PAN.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\162623.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\162623.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\1626231.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\1626231.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\177235803_1742138380982.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\177235803_1742138380982.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\20200902_114855.jpg", "target": "C:/Users/skpum/Downloads\\Images\\20200902_114855.jpg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\20231023_141229 (1).jpg", "target": "C:/Users/skpum/Downloads\\Images\\20231023_141229 (1).jpg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\A1531063701_30953_30_2025_CSE316 CA2Guidelines for students (1).pdf", "target": "C:/Users/skpum/Downloads\\Documents\\A1531063701_30953_30_2025_CSE316 CA2Guidelines for students (1).pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\A1531063701_30953_30_2025_CSE316 CA2Guidelines for students.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\A1531063701_30953_30_2025_CSE316 CA2Guidelines for students.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\Academic Calendar for Full Time programmes with commencement date as 13 January 2025 (1).pdf", "target": "C:/Users/skpum/Downloads\\Documents\\Academic Calendar for Full Time programmes with commencement date as 13 January 2025 (1).pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\AFFIDAVIT.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\AFFIDAVIT.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\AnyDesk.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\AnyDesk.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\backiee-112898.jpg", "target": "C:/Users/skpum/Downloads\\Images\\backiee-112898.jpg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\Black and Red Illustration Skull Pop Culture T-Shirt.png", "target": "C:/Users/skpum/Downloads\\Images\\Black and Red Illustration Skull Pop Culture T-Shirt.png"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\BraveBrowserSetup-BRV002.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\BraveBrowserSetup-BRV002.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\CHEQUE.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\CHEQUE.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\ChromeSetup (1).exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\ChromeSetup (1).exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\CodeTantra.SEA-x64-3.1.0.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\CodeTantra.SEA-x64-3.1.0.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\Complete_Summarized_Account_Statement_12311551.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\Complete_Summarized_Account_Statement_12311551.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\Coursera ETZK8JD0WP4J_page-0001.jpg", "target": "C:/Users/skpum/Downloads\\Images\\Coursera ETZK8JD0WP4J_page-0001.jpg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\desktop.ini", "target": "C:/Users/skpum/Downloads\\Others\\desktop.ini"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\DSA Sheet by Arsh (45 Days Plan).xlsx", "target": "C:/Users/skpum/Downloads\\Spreadsheets\\DSA Sheet by Arsh (45 Days Plan).xlsx"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\EAadhaar_2081301221896720210804153631_22032025103448.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\EAadhaar_2081301221896720210804153631_22032025103448.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\emSigner_new.msi", "target": "C:/Users/skpum/Downloads\\Others\\emSigner_new.msi"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\fdm_x64_setup.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\fdm_x64_setup.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\GLASSWARE AFFIDAVIT.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\GLASSWARE AFFIDAVIT.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\GLASSWARE.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\GLASSWARE.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\GST 1.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\GST 1.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\HyperPKI_HYP2003_Setup.zip", "target": "C:/Users/skpum/Downloads\\Archives\\HyperPKI_HYP2003_Setup.zip"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\IMG_20231201_112121_980.jpg", "target": "C:/Users/skpum/Downloads\\Images\\IMG_20231201_112121_980.jpg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\ItemListForBidSubmission.xlsx", "target": "C:/Users/skpum/Downloads\\Spreadsheets\\ItemListForBidSubmission.xlsx"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\JavaCodingPack-0.4.2.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\JavaCodingPack-0.4.2.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\JavaSetup8u431.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\JavaSetup8u431.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk-24_windows-x64_bin.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\jdk-24_windows-x64_bin.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jre-8u431-windows-x64.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\jre-8u431-windows-x64.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\mingw-get-setup.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\mingw-get-setup.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\ModelRFPScanningandDigitization.docx", "target": "C:/Users/skpum/Downloads\\Word Documents\\ModelRFPScanningandDigitization.docx"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\MSB.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\MSB.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\Neo-Browser-Setup-1.1.4.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\Neo-Browser-Setup-1.1.4.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\Neo-Browser-Setup-1.1.5.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\Neo-Browser-Setup-1.1.5.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\neo_exam_checker_win 2.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\neo_exam_checker_win 2.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\NOC25CS23S442300227.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\NOC25CS23S442300227.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\OpenJDK21U-jdk_x64_windows_hotspot_21.0.6_7.msi", "target": "C:/Users/skpum/Downloads\\Others\\OpenJDK21U-jdk_x64_windows_hotspot_21.0.6_7.msi"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\PAN 1.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\PAN 1.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\pexels-ahmed-adly-1270184.jpg", "target": "C:/Users/skpum/Downloads\\Images\\pexels-ahmed-adly-1270184.jpg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\pexels-jiarong-deng-1034662.jpg", "target": "C:/Users/skpum/Downloads\\Images\\pexels-jiarong-deng-1034662.jpg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\pixelcut-export.jpg", "target": "C:/Users/skpum/Downloads\\Images\\pixelcut-export.jpg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\python certificate udemy.jpg", "target": "C:/Users/skpum/Downloads\\Images\\python certificate udemy.jpg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\receipt.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\receipt.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\Revised list of projects.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\Revised list of projects.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\Screenshot 2025-02-14 220230.png", "target": "C:/Users/skpum/Downloads\\Images\\Screenshot 2025-02-14 220230.png"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\SEB_3.6.0.633_SetupBundle.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\SEB_3.6.0.633_SetupBundle.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\ServerSetup-3.13.0.2501 (2).exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\ServerSetup-3.13.0.2501 (2).exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\sree vinayka enterpreises.xlsx", "target": "C:/Users/skpum/Downloads\\Spreadsheets\\sree vinayka enterpreises.xlsx"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\SVS DOC.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\SVS DOC.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\SVS DOCUMENT.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\SVS DOCUMENT.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\Top Leetcode questions of All Time - most important.xlsx - Google Drive.html", "target": "C:/Users/skpum/Downloads\\Others\\Top Leetcode questions of All Time - most important.xlsx - Google Drive.html"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\torch-2.0.0-cp39-cp39-manylinux1_x86_64.whl", "target": "C:/Users/skpum/Downloads\\Others\\torch-2.0.0-cp39-cp39-manylinux1_x86_64.whl"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\Untitled Project - Fallen Skeleton Wings (1).png", "target": "C:/Users/skpum/Downloads\\Images\\Untitled Project - Fallen Skeleton Wings (1).png"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\vlc-3.0.20-win32.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\vlc-3.0.20-win32.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\VSCodeUserSetup-x64-1.98.2.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\VSCodeUserSetup-x64-1.98.2.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\vs_BuildTools.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\vs_BuildTools.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\wallpaperflare-cropped.jpg", "target": "C:/Users/skpum/Downloads\\Images\\wallpaperflare-cropped.jpg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\wallpaperflare.com_wallpaper (1).jpg", "target": "C:/Users/skpum/Downloads\\Images\\wallpaperflare.com_wallpaper (1).jpg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\wallpaperflare.com_wallpaper (2).jpg", "target": "C:/Users/skpum/Downloads\\Images\\wallpaperflare.com_wallpaper (2).jpg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\wallpaperflare.com_wallpaper (3).jpg", "target": "C:/Users/skpum/Downloads\\Images\\wallpaperflare.com_wallpaper (3).jpg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\wallpaperflare.com_wallpaper (4).jpg", "target": "C:/Users/skpum/Downloads\\Images\\wallpaperflare.com_wallpaper (4).jpg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\wallpaperflare.com_wallpaper (5).jpg", "target": "C:/Users/skpum/Downloads\\Images\\wallpaperflare.com_wallpaper (5).jpg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\wallpaperflare.com_wallpaper (6) 1.jpg", "target": "C:/Users/skpum/Downloads\\Images\\wallpaperflare.com_wallpaper (6) 1.jpg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\wallpaperflare.com_wallpaper (6).jpg", "target": "C:/Users/skpum/Downloads\\Images\\wallpaperflare.com_wallpaper (6).jpg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\wallpaperflare.com_wallpaper.jpg", "target": "C:/Users/skpum/Downloads\\Images\\wallpaperflare.com_wallpaper.jpg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\WhatsApp Image 2023-05-30 at 19.56.46.jpg", "target": "C:/Users/skpum/Downloads\\Images\\WhatsApp Image 2023-05-30 at 19.56.46.jpg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\WhatsApp Image 2023-09-16 at 15.44.32.jpg", "target": "C:/Users/skpum/Downloads\\Images\\WhatsApp Image 2023-09-16 at 15.44.32.jpg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\WhatsApp Image 2024-12-27 at 14.58.09_1482a076.jpg", "target": "C:/Users/skpum/Downloads\\Images\\WhatsApp Image 2024-12-27 at 14.58.09_1482a076.jpg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\WhatsApp Image 2025-02-21 at 1.45.21 PM.jpeg", "target": "C:/Users/skpum/Downloads\\Images\\WhatsApp Image 2025-02-21 at 1.45.21 PM.jpeg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\WhatsApp Image 2025-02-21 at 1.45.25 PM.jpeg", "target": "C:/Users/skpum/Downloads\\Images\\WhatsApp Image 2025-02-21 at 1.45.25 PM.jpeg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\wp13486788-naruto-samsung-wallpapers.jpg", "target": "C:/Users/skpum/Downloads\\Images\\wp13486788-naruto-samsung-wallpapers.jpg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\wp2282124-midoriya-wallpapers.jpg", "target": "C:/Users/skpum/Downloads\\Images\\wp2282124-midoriya-wallpapers.jpg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\~$ 03 of CSE111 Portfolio format.docx", "target": "C:/Users/skpum/Downloads\\Word Documents\\~$ 03 of CSE111 Portfolio format.docx"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\#GST.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\#GST.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\#PAN.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\#PAN.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\162623.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\162623.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\1626231.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\1626231.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\1691444843388350718_163912_Chemical Render.doc", "target": "C:/Users/skpum/Downloads\\Word Documents\\1691444843388350718_163912_Chemical Render.doc"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\1699636856616726996_163912_FORM  C.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\1699636856616726996_163912_FORM  C.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\177235803_1742138380982.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\177235803_1742138380982.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\20200902_114855.jpg", "target": "C:/Users/skpum/Downloads\\Images\\20200902_114855.jpg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\20231023_141229 (1).jpg", "target": "C:/Users/skpum/Downloads\\Images\\20231023_141229 (1).jpg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\A1531063701_30953_30_2025_CSE316 CA2Guidelines for students (1).pdf", "target": "C:/Users/skpum/Downloads\\Documents\\A1531063701_30953_30_2025_CSE316 CA2Guidelines for students (1).pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\A1531063701_30953_30_2025_CSE316 CA2Guidelines for students.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\A1531063701_30953_30_2025_CSE316 CA2Guidelines for students.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\Academic Calendar for Full Time programmes with commencement date as 13 January 2025 (1).pdf", "target": "C:/Users/skpum/Downloads\\Documents\\Academic Calendar for Full Time programmes with commencement date as 13 January 2025 (1).pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\AccessBridgeCallbacks.h", "target": "C:/Users/skpum/Downloads\\Text\\AccessBridgeCallbacks.h"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\AccessBridgeCalls.h", "target": "C:/Users/skpum/Downloads\\Text\\AccessBridgeCalls.h"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\AccessBridgePackages.h", "target": "C:/Users/skpum/Downloads\\Text\\AccessBridgePackages.h"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\ADDITIONAL_LICENSE_INFO", "target": "C:/Users/skpum/Downloads\\Others\\ADDITIONAL_LICENSE_INFO"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\aes.md", "target": "C:/Users/skpum/Downloads\\Others\\aes.md"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\Affidavit 163912.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\Affidavit 163912.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\affidavit.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\affidavit.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\AnyDesk.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\AnyDesk.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\api-ms-win-core-console-l1-1-0.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\api-ms-win-core-console-l1-1-0.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\api-ms-win-core-console-l1-2-0.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\api-ms-win-core-console-l1-2-0.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\api-ms-win-core-datetime-l1-1-0.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\api-ms-win-core-datetime-l1-1-0.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\api-ms-win-core-debug-l1-1-0.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\api-ms-win-core-debug-l1-1-0.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\api-ms-win-core-errorhandling-l1-1-0.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\api-ms-win-core-errorhandling-l1-1-0.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\api-ms-win-core-fibers-l1-1-0.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\api-ms-win-core-fibers-l1-1-0.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\api-ms-win-core-file-l1-1-0.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\api-ms-win-core-file-l1-1-0.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\api-ms-win-core-file-l1-2-0.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\api-ms-win-core-file-l1-2-0.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\api-ms-win-core-file-l2-1-0.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\api-ms-win-core-file-l2-1-0.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\api-ms-win-core-handle-l1-1-0.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\api-ms-win-core-handle-l1-1-0.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\api-ms-win-core-heap-l1-1-0.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\api-ms-win-core-heap-l1-1-0.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\api-ms-win-core-interlocked-l1-1-0.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\api-ms-win-core-interlocked-l1-1-0.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\api-ms-win-core-libraryloader-l1-1-0.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\api-ms-win-core-libraryloader-l1-1-0.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\api-ms-win-core-localization-l1-2-0.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\api-ms-win-core-localization-l1-2-0.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\api-ms-win-core-memory-l1-1-0.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\api-ms-win-core-memory-l1-1-0.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\api-ms-win-core-namedpipe-l1-1-0.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\api-ms-win-core-namedpipe-l1-1-0.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\api-ms-win-core-processenvironment-l1-1-0.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\api-ms-win-core-processenvironment-l1-1-0.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\api-ms-win-core-processthreads-l1-1-0.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\api-ms-win-core-processthreads-l1-1-0.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\api-ms-win-core-processthreads-l1-1-1.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\api-ms-win-core-processthreads-l1-1-1.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\api-ms-win-core-profile-l1-1-0.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\api-ms-win-core-profile-l1-1-0.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\api-ms-win-core-rtlsupport-l1-1-0.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\api-ms-win-core-rtlsupport-l1-1-0.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\api-ms-win-core-string-l1-1-0.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\api-ms-win-core-string-l1-1-0.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\api-ms-win-core-synch-l1-1-0.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\api-ms-win-core-synch-l1-1-0.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\api-ms-win-core-synch-l1-2-0.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\api-ms-win-core-synch-l1-2-0.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\api-ms-win-core-sysinfo-l1-1-0.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\api-ms-win-core-sysinfo-l1-1-0.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\api-ms-win-core-timezone-l1-1-0.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\api-ms-win-core-timezone-l1-1-0.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\api-ms-win-core-util-l1-1-0.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\api-ms-win-core-util-l1-1-0.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\api-ms-win-crt-conio-l1-1-0.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\api-ms-win-crt-conio-l1-1-0.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\api-ms-win-crt-convert-l1-1-0.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\api-ms-win-crt-convert-l1-1-0.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\api-ms-win-crt-environment-l1-1-0.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\api-ms-win-crt-environment-l1-1-0.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\api-ms-win-crt-filesystem-l1-1-0.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\api-ms-win-crt-filesystem-l1-1-0.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\api-ms-win-crt-heap-l1-1-0.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\api-ms-win-crt-heap-l1-1-0.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\api-ms-win-crt-locale-l1-1-0.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\api-ms-win-crt-locale-l1-1-0.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\api-ms-win-crt-math-l1-1-0.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\api-ms-win-crt-math-l1-1-0.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\api-ms-win-crt-multibyte-l1-1-0.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\api-ms-win-crt-multibyte-l1-1-0.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\api-ms-win-crt-private-l1-1-0.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\api-ms-win-crt-private-l1-1-0.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\api-ms-win-crt-process-l1-1-0.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\api-ms-win-crt-process-l1-1-0.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\api-ms-win-crt-runtime-l1-1-0.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\api-ms-win-crt-runtime-l1-1-0.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\api-ms-win-crt-stdio-l1-1-0.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\api-ms-win-crt-stdio-l1-1-0.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\api-ms-win-crt-string-l1-1-0.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\api-ms-win-crt-string-l1-1-0.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\api-ms-win-crt-time-l1-1-0.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\api-ms-win-crt-time-l1-1-0.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\api-ms-win-crt-utility-l1-1-0.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\api-ms-win-crt-utility-l1-1-0.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\asm.md", "target": "C:/Users/skpum/Downloads\\Others\\asm.md"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\ASSEMBLY_EXCEPTION", "target": "C:/Users/skpum/Downloads\\Others\\ASSEMBLY_EXCEPTION"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\attach.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\attach.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\awt.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\awt.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\backiee-112898.jpg", "target": "C:/Users/skpum/Downloads\\Images\\backiee-112898.jpg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\bcel.md", "target": "C:/Users/skpum/Downloads\\Others\\bcel.md"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\Black and Red Illustration Skull Pop Culture T-Shirt.png", "target": "C:/Users/skpum/Downloads\\Images\\Black and Red Illustration Skull Pop Culture T-Shirt.png"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\blocked.certs", "target": "C:/Users/skpum/Downloads\\Others\\blocked.certs"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\BOQ -IFB 180-24-25.xlsx", "target": "C:/Users/skpum/Downloads\\Spreadsheets\\BOQ -IFB 180-24-25.xlsx"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\BOQ -IFB 180-24-25.zip", "target": "C:/Users/skpum/Downloads\\Archives\\BOQ -IFB 180-24-25.zip"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\BraveBrowserSetup-BRV002.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\BraveBrowserSetup-BRV002.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\c-libutl.md", "target": "C:/Users/skpum/Downloads\\Others\\c-libutl.md"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\cacerts", "target": "C:/Users/skpum/Downloads\\Others\\cacerts"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\CHEQUE.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\CHEQUE.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\ChromeSetup (1).exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\ChromeSetup (1).exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\classes.jsa", "target": "C:/Users/skpum/Downloads\\Others\\classes.jsa"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\classes_nocoops.jsa", "target": "C:/Users/skpum/Downloads\\Others\\classes_nocoops.jsa"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\classfile_constants.h", "target": "C:/Users/skpum/Downloads\\Text\\classfile_constants.h"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\classlist", "target": "C:/Users/skpum/Downloads\\Others\\classlist"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\cldr.md", "target": "C:/Users/skpum/Downloads\\Others\\cldr.md"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\CodeTantra.SEA-x64-3.1.0.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\CodeTantra.SEA-x64-3.1.0.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\colorimaging.md", "target": "C:/Users/skpum/Downloads\\Others\\colorimaging.md"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\commonmark.md", "target": "C:/Users/skpum/Downloads\\Others\\commonmark.md"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\Complete_Summarized_Account_Statement_12311551.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\Complete_Summarized_Account_Statement_12311551.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\COPYRIGHT", "target": "C:/Users/skpum/Downloads\\Others\\COPYRIGHT"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\Coursera ETZK8JD0WP4J_page-0001.jpg", "target": "C:/Users/skpum/Downloads\\Images\\Coursera ETZK8JD0WP4J_page-0001.jpg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\ct.sym", "target": "C:/Users/skpum/Downloads\\Others\\ct.sym"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\default.jfc", "target": "C:/Users/skpum/Downloads\\Others\\default.jfc"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\default.policy", "target": "C:/Users/skpum/Downloads\\Others\\default.policy"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\default_local.policy", "target": "C:/Users/skpum/Downloads\\Others\\default_local.policy"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\default_US_export.policy", "target": "C:/Users/skpum/Downloads\\Others\\default_US_export.policy"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\dejavufonts.md", "target": "C:/Users/skpum/Downloads\\Others\\dejavufonts.md"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\desktop.ini", "target": "C:/Users/skpum/Downloads\\Others\\desktop.ini"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\dom.md", "target": "C:/Users/skpum/Downloads\\Others\\dom.md"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\DSA Sheet by Arsh (45 Days Plan).xlsx", "target": "C:/Users/skpum/Downloads\\Spreadsheets\\DSA Sheet by Arsh (45 Days Plan).xlsx"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\dt_shmem.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\dt_shmem.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\dt_socket.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\dt_socket.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\dynalink.md", "target": "C:/Users/skpum/Downloads\\Others\\dynalink.md"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\EAadhaar_2081301221896720210804153631_22032025103448.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\EAadhaar_2081301221896720210804153631_22032025103448.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\EMD receipt.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\EMD receipt.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\EMD.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\EMD.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\emSigner_new.msi", "target": "C:/Users/skpum/Downloads\\Others\\emSigner_new.msi"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\exempt_local.policy", "target": "C:/Users/skpum/Downloads\\Others\\exempt_local.policy"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\extnet.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\extnet.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\fdm_x64_setup.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\fdm_x64_setup.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\fontconfig.bfc", "target": "C:/Users/skpum/Downloads\\Others\\fontconfig.bfc"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\fontconfig.properties.src", "target": "C:/Users/skpum/Downloads\\Others\\fontconfig.properties.src"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\fontmanager.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\fontmanager.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\form c.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\form c.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\freetype.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\freetype.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\freetype.md", "target": "C:/Users/skpum/Downloads\\Others\\freetype.md"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\giflib.md", "target": "C:/Users/skpum/Downloads\\Others\\giflib.md"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\GLASSWARE AFFIDAVIT.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\GLASSWARE AFFIDAVIT.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\GLASSWARE.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\GLASSWARE.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\GST 1.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\GST 1.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\GST.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\GST.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\harfbuzz.md", "target": "C:/Users/skpum/Downloads\\Others\\harfbuzz.md"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\Harsiddhi All doc 163912.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\Harsiddhi All doc 163912.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\Harsiddhi Pre Contact 163912.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\Harsiddhi Pre Contact 163912.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\HyperPKI_HYP2003_Setup.zip", "target": "C:/Users/skpum/Downloads\\Archives\\HyperPKI_HYP2003_Setup.zip"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\icu.md", "target": "C:/Users/skpum/Downloads\\Others\\icu.md"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\IMG_20231201_112121_980.jpg", "target": "C:/Users/skpum/Downloads\\Images\\IMG_20231201_112121_980.jpg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\instrument.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\instrument.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\ItemListForBidSubmission.xlsx", "target": "C:/Users/skpum/Downloads\\Spreadsheets\\ItemListForBidSubmission.xlsx"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\j2gss.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\j2gss.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\j2pcsc.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\j2pcsc.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\j2pkcs11.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\j2pkcs11.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jaas.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\jaas.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jabswitch.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\jabswitch.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jaccessinspector.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\jaccessinspector.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jaccesswalker.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\jaccesswalker.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jar.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\jar.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jarsigner.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\jarsigner.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\java.base.jmod", "target": "C:/Users/skpum/Downloads\\Others\\java.base.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\java.compiler.jmod", "target": "C:/Users/skpum/Downloads\\Others\\java.compiler.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\java.datatransfer.jmod", "target": "C:/Users/skpum/Downloads\\Others\\java.datatransfer.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\java.desktop.jmod", "target": "C:/Users/skpum/Downloads\\Others\\java.desktop.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\java.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\java.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\java.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\java.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\java.instrument.jmod", "target": "C:/Users/skpum/Downloads\\Others\\java.instrument.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\java.logging.jmod", "target": "C:/Users/skpum/Downloads\\Others\\java.logging.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\java.management.jmod", "target": "C:/Users/skpum/Downloads\\Others\\java.management.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\java.management.rmi.jmod", "target": "C:/Users/skpum/Downloads\\Others\\java.management.rmi.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\java.naming.jmod", "target": "C:/Users/skpum/Downloads\\Others\\java.naming.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\java.net.http.jmod", "target": "C:/Users/skpum/Downloads\\Others\\java.net.http.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\java.policy", "target": "C:/Users/skpum/Downloads\\Others\\java.policy"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\java.prefs.jmod", "target": "C:/Users/skpum/Downloads\\Others\\java.prefs.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\java.rmi.jmod", "target": "C:/Users/skpum/Downloads\\Others\\java.rmi.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\java.scripting.jmod", "target": "C:/Users/skpum/Downloads\\Others\\java.scripting.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\java.se.jmod", "target": "C:/Users/skpum/Downloads\\Others\\java.se.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\java.security", "target": "C:/Users/skpum/Downloads\\Others\\java.security"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\java.security.jgss.jmod", "target": "C:/Users/skpum/Downloads\\Others\\java.security.jgss.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\java.security.sasl.jmod", "target": "C:/Users/skpum/Downloads\\Others\\java.security.sasl.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\java.smartcardio.jmod", "target": "C:/Users/skpum/Downloads\\Others\\java.smartcardio.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\java.sql.jmod", "target": "C:/Users/skpum/Downloads\\Others\\java.sql.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\java.sql.rowset.jmod", "target": "C:/Users/skpum/Downloads\\Others\\java.sql.rowset.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\java.transaction.xa.jmod", "target": "C:/Users/skpum/Downloads\\Others\\java.transaction.xa.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\java.xml.crypto.jmod", "target": "C:/Users/skpum/Downloads\\Others\\java.xml.crypto.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\java.xml.jmod", "target": "C:/Users/skpum/Downloads\\Others\\java.xml.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\javaaccessbridge.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\javaaccessbridge.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\javac.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\javac.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\JavaCodingPack-0.4.2.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\JavaCodingPack-0.4.2.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\javadoc.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\javadoc.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\javajpeg.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\javajpeg.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\javap.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\javap.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\JavaSetup8u431.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\JavaSetup8u431.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\javaw.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\javaw.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jawt.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\jawt.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jawt.h", "target": "C:/Users/skpum/Downloads\\Text\\jawt.h"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jawt.lib", "target": "C:/Users/skpum/Downloads\\Others\\jawt.lib"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jawt_md.h", "target": "C:/Users/skpum/Downloads\\Text\\jawt_md.h"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jaxp-strict.properties.template", "target": "C:/Users/skpum/Downloads\\Others\\jaxp-strict.properties.template"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jaxp.properties", "target": "C:/Users/skpum/Downloads\\Others\\jaxp.properties"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jcmd.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\jcmd.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jconsole.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\jconsole.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jcup.md", "target": "C:/Users/skpum/Downloads\\Others\\jcup.md"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdb.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\jdb.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdeprscan.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\jdeprscan.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdeps.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\jdeps.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk-24_windows-x64_bin.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\jdk-24_windows-x64_bin.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.accessibility.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.accessibility.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.attach.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.attach.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.charsets.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.charsets.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.compiler.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.compiler.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.crypto.cryptoki.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.crypto.cryptoki.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.crypto.ec.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.crypto.ec.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.crypto.mscapi.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.crypto.mscapi.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.dynalink.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.dynalink.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.editpad.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.editpad.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.graal.compiler.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.graal.compiler.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.graal.compiler.lib.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.graal.compiler.lib.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.graal.compiler.management.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.graal.compiler.management.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.hotspot.agent.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.hotspot.agent.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.httpserver.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.httpserver.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.incubator.vector.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.incubator.vector.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.internal.ed.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.internal.ed.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.internal.jvmstat.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.internal.jvmstat.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.internal.le.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.internal.le.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.internal.md.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.internal.md.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.internal.opt.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.internal.opt.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.internal.vm.ci.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.internal.vm.ci.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.jartool.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.jartool.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.javadoc.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.javadoc.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.jcmd.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.jcmd.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.jconsole.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.jconsole.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.jdeps.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.jdeps.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.jdi.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.jdi.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.jdwp.agent.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.jdwp.agent.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.jfr.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.jfr.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.jlink.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.jlink.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.jpackage.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.jpackage.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.jshell.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.jshell.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.jsobject.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.jsobject.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.jstatd.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.jstatd.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.localedata.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.localedata.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.management.agent.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.management.agent.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.management.jfr.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.management.jfr.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.management.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.management.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.naming.dns.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.naming.dns.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.naming.rmi.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.naming.rmi.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.net.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.net.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.nio.mapmode.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.nio.mapmode.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.sctp.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.sctp.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.security.auth.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.security.auth.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.security.jgss.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.security.jgss.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.unsupported.desktop.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.unsupported.desktop.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.unsupported.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.unsupported.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.xml.dom.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.xml.dom.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdk.zipfs.jmod", "target": "C:/Users/skpum/Downloads\\Others\\jdk.zipfs.jmod"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdwp.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\jdwp.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jdwpTransport.h", "target": "C:/Users/skpum/Downloads\\Text\\jdwpTransport.h"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jfr.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\jfr.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jhsdb.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\jhsdb.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jimage.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\jimage.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jimage.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\jimage.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jinfo.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\jinfo.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jli.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\jli.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jline.md", "target": "C:/Users/skpum/Downloads\\Others\\jline.md"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jlink.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\jlink.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jmap.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\jmap.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jmod.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\jmod.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jmxremote.access", "target": "C:/Users/skpum/Downloads\\Others\\jmxremote.access"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jmxremote.password.template", "target": "C:/Users/skpum/Downloads\\Others\\jmxremote.password.template"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jni.h", "target": "C:/Users/skpum/Downloads\\Text\\jni.h"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jni_md.h", "target": "C:/Users/skpum/Downloads\\Text\\jni_md.h"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jopt-simple.md", "target": "C:/Users/skpum/Downloads\\Others\\jopt-simple.md"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jpackage.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\jpackage.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jpackage.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\jpackage.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jpeg.md", "target": "C:/Users/skpum/Downloads\\Others\\jpeg.md"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jps.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\jps.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jquery.md", "target": "C:/Users/skpum/Downloads\\Others\\jquery.md"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jqueryUI.md", "target": "C:/Users/skpum/Downloads\\Others\\jqueryUI.md"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jre-8u431-windows-x64.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\jre-8u431-windows-x64.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jrt-fs.jar", "target": "C:/Users/skpum/Downloads\\Others\\jrt-fs.jar"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jrunscript.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\jrunscript.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jshell.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\jshell.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jsound.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\jsound.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jstack.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\jstack.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jstat.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\jstat.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jstatd.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\jstatd.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jsvml.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\jsvml.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jvm.cfg", "target": "C:/Users/skpum/Downloads\\Others\\jvm.cfg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jvm.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\jvm.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jvm.lib", "target": "C:/Users/skpum/Downloads\\Others\\jvm.lib"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jvmcicompiler.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\jvmcicompiler.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jvmti.h", "target": "C:/Users/skpum/Downloads\\Text\\jvmti.h"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jvmticmlr.h", "target": "C:/Users/skpum/Downloads\\Text\\jvmticmlr.h"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\jwebserver.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\jwebserver.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\keytool.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\keytool.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\kinit.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\kinit.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\klist.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\klist.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\ktab.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\ktab.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\lcms.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\lcms.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\lcms.md", "target": "C:/Users/skpum/Downloads\\Others\\lcms.md"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\libpng.md", "target": "C:/Users/skpum/Downloads\\Others\\libpng.md"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\LICENSE", "target": "C:/Users/skpum/Downloads\\Others\\LICENSE"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\logging.properties", "target": "C:/Users/skpum/Downloads\\Others\\logging.properties"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\management.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\management.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\management.properties", "target": "C:/Users/skpum/Downloads\\Others\\management.properties"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\management_agent.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\management_agent.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\management_ext.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\management_ext.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\Manufacturer Authorization 163912.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\Manufacturer Authorization 163912.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\mesa3d.md", "target": "C:/Users/skpum/Downloads\\Others\\mesa3d.md"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\mingw-get-setup.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\mingw-get-setup.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\mlib_image.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\mlib_image.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\modules", "target": "C:/Users/skpum/Downloads\\Others\\modules"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\MSB.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\MSB.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\msvcp140.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\msvcp140.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\Neo-Browser-Setup-1.1.4.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\Neo-Browser-Setup-1.1.4.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\Neo-Browser-Setup-1.1.5.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\Neo-Browser-Setup-1.1.5.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\neo_exam_checker_win 2.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\neo_exam_checker_win 2.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\net.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\net.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\net.properties", "target": "C:/Users/skpum/Downloads\\Others\\net.properties"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\nio.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\nio.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\NOC25CS23S442300227.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\NOC25CS23S442300227.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\non block listed.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\non block listed.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\OpenJDK21U-jdk_x64_windows_hotspot_21.0.6_7.msi", "target": "C:/Users/skpum/Downloads\\Others\\OpenJDK21U-jdk_x64_windows_hotspot_21.0.6_7.msi"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\PAN 1.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\PAN 1.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\pexels-ahmed-adly-1270184.jpg", "target": "C:/Users/skpum/Downloads\\Images\\pexels-ahmed-adly-1270184.jpg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\pexels-jiarong-deng-1034662.jpg", "target": "C:/Users/skpum/Downloads\\Images\\pexels-jiarong-deng-1034662.jpg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\pixelcut-export.jpg", "target": "C:/Users/skpum/Downloads\\Images\\pixelcut-export.jpg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\pkcs11cryptotoken.md", "target": "C:/Users/skpum/Downloads\\Others\\pkcs11cryptotoken.md"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\pkcs11wrapper.md", "target": "C:/Users/skpum/Downloads\\Others\\pkcs11wrapper.md"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\prefs.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\prefs.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\profile.jfc", "target": "C:/Users/skpum/Downloads\\Others\\profile.jfc"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\psfont.properties.ja", "target": "C:/Users/skpum/Downloads\\Others\\psfont.properties.ja"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\psfontj2d.properties", "target": "C:/Users/skpum/Downloads\\Others\\psfontj2d.properties"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\public_suffix.md", "target": "C:/Users/skpum/Downloads\\Others\\public_suffix.md"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\public_suffix_list.dat", "target": "C:/Users/skpum/Downloads\\Others\\public_suffix_list.dat"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\python certificate udemy.jpg", "target": "C:/Users/skpum/Downloads\\Images\\python certificate udemy.jpg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\README", "target": "C:/Users/skpum/Downloads\\Others\\README"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\README.txt", "target": "C:/Users/skpum/Downloads\\Text\\README.txt"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\receipt.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\receipt.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\release", "target": "C:/Users/skpum/Downloads\\Others\\release"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\Revised list of projects.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\Revised list of projects.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\rmi.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\rmi.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\rmiregistry.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\rmiregistry.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\santuario.md", "target": "C:/Users/skpum/Downloads\\Others\\santuario.md"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\saproc.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\saproc.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\Screenshot 2025-02-14 220230.png", "target": "C:/Users/skpum/Downloads\\Images\\Screenshot 2025-02-14 220230.png"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\SEB_3.6.0.633_SetupBundle.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\SEB_3.6.0.633_SetupBundle.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\serialver.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\serialver.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\ServerSetup-3.13.0.2501 (2).exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\ServerSetup-3.13.0.2501 (2).exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\simdjson.md", "target": "C:/Users/skpum/Downloads\\Others\\simdjson.md"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\siphash.md", "target": "C:/Users/skpum/Downloads\\Others\\siphash.md"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\sound.properties", "target": "C:/Users/skpum/Downloads\\Others\\sound.properties"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\splashscreen.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\splashscreen.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\src.zip", "target": "C:/Users/skpum/Downloads\\Archives\\src.zip"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\sree vinayka enterpreises.xlsx", "target": "C:/Users/skpum/Downloads\\Spreadsheets\\sree vinayka enterpreises.xlsx"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\sspi_bridge.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\sspi_bridge.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\successful.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\successful.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\sunmscapi.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\sunmscapi.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\SVS DOC.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\SVS DOC.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\SVS DOCUMENT.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\SVS DOCUMENT.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\syslookup.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\syslookup.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\TENDER FEES.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\TENDER FEES.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\TENDER receipt.pdf", "target": "C:/Users/skpum/Downloads\\Documents\\TENDER receipt.pdf"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\thaidict.md", "target": "C:/Users/skpum/Downloads\\Others\\thaidict.md"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\Top Leetcode questions of All Time - most important.xlsx - Google Drive.html", "target": "C:/Users/skpum/Downloads\\Others\\Top Leetcode questions of All Time - most important.xlsx - Google Drive.html"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\torch-2.0.0-cp39-cp39-manylinux1_x86_64.whl", "target": "C:/Users/skpum/Downloads\\Others\\torch-2.0.0-cp39-cp39-manylinux1_x86_64.whl"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\tzdb.dat", "target": "C:/Users/skpum/Downloads\\Others\\tzdb.dat"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\tzmappings", "target": "C:/Users/skpum/Downloads\\Others\\tzmappings"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\ucrtbase.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\ucrtbase.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\unicode.md", "target": "C:/Users/skpum/Downloads\\Others\\unicode.md"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\Untitled Project - Fallen Skeleton Wings (1).png", "target": "C:/Users/skpum/Downloads\\Images\\Untitled Project - Fallen Skeleton Wings (1).png"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\vcruntime140.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\vcruntime140.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\vcruntime140_1.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\vcruntime140_1.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\verify.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\verify.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\vlc-3.0.20-win32.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\vlc-3.0.20-win32.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\VSCodeUserSetup-x64-1.98.2.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\VSCodeUserSetup-x64-1.98.2.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\vs_BuildTools.exe", "target": "C:/Users/skpum/Downloads\\Executable Files\\vs_BuildTools.exe"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\w2k_lsa_auth.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\w2k_lsa_auth.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\wallpaperflare-cropped.jpg", "target": "C:/Users/skpum/Downloads\\Images\\wallpaperflare-cropped.jpg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\wallpaperflare.com_wallpaper (1).jpg", "target": "C:/Users/skpum/Downloads\\Images\\wallpaperflare.com_wallpaper (1).jpg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\wallpaperflare.com_wallpaper (2).jpg", "target": "C:/Users/skpum/Downloads\\Images\\wallpaperflare.com_wallpaper (2).jpg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\wallpaperflare.com_wallpaper (3).jpg", "target": "C:/Users/skpum/Downloads\\Images\\wallpaperflare.com_wallpaper (3).jpg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\wallpaperflare.com_wallpaper (4).jpg", "target": "C:/Users/skpum/Downloads\\Images\\wallpaperflare.com_wallpaper (4).jpg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\wallpaperflare.com_wallpaper (5).jpg", "target": "C:/Users/skpum/Downloads\\Images\\wallpaperflare.com_wallpaper (5).jpg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\wallpaperflare.com_wallpaper (6) 1.jpg", "target": "C:/Users/skpum/Downloads\\Images\\wallpaperflare.com_wallpaper (6) 1.jpg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\wallpaperflare.com_wallpaper (6).jpg", "target": "C:/Users/skpum/Downloads\\Images\\wallpaperflare.com_wallpaper (6).jpg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\wallpaperflare.com_wallpaper.jpg", "target": "C:/Users/skpum/Downloads\\Images\\wallpaperflare.com_wallpaper.jpg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\wepoll.md", "target": "C:/Users/skpum/Downloads\\Others\\wepoll.md"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\WhatsApp Image 2023-05-30 at 19.56.46.jpg", "target": "C:/Users/skpum/Downloads\\Images\\WhatsApp Image 2023-05-30 at 19.56.46.jpg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\WhatsApp Image 2023-09-16 at 15.44.32.jpg", "target": "C:/Users/skpum/Downloads\\Images\\WhatsApp Image 2023-09-16 at 15.44.32.jpg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\WhatsApp Image 2024-12-27 at 14.58.09_1482a076.jpg", "target": "C:/Users/skpum/Downloads\\Images\\WhatsApp Image 2024-12-27 at 14.58.09_1482a076.jpg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\WhatsApp Image 2025-02-21 at 1.45.21 PM.jpeg", "target": "C:/Users/skpum/Downloads\\Images\\WhatsApp Image 2025-02-21 at 1.45.21 PM.jpeg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\WhatsApp Image 2025-02-21 at 1.45.25 PM.jpeg", "target": "C:/Users/skpum/Downloads\\Images\\WhatsApp Image 2025-02-21 at 1.45.25 PM.jpeg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\windowsaccessbridge-64.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\windowsaccessbridge-64.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\wp13486788-naruto-samsung-wallpapers.jpg", "target": "C:/Users/skpum/Downloads\\Images\\wp13486788-naruto-samsung-wallpapers.jpg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\wp2282124-midoriya-wallpapers.jpg", "target": "C:/Users/skpum/Downloads\\Images\\wp2282124-midoriya-wallpapers.jpg"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\xalan.md", "target": "C:/Users/skpum/Downloads\\Others\\xalan.md"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\xerces.md", "target": "C:/Users/skpum/Downloads\\Others\\xerces.md"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\zip.dll", "target": "C:/Users/skpum/Downloads\\Executable Files\\zip.dll"}}
+{"operation": "move", "details": {"source": "C:/Users/skpum/Downloads\\zlib.md", "target": "C:/Users/skpum/Downloads\\Others\\zlib.md"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_GAP AFFIDAVIT.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_GAP AFFIDAVIT.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_indemnification.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_indemnification.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_portfolio.satish.12311551.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_portfolio.satish.12311551.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_transfer certificate.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_transfer certificate.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_undertaking by applicant.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_undertaking by applicant.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L3_Number system .pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L3_Number system .pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L4_Average.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L4_Average.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L5_percentage.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L5_percentage.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L6_percentage.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L6_percentage.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L7_profit and loss.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L7_profit and loss.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L8_profit and loss.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L8_profit and loss.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\CA1.java", "target": "D:/SAMPLE/SOURCE\\Others\\CA1.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\code.py", "target": "D:/SAMPLE/SOURCE\\Others\\code.py"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\d.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\d.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\digits.class", "target": "D:/SAMPLE/SOURCE\\Others\\digits.class"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\digits.java", "target": "D:/SAMPLE/SOURCE\\Others\\digits.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\distance.class", "target": "D:/SAMPLE/SOURCE\\Others\\distance.class"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\distance.java", "target": "D:/SAMPLE/SOURCE\\Others\\distance.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\file_organizer.log", "target": "D:/SAMPLE/SOURCE\\Others\\file_organizer.log"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_jpeg_GAP.jpg", "target": "D:/SAMPLE/SOURCE\\Images\\image_jpeg_GAP.jpg"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_jpeg_Screenshot_20231125-214146_Drive.jpg", "target": "D:/SAMPLE/SOURCE\\Images\\image_jpeg_Screenshot_20231125-214146_Drive.jpg"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_jpeg_Screenshot_20231125-214302_Drive.jpg", "target": "D:/SAMPLE/SOURCE\\Images\\image_jpeg_Screenshot_20231125-214302_Drive.jpg"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_png_12311551satish.png", "target": "D:/SAMPLE/SOURCE\\Images\\image_png_12311551satish.png"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\JAI.txt", "target": "D:/SAMPLE/SOURCE\\Text\\JAI.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\KHF OW.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\KHF OW.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\leap_year.class", "target": "D:/SAMPLE/SOURCE\\Others\\leap_year.class"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\leap_year.java", "target": "D:/SAMPLE/SOURCE\\Others\\leap_year.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\ms.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\ms.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Bitmap image.bmp", "target": "D:/SAMPLE/SOURCE\\Others\\New Bitmap image.bmp"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Microsoft Word Document.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\New Microsoft Word Document.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Rich Text Format.rtf", "target": "D:/SAMPLE/SOURCE\\Word Documents\\New Rich Text Format.rtf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Text Document.txt", "target": "D:/SAMPLE/SOURCE\\Text\\New Text Document.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\restore_log.json", "target": "D:/SAMPLE/SOURCE\\Configuration Files\\restore_log.json"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\rich.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\rich.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Sample.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\Sample.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\satish.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\satish.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\text_x-python_chatgpt_command.py", "target": "D:/SAMPLE/SOURCE\\Others\\text_x-python_chatgpt_command.py"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__ARRAY LIBRARY.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__ARRAY LIBRARY.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__arrays.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__arrays.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__c2.c", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__c2.c"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__c3.c", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__c3.c"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__class and objects java.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__class and objects java.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__class.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__class.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__functions java.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__functions java.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__java questions.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__java questions.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__loops java.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__loops java.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__MATH LIBRARY.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__MATH LIBRARY.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__Project.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__Project.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\video sample.mp4", "target": "D:/SAMPLE/SOURCE\\Video\\video sample.mp4"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_GAP AFFIDAVIT.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_GAP AFFIDAVIT.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_indemnification.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_indemnification.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_portfolio.satish.12311551.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_portfolio.satish.12311551.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_transfer certificate.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_transfer certificate.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_undertaking by applicant.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_undertaking by applicant.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L3_Number system .pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L3_Number system .pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L4_Average.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L4_Average.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L5_percentage.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L5_percentage.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L6_percentage.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L6_percentage.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L7_profit and loss.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L7_profit and loss.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L8_profit and loss.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L8_profit and loss.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\CA1.java", "target": "D:/SAMPLE/SOURCE\\Others\\CA1.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\code.py", "target": "D:/SAMPLE/SOURCE\\Others\\code.py"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\d.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\d.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\digits.class", "target": "D:/SAMPLE/SOURCE\\Others\\digits.class"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\digits.java", "target": "D:/SAMPLE/SOURCE\\Others\\digits.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\distance.class", "target": "D:/SAMPLE/SOURCE\\Others\\distance.class"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\distance.java", "target": "D:/SAMPLE/SOURCE\\Others\\distance.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\file_organizer.log", "target": "D:/SAMPLE/SOURCE\\Others\\file_organizer.log"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_jpeg_GAP.jpg", "target": "D:/SAMPLE/SOURCE\\Images\\image_jpeg_GAP.jpg"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_jpeg_Screenshot_20231125-214146_Drive.jpg", "target": "D:/SAMPLE/SOURCE\\Images\\image_jpeg_Screenshot_20231125-214146_Drive.jpg"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_jpeg_Screenshot_20231125-214302_Drive.jpg", "target": "D:/SAMPLE/SOURCE\\Images\\image_jpeg_Screenshot_20231125-214302_Drive.jpg"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_png_12311551satish.png", "target": "D:/SAMPLE/SOURCE\\Images\\image_png_12311551satish.png"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\JAI.txt", "target": "D:/SAMPLE/SOURCE\\Text\\JAI.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\KHF OW.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\KHF OW.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\leap_year.class", "target": "D:/SAMPLE/SOURCE\\Others\\leap_year.class"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\leap_year.java", "target": "D:/SAMPLE/SOURCE\\Others\\leap_year.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\ms.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\ms.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Bitmap image.bmp", "target": "D:/SAMPLE/SOURCE\\Others\\New Bitmap image.bmp"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Microsoft Word Document.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\New Microsoft Word Document.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Rich Text Format.rtf", "target": "D:/SAMPLE/SOURCE\\Word Documents\\New Rich Text Format.rtf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Text Document.txt", "target": "D:/SAMPLE/SOURCE\\Text\\New Text Document.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\restore_log.json", "target": "D:/SAMPLE/SOURCE\\Configuration Files\\restore_log.json"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\rich.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\rich.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Sample.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\Sample.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\satish.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\satish.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\text_x-python_chatgpt_command.py", "target": "D:/SAMPLE/SOURCE\\Others\\text_x-python_chatgpt_command.py"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__ARRAY LIBRARY.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__ARRAY LIBRARY.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__arrays.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__arrays.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__c2.c", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__c2.c"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__c3.c", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__c3.c"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__class and objects java.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__class and objects java.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__class.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__class.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__functions java.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__functions java.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__java questions.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__java questions.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__loops java.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__loops java.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__MATH LIBRARY.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__MATH LIBRARY.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__Project.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__Project.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE/video sample.mp4", "target": "D:/SAMPLE/SOURCE/Video\\video sample.mp4"}}
+{"operation": "copy", "details": {"source": "D:/SAMPLE/SOURCE/Video/video sample.mp4", "target": "D:/SAMPLE/SOURCE\\video sample.mp4"}}
+{"operation": "create_directory", "details": {"path": "D:/SAMPLE/SOURCE", "name": "SATISH"}}
+{"operation": "delete_directory", "details": {"path": "D:/SAMPLE/SOURCE\\SATISH"}}
+{"operation": "rename_directory", "details": {"parent_path": "D:/SAMPLE/SOURCE", "old_name": "Images", "new_name": "IMAGESS"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Microsoft Word Document.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\New Microsoft Word Document.docx"}}
