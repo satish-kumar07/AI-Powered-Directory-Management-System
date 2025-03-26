@@ -9,15 +9,7 @@ from watchdog.events import FileSystemEventHandler
 import time
 from cryptography.fernet import Fernet
 import stat
-
-from docx import Document
-
 from utils.gui_operations import FileSelector
-
-
-
-
-
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
