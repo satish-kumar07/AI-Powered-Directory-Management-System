@@ -103,71 +103,127 @@ python src/main.py <command> [arguments]
 
 - **move**: Moves a file or folder to a new location.
   ```sh
+  # GUI Mode
+  python src/main.py --gui move
+
+  # CLI Mode
   python src/main.py move --source <source> --destination <destination>
   ```
 
 - **copy**: Copies a file or folder to a new location.
   ```sh
+  # GUI Mode
+  python src/main.py --gui copy
+
+  # CLI Mode
   python src/main.py copy --source <source> --destination <destination>
   ```
 
 - **delete**: Deletes a specified file or folder.
   ```sh
-  python src.main.py delete -p <path>
+  # GUI Mode
+  python src/main.py --gui delete
+
+  # CLI Mode
+  python src/main.py delete -p <path>
   ```
 
 - **summarize**: Generates an AI-based summary of a text file.
   ```sh
+  # GUI Mode
+  python src/main.py --gui summarize
+
+  # CLI Mode
   python src/main.py summarize -f <file>
   ```
 
 - **monitor**: Watches the directory and organizes new files in real time.
   ```sh
+  # GUI Mode
+  python src/main.py --gui monitor
+
+  # CLI Mode
   python src/main.py monitor -s <source_directory> -t <target_directory>
   ```
 
 - **log**: Displays a log of previous operations.
   ```sh
+  # GUI Mode
+  python src/main.py --gui log
+
+  # CLI Mode
   python src/main.py log
   ```
 
 - **sort-by-date**: Organizes files based on creation/modification date.
   ```sh
+  # GUI Mode
+  python src/main.py --gui sort-by-date
+
+  # CLI Mode
   python src/main.py sort-by-date -s <source_directory> -t <target_directory>
   ```
 
 - **encrypt**: Encrypts a file for security.
   ```sh
+  # GUI Mode
+  python src/main.py --gui encrypt
+
+  # CLI Mode
   python src/main.py encrypt -f <file>
   ```
 
 - **decrypt**: Decrypts an encrypted file.
   ```sh
+  # GUI Mode
+  python src/main.py --gui decrypt
+
+  # CLI Mode
   python src/main.py decrypt -f <file>
   ```
 
 - **create-directory**: Creates a new directory.
   ```sh
+  # GUI Mode
+  python src/main.py --gui create-directory
+
+  # CLI Mode
   python src/main.py create-directory -p <path> -n <directory_name>
   ```
 
 - **delete-directory**: Deletes a specified directory.
   ```sh
+  # GUI Mode
+  python src/main.py --gui delete-directory
+
+  # CLI Mode
   python src/main.py delete-directory -p <path> -n <directory_name>
   ```
 
 - **list-files**: Lists files in a specified directory.
   ```sh
+  # GUI Mode
+  python src/main.py --gui list-files
+
+  # CLI Mode
   python src/main.py list-files -p <directory>
   ```
 
 - **rename-directory**: Renames a specified directory.
   ```sh
+  # GUI Mode
+  python src/main.py --gui rename-directory
+
+  # CLI Mode
   python src/main.py rename-directory -p <path> -n <new_name>
   ```
 
 - **deorganize**: Moves files from subdirectories back to the main directory.
   ```sh
+  # GUI Mode
+  python src/main.py --gui deorganize
+
+  # CLI Mode
   python src/main.py deorganize -s <source_directory>
   ```
 
@@ -221,13 +277,11 @@ python src/main.py <command> [arguments]
 - **Efficient File Organization**: Automatically organizes files into folders based on their categories.
 - **Duplicate Detection**: Identifies and categorizes duplicate files.
 - **Logging**: Logs file operations for tracking and debugging purposes.
-- **Undo Last Operation**: Reverts the last file operation performed.
 - **File Encryption**: Encrypts files for security.
 - **File Sorting by Date**: Organizes files based on their creation or modification date.
 - **Continuous Monitoring**: Optionally monitor the source directory for changes and automatically organize new files.
 - **Directory Management**: Create, delete, list, and rename directories.
 - **Deorganization**: Moves files from subdirectories back to the main directory.
-- **Compression and Decompression**: Compresses directories into zip files and extracts them.
 - **Batch Rename**: Renames multiple files in a directory based on a pattern.
 - **Disk Usage Analysis**: Analyzes disk usage of directories and files.
 - **Directory Comparison**: Compares two directories and reports differences.
