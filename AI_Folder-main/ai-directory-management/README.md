@@ -126,11 +126,6 @@ python src/main.py <command> [arguments]
   python src/main.py monitor -s <source_directory> -t <target_directory>
   ```
 
-- **undo**: Reverts the last file operation.
-  ```sh
-  python src/main.py undo
-  ```
-
 - **log**: Displays a log of previous operations.
   ```sh
   python src/main.py log
