@@ -8,7 +8,7 @@ from utils.file_operations import (
     organize_files_task,summarize_file,display_log,
     sort_files_by_date, encrypt_file, decrypt_file, move_file, copy_file, delete_file, create_directory,
     delete_directory, list_files_in_directory, rename_directory,
-    view_file_metadata, preview_file, deorganize_files, batch_rename_files, analyze_disk_usage
+    view_file_metadata, preview_file, deorganize_files, batch_rename_files,
 )
 
 def main():
@@ -24,9 +24,7 @@ def main():
     parser_organize.add_argument("-s", "--source-directory", required=False, help="The source directory containing files to organize.")
     parser_organize.add_argument("-t", "--target-directory", required=False, help="The target directory where organized files will be placed.")
 
-    # Find duplicates
-    parser_find_duplicates = subparsers.add_parser("find-duplicates", help="Detects and lists duplicate files.")
-    parser_find_duplicates.add_argument("--directory", required=False, help="The directory to check for duplicate files.")
+   
 
     # Move file or folder
     parser_move = subparsers.add_parser("move", help="Moves a file or folder to a new location.")
@@ -60,17 +58,7 @@ def main():
     parser_rename_directory = subparsers.add_parser("rename-directory", help="Renames a specified directory.")
     parser_rename_directory.add_argument("-p", "--path", required=False, help="The directory to rename.")
     parser_rename_directory.add_argument("-n", "--new-name", required=False, help="The new name for the directory.")
-
-    # Summarize file
-    parser_summarize = subparsers.add_parser("summarize", help="Generates an AI-based summary of a text file.")
-    parser_summarize.add_argument("-f", "--file", required=False, help="File to summarize.")
-
-    # Monitor directory
-    parser_monitor = subparsers.add_parser("monitor", help="Watches the directory and organizes new files in real time.")
-    parser_monitor.add_argument("-s", "--source-directory", required=False, help="The source directory to monitor.")
-    parser_monitor.add_argument("-t", "--target-directory", required=False, help="The target directory where organized files will be placed.")
-
-   
+ 
     # Display log
     subparsers.add_parser("log", help="Displays a log of previous operations.")
 
@@ -106,14 +94,7 @@ def main():
     parser_batch_rename.add_argument("-p", "--pattern", required=False, help="The pattern to search for in filenames.")
     parser_batch_rename.add_argument("-r", "--replacement", required=False, help="The replacement text.")
 
-    # Analyze disk usage
-    parser_disk_usage = subparsers.add_parser("disk-usage", help="Analyze disk usage of directories and files.")
-    parser_disk_usage.add_argument("-d", "--directory", required=False, help="The directory to analyze.")
-
-    # Compare directories
-    parser_compare = subparsers.add_parser("compare", help="Compare two directories and report differences.")
-    parser_compare.add_argument("-d1", "--dir1", required=False, help="First directory to compare.")
-    parser_compare.add_argument("-d2", "--dir2", required=False, help="Second directory to compare.")
+    
 
     args = parser.parse_args()
 
@@ -190,16 +171,7 @@ def main():
             if file_path:
                 summarize_file(file_path)
 
-        elif args.command == "monitor":
-            source_directory = FileSelector.select_directory("Select Source Directory to Monitor")
-            if source_directory:
-                target_directory = FileSelector.select_directory("Select Target Directory for Organized Files")
-                if target_directory:
-                    if FileSelector.show_confirm("Start Monitoring", 
-                        f"Start monitoring '{source_directory}'?\nFiles will be organized into '{target_directory}'"):
-                        model = FileCategorizer()
-                        model.load_model()
-                        monitor_directory(source_directory, target_directory, model)
+       
 
 
         elif args.command == "log":
@@ -280,36 +252,7 @@ def main():
                     if replacement is not None:  # Allow empty replacement
                         batch_rename_files(directory, pattern, replacement)
 
-        elif args.command == "disk-usage":
-            directory = FileSelector.select_directory("Select Directory to Analyze Disk Usage")
-            if directory:
-                usage_data = analyze_disk_usage(directory)
-                if usage_data:
-                    print("\nDisk Usage Analysis:")
-                    sorted_data = sorted(usage_data.items(), key=lambda x: x[1]['size'], reverse=True)
-                    for dir_path, data in sorted_data:
-                        print(f"{dir_path}:")
-                        print(f"  Size: {data['size']/1024/1024:.2f} MB")
-                        print(f"  Percentage: {data['percentage']:.2f}%")
-
-        elif args.command == "compare":
-            dir1 = FileSelector.select_directory("Select First Directory to Compare")
-            if dir1:
-                dir2 = FileSelector.select_directory("Select Second Directory to Compare")
-                if dir2:
-                    differences = compare_directories(dir1, dir2)
-                    if differences:
-                        print("\nDirectory Comparison Results:")
-                        print(f"\nFiles only in {dir1}:")
-                        for file in differences['only_in_first']:
-                            print(f"  {file}")
-                        print(f"\nFiles only in {dir2}:")
-                        for file in differences['only_in_second']:
-                            print(f"  {file}")
-                        print("\nFiles with different content:")
-                        for file in differences['different_files']:
-                            print(f"  {file}")
-
+      
     else:
         # Handle CLI mode (existing code)
         if args.command == "organize":
@@ -320,11 +263,7 @@ def main():
             else:
                 logging.error("Source and target directories are required in CLI mode")
 
-        elif args.command == "find-duplicates":
-            if args.directory:
-                find_duplicates(args.directory)
-            else:
-                logging.error("Directory is required in CLI mode")
+        
 
         elif args.command == "move":
             move_file(args.source, args.destination)
@@ -368,13 +307,7 @@ def main():
             else:
                 logging.error("File path is required in CLI mode")
 
-        elif args.command == "monitor":
-            if args.source_directory and args.target_directory:
-                model = FileCategorizer()
-                model.load_model()
-                monitor_directory(args.source_directory, args.target_directory, model)
-            else:
-                logging.error("Source and target directories are required in CLI mode")
+       
 
         elif args.command == "log":
             display_log()
@@ -428,35 +361,7 @@ def main():
             else:
                 logging.error("Directory, pattern, and replacement are required in CLI mode")
 
-        elif args.command == "disk-usage":
-            if args.directory:
-                usage_data = analyze_disk_usage(args.directory)
-                if usage_data:
-                    print("\nDisk Usage Analysis:")
-                    sorted_data = sorted(usage_data.items(), key=lambda x: x[1]['size'], reverse=True)
-                    for dir_path, data in sorted_data:
-                        print(f"{dir_path}:")
-                        print(f"  Size: {data['size']/1024/1024:.2f} MB")
-                        print(f"  Percentage: {data['percentage']:.2f}%")
-            else:
-                logging.error("Directory is required in CLI mode")
-
-        elif args.command == "compare":
-            if args.dir1 and args.dir2:
-                differences = compare_directories(args.dir1, args.dir2)
-                if differences:
-                    print("\nDirectory Comparison Results:")
-                    print(f"\nFiles only in {args.dir1}:")
-                    for file in differences['only_in_first']:
-                        print(f"  {file}")
-                    print(f"\nFiles only in {args.dir2}:")
-                    for file in differences['only_in_second']:
-                        print(f"  {file}")
-                    print("\nFiles with different content:")
-                    for file in differences['different_files']:
-                        print(f"  {file}")
-            else:
-                logging.error("Both directories are required in CLI mode")
+ 
         else:
             parser.print_help()
 

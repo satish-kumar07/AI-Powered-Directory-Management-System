@@ -513,19 +513,18 @@ def view_file_metadata(file_path):
 def preview_file(file_path, lines=10):
     """Preview the first few lines of a text file."""
     try:
-        if os.path.isfile(file_path):
-            with open(file_path, 'r') as file:
-                content = ''.join([file.readline() for _ in range(lines)])
-            logging.info(f"Preview of {file_path}:\n{content}")
-            return content
-        else:
-            logging.warning(f"File does not exist or is not a text file: {file_path}")
-            return None
+        with open(file_path, "r", encoding="utf-8", errors="replace") as file:
+            content = "".join([next(file) for _ in range(lines)])
+        return content
+    except StopIteration:
+        # Handle case where the file has fewer lines than requested
+        return content
     except PermissionError as e:
         logging.error(f"Permission denied: {e}")
+        raise
     except Exception as e:
         logging.error(f"Error previewing file {file_path}: {e}")
-        return None
+        raise
 
 def batch_rename_files(directory, pattern, replacement):
     """Batch rename files in a directory based on a pattern."""
@@ -555,46 +554,4 @@ def batch_rename_files(directory, pattern, replacement):
         # Log any errors that occur during the operation
         logging.error(f"Error during batch rename in {directory}: {e}")
 
-def analyze_disk_usage(directory):
-    """Analyze disk usage of directories and files."""
-    try:
-        # Check if the directory exists
-        if not os.path.exists(directory):
-            logging.error(f"Directory {directory} does not exist.")
-            return None
-
-        usage_data = {} 
-        total_size = 0  
-
-        # Walk through the directory tree
-        for root, dirs, files in os.walk(directory):
-            dir_size = 0  
-            for file in files:
-                file_path = os.path.join(root, file)  
-                file_size = os.path.getsize(file_path) 
-                dir_size += file_size 
-                total_size += file_size  
-
-            # Store the size of the current directory
-            usage_data[root] = {
-                'size': dir_size,
-                'percentage': 0  
-            }
-
-
-        for dir_path in usage_data:
-            usage_data[dir_path]['percentage'] = (usage_data[dir_path]['size'] / total_size) * 100
-
-       
-        logging.info(f"Disk usage analysis for {directory}:")
-        for dir_path, data in usage_data.items():
-            logging.info(f"{dir_path}: {data['size']/1024/1024:.2f} MB ({data['percentage']:.2f}%)")
-
-        return usage_data
-    except PermissionError as e:
-        logging.error(f"Permission denied: {e}")
-    except Exception as e:
-        # Log any errors that occur during the operation
-        logging.error(f"Error analyzing disk usage for {directory}: {e}")
-        return None
 

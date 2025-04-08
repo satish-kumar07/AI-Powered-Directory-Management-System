@@ -1884,3 +1884,4 @@
 {"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log.3", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log.3"}}
 {"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBoxHardening.log", "target": "D:/SAMPLE/SOURCE\\Others\\VBoxHardening.log"}}
 {"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\video sample.mp4", "target": "D:/SAMPLE/SOURCE\\Video\\video sample.mp4"}}
+{"operation": "batch_rename", "details": {"directory": "D:/SAMPLE/SOURCE/TEXT", "pattern": "TEXT", "replacement": "SATISH"}}

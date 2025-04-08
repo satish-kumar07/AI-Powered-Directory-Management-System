@@ -10,7 +10,7 @@ from ai.model import FileCategorizer
 from utils.file_operations import (
     display_log,sort_files_by_date, encrypt_file, decrypt_file, move_file, copy_file, delete_file, create_directory,
     delete_directory, list_files_in_directory, rename_directory,
-    view_file_metadata, preview_file, deorganize_files, batch_rename_files, analyze_disk_usage,organize_files_task
+    view_file_metadata, preview_file, deorganize_files, batch_rename_files,organize_files_task
 )
 
 class FileManagerApp:
@@ -26,6 +26,7 @@ class FileManagerApp:
         # Add a header label
         header_label = tk.Label(master, text="File Management Operations", font=("Arial", 24, "bold"), bg="lightblue")
         header_label.pack(pady=20)
+        header_label.configure(font=("Helvetica", 24, "bold"))
 
         # Create a tabbed interface
         notebook = ttk.Notebook(master)
@@ -47,7 +48,7 @@ class FileManagerApp:
             ("Copy File", self.copy_file),
             ("Delete File", self.delete_file),
             ("Deorganize Files", self.deorganize_files),
-            ("Analyze Disk Usage", self.analyze_disk_usage),
+            
             
         ])
 
@@ -65,6 +66,9 @@ class FileManagerApp:
             ("Sort Files by Date", self.sort_files_by_date),
             ("Encrypt File", self.encrypt_file),
             ("Decrypt File", self.decrypt_file),
+            ("View Metadata", self.view_metadata),
+            ("Preview File", self.preview_file),
+            ("Batch Rename Files", self.batch_rename_files),
         ])
 
         # Add Drag-and-Drop Support
@@ -253,6 +257,9 @@ class FileManagerApp:
                         self.show_message("File Preview", content)
                 except ValueError:
                     messagebox.showerror("Error", "Please enter a valid number")
+                except Exception as e:
+                    logging.error(f"Error previewing file {file_path}: {e}")
+                    self.show_message("Error", f"Failed to preview file: {e}")
 
     def deorganize_files(self):
         source_directory = self.select_directory("Select Directory to Deorganize")
@@ -269,17 +276,6 @@ class FileManagerApp:
                 replacement = self.get_input("Replacement Input", "Enter the replacement text:")
                 if replacement is not None:  # Allow empty replacement
                     batch_rename_files(directory, pattern, replacement)
-
-    def analyze_disk_usage(self):
-        directory = self.select_directory("Select Directory to Analyze Disk Usage")
-        if directory:
-            usage_data = analyze_disk_usage(directory)
-            if usage_data:
-                sorted_data = sorted(usage_data.items(), key=lambda x: x[1]['size'], reverse=True)
-                usage_str = "\n".join([f"{dir_path}: Size: {data['size']/1024/1024:.2f} MB, Percentage: {data['percentage']:.2f}%" for dir_path, data in sorted_data])
-                self.show_message("Disk Usage Analysis", usage_str)
-
-
 
 if __name__ == "__main__":
     root = TkinterDnD.Tk()
