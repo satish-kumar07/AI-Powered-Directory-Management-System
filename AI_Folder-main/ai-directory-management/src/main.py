@@ -5,10 +5,10 @@ import argparse
 from ai.model import FileCategorizer
 from utils.gui_operations import FileSelector
 from utils.file_operations import (
-    organize_files, find_duplicates, summarize_file, monitor_directory, display_log,
+    organize_files_task,summarize_file,display_log,
     sort_files_by_date, encrypt_file, decrypt_file, move_file, copy_file, delete_file, create_directory,
     delete_directory, list_files_in_directory, rename_directory,
-    view_file_metadata, preview_file, deorganize_files, batch_rename_files, analyze_disk_usage, compare_directories
+    view_file_metadata, preview_file, deorganize_files, batch_rename_files, analyze_disk_usage
 )
 
 def main():
@@ -126,12 +126,7 @@ def main():
                 if source_dir and target_dir:
                     model = FileCategorizer()
                     model.load_model()
-                    organize_files(source_dir, target_dir, model)
-
-        elif args.command == "find-duplicates":
-            directory = FileSelector.select_directory("Select Directory to Check for Duplicates")
-            if directory:
-                find_duplicates(directory)
+                    organize_files_task(source_dir, target_dir, model)
 
         elif args.command == "move":
             source = FileSelector.select_file("Select File to Move")
@@ -321,7 +316,7 @@ def main():
             if args.source_directory and args.target_directory:
                 model = FileCategorizer()
                 model.load_model()
-                organize_files(args.source_directory, args.target_directory, model)
+                organize_files_task(args.source_directory, args.target_directory, model)
             else:
                 logging.error("Source and target directories are required in CLI mode")
 

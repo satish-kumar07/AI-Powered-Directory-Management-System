@@ -1106,3 +1106,781 @@
 {"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__Project.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__Project.txt"}}
 {"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\ugo.rtf", "target": "D:/SAMPLE/SOURCE\\Word Documents\\ugo.rtf"}}
 {"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\video sample.mp4", "target": "D:/SAMPLE/SOURCE\\Video\\video sample.mp4"}}
+{"operation": "encrypt", "details": {"file": "D:/SAMPLE/SOURCE/application_pdf_GAP AFFIDAVIT.pdf"}}
+{"operation": "decrypt", "details": {"file": "D:/SAMPLE/SOURCE/application_pdf_GAP AFFIDAVIT.pdf"}}
+{"operation": "encrypt", "details": {"file": "D:/SAMPLE/SOURCE/Text/hgo.txt"}}
+{"operation": "decrypt", "details": {"file": "D:/SAMPLE/SOURCE/Text/hgo.txt"}}
+{"operation": "encrypt", "details": {"file": "D:/SAMPLE/SOURCE/Text/hgo.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_GAP AFFIDAVIT.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_GAP AFFIDAVIT.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_indemnification.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_indemnification.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_portfolio.satish.12311551.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_portfolio.satish.12311551.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_transfer certificate.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_transfer certificate.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_undertaking by applicant.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_undertaking by applicant.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L3_Number system .pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L3_Number system .pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L4_Average.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L4_Average.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L5_percentage.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L5_percentage.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L6_percentage.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L6_percentage.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L7_profit and loss.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L7_profit and loss.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L8_profit and loss.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L8_profit and loss.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\CA1.java", "target": "D:/SAMPLE/SOURCE\\Others\\CA1.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\code.py", "target": "D:/SAMPLE/SOURCE\\Others\\code.py"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\d.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\d.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\digits.class", "target": "D:/SAMPLE/SOURCE\\Others\\digits.class"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\digits.java", "target": "D:/SAMPLE/SOURCE\\Others\\digits.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\distance.class", "target": "D:/SAMPLE/SOURCE\\Others\\distance.class"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\distance.java", "target": "D:/SAMPLE/SOURCE\\Others\\distance.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\file_organizer.log", "target": "D:/SAMPLE/SOURCE\\Others\\file_organizer.log"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\fkl.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\fkl.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\hgo.txt", "target": "D:/SAMPLE/SOURCE\\Text\\hgo.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_jpeg_GAP.jpg", "target": "D:/SAMPLE/SOURCE\\Images\\image_jpeg_GAP.jpg"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_jpeg_Screenshot_20231125-214146_Drive.jpg", "target": "D:/SAMPLE/SOURCE\\Images\\image_jpeg_Screenshot_20231125-214146_Drive.jpg"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_jpeg_Screenshot_20231125-214302_Drive.jpg", "target": "D:/SAMPLE/SOURCE\\Images\\image_jpeg_Screenshot_20231125-214302_Drive.jpg"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_png_12311551satish.png", "target": "D:/SAMPLE/SOURCE\\Images\\image_png_12311551satish.png"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\JAI.txt", "target": "D:/SAMPLE/SOURCE\\Text\\JAI.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\KHF OW.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\KHF OW.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\kjn.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\kjn.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\leap_year.class", "target": "D:/SAMPLE/SOURCE\\Others\\leap_year.class"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\leap_year.java", "target": "D:/SAMPLE/SOURCE\\Others\\leap_year.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\ms.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\ms.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Bitmap image.bmp", "target": "D:/SAMPLE/SOURCE\\Others\\New Bitmap image.bmp"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Microsoft Word Document.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\New Microsoft Word Document.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Rich Text Format.rtf", "target": "D:/SAMPLE/SOURCE\\Word Documents\\New Rich Text Format.rtf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Text Document.txt", "target": "D:/SAMPLE/SOURCE\\Text\\New Text Document.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\nsd.py", "target": "D:/SAMPLE/SOURCE\\Others\\nsd.py"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\restore_log.json", "target": "D:/SAMPLE/SOURCE\\Configuration Files\\restore_log.json"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\rich.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\rich.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Sample.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\Sample.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\satish.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\satish.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\text_x-python_chatgpt_command.py", "target": "D:/SAMPLE/SOURCE\\Others\\text_x-python_chatgpt_command.py"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__ARRAY LIBRARY.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__ARRAY LIBRARY.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__arrays.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__arrays.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__c2.c", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__c2.c"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__c3.c", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__c3.c"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__class and objects java.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__class and objects java.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__class.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__class.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__functions java.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__functions java.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__java questions.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__java questions.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__loops java.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__loops java.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__MATH LIBRARY.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__MATH LIBRARY.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__Project.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__Project.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\ubuntu-24.04.1-desktop-amd64.iso", "target": "D:/SAMPLE/SOURCE\\Others\\ubuntu-24.04.1-desktop-amd64.iso"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Ubuntu.vbox", "target": "D:/SAMPLE/SOURCE\\Others\\Ubuntu.vbox"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Ubuntu.vbox-prev", "target": "D:/SAMPLE/SOURCE\\Others\\Ubuntu.vbox-prev"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Ubuntu.vdi", "target": "D:/SAMPLE/SOURCE\\Others\\Ubuntu.vdi"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\ugo.rtf", "target": "D:/SAMPLE/SOURCE\\Word Documents\\ugo.rtf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log.1", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log.1"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log.2", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log.2"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log.3", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log.3"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBoxHardening.log", "target": "D:/SAMPLE/SOURCE\\Others\\VBoxHardening.log"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\video sample.mp4", "target": "D:/SAMPLE/SOURCE\\Video\\video sample.mp4"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_GAP AFFIDAVIT.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_GAP AFFIDAVIT.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_indemnification.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_indemnification.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_portfolio.satish.12311551.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_portfolio.satish.12311551.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_transfer certificate.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_transfer certificate.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_undertaking by applicant.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_undertaking by applicant.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L3_Number system .pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L3_Number system .pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L4_Average.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L4_Average.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L5_percentage.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L5_percentage.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L6_percentage.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L6_percentage.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L7_profit and loss.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L7_profit and loss.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L8_profit and loss.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L8_profit and loss.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\CA1.java", "target": "D:/SAMPLE/SOURCE\\Others\\CA1.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\code.py", "target": "D:/SAMPLE/SOURCE\\Others\\code.py"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\d.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\d.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\digits.class", "target": "D:/SAMPLE/SOURCE\\Others\\digits.class"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\digits.java", "target": "D:/SAMPLE/SOURCE\\Others\\digits.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\distance.class", "target": "D:/SAMPLE/SOURCE\\Others\\distance.class"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\distance.java", "target": "D:/SAMPLE/SOURCE\\Others\\distance.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\file_organizer.log", "target": "D:/SAMPLE/SOURCE\\Others\\file_organizer.log"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\fkl.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\fkl.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\hgo.txt", "target": "D:/SAMPLE/SOURCE\\Text\\hgo.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_jpeg_GAP.jpg", "target": "D:/SAMPLE/SOURCE\\Images\\image_jpeg_GAP.jpg"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_jpeg_Screenshot_20231125-214146_Drive.jpg", "target": "D:/SAMPLE/SOURCE\\Images\\image_jpeg_Screenshot_20231125-214146_Drive.jpg"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_jpeg_Screenshot_20231125-214302_Drive.jpg", "target": "D:/SAMPLE/SOURCE\\Images\\image_jpeg_Screenshot_20231125-214302_Drive.jpg"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_png_12311551satish.png", "target": "D:/SAMPLE/SOURCE\\Images\\image_png_12311551satish.png"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\JAI.txt", "target": "D:/SAMPLE/SOURCE\\Text\\JAI.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\KHF OW.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\KHF OW.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\kjn.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\kjn.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\leap_year.class", "target": "D:/SAMPLE/SOURCE\\Others\\leap_year.class"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\leap_year.java", "target": "D:/SAMPLE/SOURCE\\Others\\leap_year.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\ms.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\ms.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Bitmap image.bmp", "target": "D:/SAMPLE/SOURCE\\Others\\New Bitmap image.bmp"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Microsoft Word Document.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\New Microsoft Word Document.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Rich Text Format.rtf", "target": "D:/SAMPLE/SOURCE\\Word Documents\\New Rich Text Format.rtf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Text Document.txt", "target": "D:/SAMPLE/SOURCE\\Text\\New Text Document.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\nsd.py", "target": "D:/SAMPLE/SOURCE\\Others\\nsd.py"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\restore_log.json", "target": "D:/SAMPLE/SOURCE\\Configuration Files\\restore_log.json"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\rich.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\rich.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Sample.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\Sample.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\satish.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\satish.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\text_x-python_chatgpt_command.py", "target": "D:/SAMPLE/SOURCE\\Others\\text_x-python_chatgpt_command.py"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__ARRAY LIBRARY.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__ARRAY LIBRARY.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__arrays.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__arrays.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__c2.c", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__c2.c"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__c3.c", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__c3.c"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__class and objects java.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__class and objects java.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__class.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__class.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__functions java.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__functions java.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__java questions.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__java questions.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__loops java.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__loops java.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__MATH LIBRARY.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__MATH LIBRARY.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__Project.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__Project.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\ubuntu-24.04.1-desktop-amd64.iso", "target": "D:/SAMPLE/SOURCE\\Others\\ubuntu-24.04.1-desktop-amd64.iso"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Ubuntu.vbox", "target": "D:/SAMPLE/SOURCE\\Others\\Ubuntu.vbox"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Ubuntu.vbox-prev", "target": "D:/SAMPLE/SOURCE\\Others\\Ubuntu.vbox-prev"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Ubuntu.vdi", "target": "D:/SAMPLE/SOURCE\\Others\\Ubuntu.vdi"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\ugo.rtf", "target": "D:/SAMPLE/SOURCE\\Word Documents\\ugo.rtf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log.1", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log.1"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log.2", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log.2"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log.3", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log.3"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBoxHardening.log", "target": "D:/SAMPLE/SOURCE\\Others\\VBoxHardening.log"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\video sample.mp4", "target": "D:/SAMPLE/SOURCE\\Video\\video sample.mp4"}}
+{"operation": "encrypt", "details": {"file": "D:/SAMPLE/SOURCE/Images/image_png_12311551satish.png"}}
+{"operation": "decrypt", "details": {"file": "D:/SAMPLE/SOURCE/Images/image_png_12311551satish.png"}}
+{"operation": "copy", "details": {"source": "D:/SAMPLE/SOURCE/application_pdf_GAP AFFIDAVIT.pdf", "target": "D:/SAMPLE/SOURCE/Documents\\application_pdf_GAP AFFIDAVIT.pdf"}}
+{"operation": "copy", "details": {"source": "D:/SAMPLE/SOURCE/code.py", "target": "D:/SAMPLE/SOURCE/Others\\code.py"}}
+{"operation": "create_directory", "details": {"path": "D:/SAMPLE/SOURCE", "name": "SATISH"}}
+{"operation": "delete_directory", "details": {"path": "D:/SAMPLE/SOURCE\\SATISH"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_GAP AFFIDAVIT.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_GAP AFFIDAVIT.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_indemnification.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_indemnification.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_portfolio.satish.12311551.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_portfolio.satish.12311551.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_transfer certificate.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_transfer certificate.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_undertaking by applicant.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_undertaking by applicant.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L3_Number system .pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L3_Number system .pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L4_Average.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L4_Average.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L5_percentage.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L5_percentage.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L6_percentage.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L6_percentage.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L7_profit and loss.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L7_profit and loss.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L8_profit and loss.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L8_profit and loss.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\CA1.java", "target": "D:/SAMPLE/SOURCE\\Others\\CA1.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\code.py", "target": "D:/SAMPLE/SOURCE\\Others\\code.py"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\d.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\d.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\digits.class", "target": "D:/SAMPLE/SOURCE\\Others\\digits.class"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\digits.java", "target": "D:/SAMPLE/SOURCE\\Others\\digits.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\distance.class", "target": "D:/SAMPLE/SOURCE\\Others\\distance.class"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\distance.java", "target": "D:/SAMPLE/SOURCE\\Others\\distance.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\file_organizer.log", "target": "D:/SAMPLE/SOURCE\\Others\\file_organizer.log"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\fkl.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\fkl.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\hgo.txt", "target": "D:/SAMPLE/SOURCE\\Text\\hgo.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_jpeg_GAP.jpg", "target": "D:/SAMPLE/SOURCE\\Images\\image_jpeg_GAP.jpg"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_jpeg_Screenshot_20231125-214146_Drive.jpg", "target": "D:/SAMPLE/SOURCE\\Images\\image_jpeg_Screenshot_20231125-214146_Drive.jpg"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_jpeg_Screenshot_20231125-214302_Drive.jpg", "target": "D:/SAMPLE/SOURCE\\Images\\image_jpeg_Screenshot_20231125-214302_Drive.jpg"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_png_12311551satish.png", "target": "D:/SAMPLE/SOURCE\\Images\\image_png_12311551satish.png"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\JAI.txt", "target": "D:/SAMPLE/SOURCE\\Text\\JAI.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\KHF OW.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\KHF OW.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\kjn.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\kjn.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\leap_year.class", "target": "D:/SAMPLE/SOURCE\\Others\\leap_year.class"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\leap_year.java", "target": "D:/SAMPLE/SOURCE\\Others\\leap_year.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\ms.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\ms.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Bitmap image.bmp", "target": "D:/SAMPLE/SOURCE\\Others\\New Bitmap image.bmp"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Microsoft Word Document.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\New Microsoft Word Document.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Rich Text Format.rtf", "target": "D:/SAMPLE/SOURCE\\Word Documents\\New Rich Text Format.rtf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Text Document.txt", "target": "D:/SAMPLE/SOURCE\\Text\\New Text Document.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\nsd.py", "target": "D:/SAMPLE/SOURCE\\Others\\nsd.py"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\restore_log.json", "target": "D:/SAMPLE/SOURCE\\Configuration Files\\restore_log.json"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\rich.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\rich.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Sample.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\Sample.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\satish.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\satish.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\satish.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\satish.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\text_x-python_chatgpt_command.py", "target": "D:/SAMPLE/SOURCE\\Others\\text_x-python_chatgpt_command.py"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__ARRAY LIBRARY.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__ARRAY LIBRARY.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__arrays.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__arrays.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__c2.c", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__c2.c"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__c3.c", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__c3.c"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__class and objects java.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__class and objects java.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__class.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__class.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__functions java.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__functions java.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__java questions.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__java questions.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__loops java.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__loops java.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__MATH LIBRARY.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__MATH LIBRARY.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__Project.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__Project.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\ubuntu-24.04.1-desktop-amd64.iso", "target": "D:/SAMPLE/SOURCE\\Others\\ubuntu-24.04.1-desktop-amd64.iso"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Ubuntu.vbox", "target": "D:/SAMPLE/SOURCE\\Others\\Ubuntu.vbox"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Ubuntu.vbox-prev", "target": "D:/SAMPLE/SOURCE\\Others\\Ubuntu.vbox-prev"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Ubuntu.vdi", "target": "D:/SAMPLE/SOURCE\\Others\\Ubuntu.vdi"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\ugo.rtf", "target": "D:/SAMPLE/SOURCE\\Word Documents\\ugo.rtf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log.1", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log.1"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log.2", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log.2"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log.3", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log.3"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBoxHardening.log", "target": "D:/SAMPLE/SOURCE\\Others\\VBoxHardening.log"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\video sample.mp4", "target": "D:/SAMPLE/SOURCE\\Video\\video sample.mp4"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_GAP AFFIDAVIT.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_GAP AFFIDAVIT.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_indemnification.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_indemnification.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_portfolio.satish.12311551.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_portfolio.satish.12311551.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_transfer certificate.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_transfer certificate.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_undertaking by applicant.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_undertaking by applicant.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L3_Number system .pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L3_Number system .pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L4_Average.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L4_Average.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L5_percentage.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L5_percentage.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L6_percentage.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L6_percentage.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L7_profit and loss.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L7_profit and loss.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L8_profit and loss.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L8_profit and loss.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\CA1.java", "target": "D:/SAMPLE/SOURCE\\Others\\CA1.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\code.py", "target": "D:/SAMPLE/SOURCE\\Others\\code.py"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\d.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\d.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\digits.class", "target": "D:/SAMPLE/SOURCE\\Others\\digits.class"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\digits.java", "target": "D:/SAMPLE/SOURCE\\Others\\digits.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\distance.class", "target": "D:/SAMPLE/SOURCE\\Others\\distance.class"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\distance.java", "target": "D:/SAMPLE/SOURCE\\Others\\distance.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\file_organizer.log", "target": "D:/SAMPLE/SOURCE\\Others\\file_organizer.log"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\fkl.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\fkl.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\hgo.txt", "target": "D:/SAMPLE/SOURCE\\Text\\hgo.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_jpeg_GAP.jpg", "target": "D:/SAMPLE/SOURCE\\Images\\image_jpeg_GAP.jpg"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_jpeg_Screenshot_20231125-214146_Drive.jpg", "target": "D:/SAMPLE/SOURCE\\Images\\image_jpeg_Screenshot_20231125-214146_Drive.jpg"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_jpeg_Screenshot_20231125-214302_Drive.jpg", "target": "D:/SAMPLE/SOURCE\\Images\\image_jpeg_Screenshot_20231125-214302_Drive.jpg"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_png_12311551satish.png", "target": "D:/SAMPLE/SOURCE\\Images\\image_png_12311551satish.png"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\JAI.txt", "target": "D:/SAMPLE/SOURCE\\Text\\JAI.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\KHF OW.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\KHF OW.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\kjn.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\kjn.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\leap_year.class", "target": "D:/SAMPLE/SOURCE\\Others\\leap_year.class"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\leap_year.java", "target": "D:/SAMPLE/SOURCE\\Others\\leap_year.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\ms.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\ms.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Bitmap image.bmp", "target": "D:/SAMPLE/SOURCE\\Others\\New Bitmap image.bmp"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Microsoft Word Document.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\New Microsoft Word Document.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Rich Text Format.rtf", "target": "D:/SAMPLE/SOURCE\\Word Documents\\New Rich Text Format.rtf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Text Document.txt", "target": "D:/SAMPLE/SOURCE\\Text\\New Text Document.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\nsd.py", "target": "D:/SAMPLE/SOURCE\\Others\\nsd.py"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\restore_log.json", "target": "D:/SAMPLE/SOURCE\\Configuration Files\\restore_log.json"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\rich.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\rich.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Sample.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\Sample.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\satish.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\satish.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\satish.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\satish.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\text_x-python_chatgpt_command.py", "target": "D:/SAMPLE/SOURCE\\Others\\text_x-python_chatgpt_command.py"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__ARRAY LIBRARY.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__ARRAY LIBRARY.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__arrays.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__arrays.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__c2.c", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__c2.c"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__c3.c", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__c3.c"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__class and objects java.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__class and objects java.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__class.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__class.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__functions java.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__functions java.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__java questions.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__java questions.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__loops java.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__loops java.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__MATH LIBRARY.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__MATH LIBRARY.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__Project.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__Project.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\ubuntu-24.04.1-desktop-amd64.iso", "target": "D:/SAMPLE/SOURCE\\Others\\ubuntu-24.04.1-desktop-amd64.iso"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Ubuntu.vbox", "target": "D:/SAMPLE/SOURCE\\Others\\Ubuntu.vbox"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Ubuntu.vbox-prev", "target": "D:/SAMPLE/SOURCE\\Others\\Ubuntu.vbox-prev"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Ubuntu.vdi", "target": "D:/SAMPLE/SOURCE\\Others\\Ubuntu.vdi"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\ugo.rtf", "target": "D:/SAMPLE/SOURCE\\Word Documents\\ugo.rtf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log.1", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log.1"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log.2", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log.2"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log.3", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log.3"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBoxHardening.log", "target": "D:/SAMPLE/SOURCE\\Others\\VBoxHardening.log"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\video sample.mp4", "target": "D:/SAMPLE/SOURCE\\Video\\video sample.mp4"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_GAP AFFIDAVIT.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_GAP AFFIDAVIT.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_indemnification.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_indemnification.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_portfolio.satish.12311551.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_portfolio.satish.12311551.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_transfer certificate.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_transfer certificate.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_undertaking by applicant.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_undertaking by applicant.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L3_Number system .pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L3_Number system .pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L4_Average.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L4_Average.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L5_percentage.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L5_percentage.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L6_percentage.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L6_percentage.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L7_profit and loss.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L7_profit and loss.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L8_profit and loss.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L8_profit and loss.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\CA1.java", "target": "D:/SAMPLE/SOURCE\\Others\\CA1.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\code.py", "target": "D:/SAMPLE/SOURCE\\Others\\code.py"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\d.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\d.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\digits.class", "target": "D:/SAMPLE/SOURCE\\Others\\digits.class"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\digits.java", "target": "D:/SAMPLE/SOURCE\\Others\\digits.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\distance.class", "target": "D:/SAMPLE/SOURCE\\Others\\distance.class"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\distance.java", "target": "D:/SAMPLE/SOURCE\\Others\\distance.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\file_organizer.log", "target": "D:/SAMPLE/SOURCE\\Others\\file_organizer.log"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\fkl.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\fkl.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\hgo.txt", "target": "D:/SAMPLE/SOURCE\\Text\\hgo.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_jpeg_GAP.jpg", "target": "D:/SAMPLE/SOURCE\\Images\\image_jpeg_GAP.jpg"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_jpeg_Screenshot_20231125-214146_Drive.jpg", "target": "D:/SAMPLE/SOURCE\\Images\\image_jpeg_Screenshot_20231125-214146_Drive.jpg"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_jpeg_Screenshot_20231125-214302_Drive.jpg", "target": "D:/SAMPLE/SOURCE\\Images\\image_jpeg_Screenshot_20231125-214302_Drive.jpg"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_png_12311551satish.png", "target": "D:/SAMPLE/SOURCE\\Images\\image_png_12311551satish.png"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\JAI.txt", "target": "D:/SAMPLE/SOURCE\\Text\\JAI.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\KHF OW.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\KHF OW.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\kjn.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\kjn.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\leap_year.class", "target": "D:/SAMPLE/SOURCE\\Others\\leap_year.class"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\leap_year.java", "target": "D:/SAMPLE/SOURCE\\Others\\leap_year.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\ms.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\ms.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Bitmap image.bmp", "target": "D:/SAMPLE/SOURCE\\Others\\New Bitmap image.bmp"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Microsoft Word Document.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\New Microsoft Word Document.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Rich Text Format.rtf", "target": "D:/SAMPLE/SOURCE\\Word Documents\\New Rich Text Format.rtf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Text Document.txt", "target": "D:/SAMPLE/SOURCE\\Text\\New Text Document.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\nsd.py", "target": "D:/SAMPLE/SOURCE\\Others\\nsd.py"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\restore_log.json", "target": "D:/SAMPLE/SOURCE\\Configuration Files\\restore_log.json"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\rich.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\rich.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Sample.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\Sample.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\satish.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\satish.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\satish.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\satish.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\text_x-python_chatgpt_command.py", "target": "D:/SAMPLE/SOURCE\\Others\\text_x-python_chatgpt_command.py"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__ARRAY LIBRARY.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__ARRAY LIBRARY.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__arrays.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__arrays.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__c2.c", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__c2.c"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__c3.c", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__c3.c"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__class and objects java.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__class and objects java.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__class.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__class.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__functions java.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__functions java.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__java questions.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__java questions.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__loops java.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__loops java.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__MATH LIBRARY.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__MATH LIBRARY.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__Project.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__Project.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\ubuntu-24.04.1-desktop-amd64.iso", "target": "D:/SAMPLE/SOURCE\\Others\\ubuntu-24.04.1-desktop-amd64.iso"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Ubuntu.vbox", "target": "D:/SAMPLE/SOURCE\\Others\\Ubuntu.vbox"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Ubuntu.vbox-prev", "target": "D:/SAMPLE/SOURCE\\Others\\Ubuntu.vbox-prev"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Ubuntu.vdi", "target": "D:/SAMPLE/SOURCE\\Others\\Ubuntu.vdi"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\ugo.rtf", "target": "D:/SAMPLE/SOURCE\\Word Documents\\ugo.rtf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log.1", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log.1"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log.2", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log.2"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log.3", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log.3"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBoxHardening.log", "target": "D:/SAMPLE/SOURCE\\Others\\VBoxHardening.log"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\video sample.mp4", "target": "D:/SAMPLE/SOURCE\\Video\\video sample.mp4"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_GAP AFFIDAVIT.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_GAP AFFIDAVIT.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_indemnification.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_indemnification.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_portfolio.satish.12311551.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_portfolio.satish.12311551.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_transfer certificate.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_transfer certificate.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_undertaking by applicant.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_undertaking by applicant.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L3_Number system .pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L3_Number system .pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L4_Average.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L4_Average.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L5_percentage.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L5_percentage.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L6_percentage.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L6_percentage.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L7_profit and loss.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L7_profit and loss.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L8_profit and loss.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L8_profit and loss.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\CA1.java", "target": "D:/SAMPLE/SOURCE\\Others\\CA1.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\code.py", "target": "D:/SAMPLE/SOURCE\\Others\\code.py"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\d.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\d.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\digits.class", "target": "D:/SAMPLE/SOURCE\\Others\\digits.class"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\digits.java", "target": "D:/SAMPLE/SOURCE\\Others\\digits.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\distance.class", "target": "D:/SAMPLE/SOURCE\\Others\\distance.class"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\distance.java", "target": "D:/SAMPLE/SOURCE\\Others\\distance.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\file_organizer.log", "target": "D:/SAMPLE/SOURCE\\Others\\file_organizer.log"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\fkl.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\fkl.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\hgo.txt", "target": "D:/SAMPLE/SOURCE\\Text\\hgo.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_jpeg_GAP.jpg", "target": "D:/SAMPLE/SOURCE\\Images\\image_jpeg_GAP.jpg"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_jpeg_Screenshot_20231125-214146_Drive.jpg", "target": "D:/SAMPLE/SOURCE\\Images\\image_jpeg_Screenshot_20231125-214146_Drive.jpg"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_jpeg_Screenshot_20231125-214302_Drive.jpg", "target": "D:/SAMPLE/SOURCE\\Images\\image_jpeg_Screenshot_20231125-214302_Drive.jpg"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_png_12311551satish.png", "target": "D:/SAMPLE/SOURCE\\Images\\image_png_12311551satish.png"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\JAI.txt", "target": "D:/SAMPLE/SOURCE\\Text\\JAI.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\KHF OW.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\KHF OW.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\kjn.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\kjn.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\leap_year.class", "target": "D:/SAMPLE/SOURCE\\Others\\leap_year.class"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\leap_year.java", "target": "D:/SAMPLE/SOURCE\\Others\\leap_year.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\ms.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\ms.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Bitmap image.bmp", "target": "D:/SAMPLE/SOURCE\\Others\\New Bitmap image.bmp"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Microsoft Word Document.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\New Microsoft Word Document.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Rich Text Format.rtf", "target": "D:/SAMPLE/SOURCE\\Word Documents\\New Rich Text Format.rtf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Text Document.txt", "target": "D:/SAMPLE/SOURCE\\Text\\New Text Document.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\nsd.py", "target": "D:/SAMPLE/SOURCE\\Others\\nsd.py"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\restore_log.json", "target": "D:/SAMPLE/SOURCE\\Configuration Files\\restore_log.json"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\rich.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\rich.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Sample.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\Sample.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\satish.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\satish.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\satish.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\satish.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\text_x-python_chatgpt_command.py", "target": "D:/SAMPLE/SOURCE\\Others\\text_x-python_chatgpt_command.py"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__ARRAY LIBRARY.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__ARRAY LIBRARY.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__arrays.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__arrays.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__c2.c", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__c2.c"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__c3.c", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__c3.c"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__class and objects java.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__class and objects java.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__class.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__class.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__functions java.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__functions java.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__java questions.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__java questions.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__loops java.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__loops java.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__MATH LIBRARY.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__MATH LIBRARY.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__Project.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__Project.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\ubuntu-24.04.1-desktop-amd64.iso", "target": "D:/SAMPLE/SOURCE\\Others\\ubuntu-24.04.1-desktop-amd64.iso"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Ubuntu.vbox", "target": "D:/SAMPLE/SOURCE\\Others\\Ubuntu.vbox"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Ubuntu.vbox-prev", "target": "D:/SAMPLE/SOURCE\\Others\\Ubuntu.vbox-prev"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Ubuntu.vdi", "target": "D:/SAMPLE/SOURCE\\Others\\Ubuntu.vdi"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\ugo.rtf", "target": "D:/SAMPLE/SOURCE\\Word Documents\\ugo.rtf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log.1", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log.1"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log.2", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log.2"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log.3", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log.3"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBoxHardening.log", "target": "D:/SAMPLE/SOURCE\\Others\\VBoxHardening.log"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\video sample.mp4", "target": "D:/SAMPLE/SOURCE\\Video\\video sample.mp4"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_GAP AFFIDAVIT.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_GAP AFFIDAVIT.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_indemnification.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_indemnification.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_portfolio.satish.12311551.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_portfolio.satish.12311551.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_transfer certificate.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_transfer certificate.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_undertaking by applicant.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_undertaking by applicant.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L3_Number system .pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L3_Number system .pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L4_Average.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L4_Average.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L5_percentage.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L5_percentage.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L6_percentage.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L6_percentage.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L7_profit and loss.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L7_profit and loss.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L8_profit and loss.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L8_profit and loss.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\CA1.java", "target": "D:/SAMPLE/SOURCE\\Others\\CA1.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\code.py", "target": "D:/SAMPLE/SOURCE\\Others\\code.py"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\d.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\d.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\digits.class", "target": "D:/SAMPLE/SOURCE\\Others\\digits.class"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\digits.java", "target": "D:/SAMPLE/SOURCE\\Others\\digits.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\distance.class", "target": "D:/SAMPLE/SOURCE\\Others\\distance.class"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\distance.java", "target": "D:/SAMPLE/SOURCE\\Others\\distance.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\file_organizer.log", "target": "D:/SAMPLE/SOURCE\\Others\\file_organizer.log"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\fkl.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\fkl.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\hgo.txt", "target": "D:/SAMPLE/SOURCE\\Text\\hgo.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_jpeg_GAP.jpg", "target": "D:/SAMPLE/SOURCE\\Images\\image_jpeg_GAP.jpg"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_jpeg_Screenshot_20231125-214146_Drive.jpg", "target": "D:/SAMPLE/SOURCE\\Images\\image_jpeg_Screenshot_20231125-214146_Drive.jpg"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_jpeg_Screenshot_20231125-214302_Drive.jpg", "target": "D:/SAMPLE/SOURCE\\Images\\image_jpeg_Screenshot_20231125-214302_Drive.jpg"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_png_12311551satish.png", "target": "D:/SAMPLE/SOURCE\\Images\\image_png_12311551satish.png"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\JAI.txt", "target": "D:/SAMPLE/SOURCE\\Text\\JAI.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\KHF OW.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\KHF OW.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\kjn.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\kjn.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\leap_year.class", "target": "D:/SAMPLE/SOURCE\\Others\\leap_year.class"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\leap_year.java", "target": "D:/SAMPLE/SOURCE\\Others\\leap_year.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\ms.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\ms.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Bitmap image.bmp", "target": "D:/SAMPLE/SOURCE\\Others\\New Bitmap image.bmp"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Microsoft Word Document.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\New Microsoft Word Document.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Rich Text Format.rtf", "target": "D:/SAMPLE/SOURCE\\Word Documents\\New Rich Text Format.rtf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Text Document.txt", "target": "D:/SAMPLE/SOURCE\\Text\\New Text Document.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\nsd.py", "target": "D:/SAMPLE/SOURCE\\Others\\nsd.py"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\restore_log.json", "target": "D:/SAMPLE/SOURCE\\Configuration Files\\restore_log.json"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\rich.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\rich.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Sample.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\Sample.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\satish.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\satish.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\satish.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\satish.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\text_x-python_chatgpt_command.py", "target": "D:/SAMPLE/SOURCE\\Others\\text_x-python_chatgpt_command.py"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__ARRAY LIBRARY.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__ARRAY LIBRARY.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__arrays.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__arrays.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__c2.c", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__c2.c"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__c3.c", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__c3.c"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__class and objects java.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__class and objects java.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__class.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__class.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__functions java.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__functions java.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__java questions.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__java questions.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__loops java.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__loops java.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__MATH LIBRARY.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__MATH LIBRARY.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__Project.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__Project.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\ubuntu-24.04.1-desktop-amd64.iso", "target": "D:/SAMPLE/SOURCE\\Others\\ubuntu-24.04.1-desktop-amd64.iso"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Ubuntu.vbox", "target": "D:/SAMPLE/SOURCE\\Others\\Ubuntu.vbox"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Ubuntu.vbox-prev", "target": "D:/SAMPLE/SOURCE\\Others\\Ubuntu.vbox-prev"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Ubuntu.vdi", "target": "D:/SAMPLE/SOURCE\\Others\\Ubuntu.vdi"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\ugo.rtf", "target": "D:/SAMPLE/SOURCE\\Word Documents\\ugo.rtf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log.1", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log.1"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log.2", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log.2"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log.3", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log.3"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBoxHardening.log", "target": "D:/SAMPLE/SOURCE\\Others\\VBoxHardening.log"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\video sample.mp4", "target": "D:/SAMPLE/SOURCE\\Video\\video sample.mp4"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_GAP AFFIDAVIT.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_GAP AFFIDAVIT.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_indemnification.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_indemnification.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_portfolio.satish.12311551.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_portfolio.satish.12311551.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_transfer certificate.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_transfer certificate.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_undertaking by applicant.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_undertaking by applicant.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L3_Number system .pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L3_Number system .pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L4_Average.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L4_Average.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L5_percentage.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L5_percentage.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L6_percentage.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L6_percentage.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L7_profit and loss.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L7_profit and loss.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L8_profit and loss.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L8_profit and loss.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\CA1.java", "target": "D:/SAMPLE/SOURCE\\Others\\CA1.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\code.py", "target": "D:/SAMPLE/SOURCE\\Others\\code.py"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\d.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\d.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\digits.class", "target": "D:/SAMPLE/SOURCE\\Others\\digits.class"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\digits.java", "target": "D:/SAMPLE/SOURCE\\Others\\digits.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\distance.class", "target": "D:/SAMPLE/SOURCE\\Others\\distance.class"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\distance.java", "target": "D:/SAMPLE/SOURCE\\Others\\distance.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\file_organizer.log", "target": "D:/SAMPLE/SOURCE\\Others\\file_organizer.log"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\fkl.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\fkl.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\hgo.txt", "target": "D:/SAMPLE/SOURCE\\Text\\hgo.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_jpeg_GAP.jpg", "target": "D:/SAMPLE/SOURCE\\Images\\image_jpeg_GAP.jpg"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_jpeg_Screenshot_20231125-214146_Drive.jpg", "target": "D:/SAMPLE/SOURCE\\Images\\image_jpeg_Screenshot_20231125-214146_Drive.jpg"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_jpeg_Screenshot_20231125-214302_Drive.jpg", "target": "D:/SAMPLE/SOURCE\\Images\\image_jpeg_Screenshot_20231125-214302_Drive.jpg"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_png_12311551satish.png", "target": "D:/SAMPLE/SOURCE\\Images\\image_png_12311551satish.png"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\JAI.txt", "target": "D:/SAMPLE/SOURCE\\Text\\JAI.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\KHF OW.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\KHF OW.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\kjn.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\kjn.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\leap_year.class", "target": "D:/SAMPLE/SOURCE\\Others\\leap_year.class"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\leap_year.java", "target": "D:/SAMPLE/SOURCE\\Others\\leap_year.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\ms.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\ms.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Bitmap image.bmp", "target": "D:/SAMPLE/SOURCE\\Others\\New Bitmap image.bmp"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Microsoft Word Document.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\New Microsoft Word Document.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Rich Text Format.rtf", "target": "D:/SAMPLE/SOURCE\\Word Documents\\New Rich Text Format.rtf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Text Document.txt", "target": "D:/SAMPLE/SOURCE\\Text\\New Text Document.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\nsd.py", "target": "D:/SAMPLE/SOURCE\\Others\\nsd.py"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\restore_log.json", "target": "D:/SAMPLE/SOURCE\\Configuration Files\\restore_log.json"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\rich.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\rich.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Sample.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\Sample.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\satish.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\satish.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\satish.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\satish.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\text_x-python_chatgpt_command.py", "target": "D:/SAMPLE/SOURCE\\Others\\text_x-python_chatgpt_command.py"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__ARRAY LIBRARY.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__ARRAY LIBRARY.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__arrays.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__arrays.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__c2.c", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__c2.c"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__c3.c", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__c3.c"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__class and objects java.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__class and objects java.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__class.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__class.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__functions java.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__functions java.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__java questions.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__java questions.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__loops java.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__loops java.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__MATH LIBRARY.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__MATH LIBRARY.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__Project.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__Project.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\ubuntu-24.04.1-desktop-amd64.iso", "target": "D:/SAMPLE/SOURCE\\Others\\ubuntu-24.04.1-desktop-amd64.iso"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Ubuntu.vbox", "target": "D:/SAMPLE/SOURCE\\Others\\Ubuntu.vbox"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Ubuntu.vbox-prev", "target": "D:/SAMPLE/SOURCE\\Others\\Ubuntu.vbox-prev"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Ubuntu.vdi", "target": "D:/SAMPLE/SOURCE\\Others\\Ubuntu.vdi"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\ugo.rtf", "target": "D:/SAMPLE/SOURCE\\Word Documents\\ugo.rtf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log.1", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log.1"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log.2", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log.2"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log.3", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log.3"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBoxHardening.log", "target": "D:/SAMPLE/SOURCE\\Others\\VBoxHardening.log"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\video sample.mp4", "target": "D:/SAMPLE/SOURCE\\Video\\video sample.mp4"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_GAP AFFIDAVIT.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_GAP AFFIDAVIT.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_indemnification.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_indemnification.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_portfolio.satish.12311551.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_portfolio.satish.12311551.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_transfer certificate.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_transfer certificate.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_undertaking by applicant.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_undertaking by applicant.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L3_Number system .pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L3_Number system .pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L4_Average.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L4_Average.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L5_percentage.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L5_percentage.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L6_percentage.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L6_percentage.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L7_profit and loss.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L7_profit and loss.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L8_profit and loss.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L8_profit and loss.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\CA1.java", "target": "D:/SAMPLE/SOURCE\\Others\\CA1.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\code.py", "target": "D:/SAMPLE/SOURCE\\Others\\code.py"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\d.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\d.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\digits.class", "target": "D:/SAMPLE/SOURCE\\Others\\digits.class"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\digits.java", "target": "D:/SAMPLE/SOURCE\\Others\\digits.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\distance.class", "target": "D:/SAMPLE/SOURCE\\Others\\distance.class"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\distance.java", "target": "D:/SAMPLE/SOURCE\\Others\\distance.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\file_organizer.log", "target": "D:/SAMPLE/SOURCE\\Others\\file_organizer.log"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\fkl.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\fkl.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\hgo.txt", "target": "D:/SAMPLE/SOURCE\\Text\\hgo.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_jpeg_GAP.jpg", "target": "D:/SAMPLE/SOURCE\\Images\\image_jpeg_GAP.jpg"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_jpeg_Screenshot_20231125-214146_Drive.jpg", "target": "D:/SAMPLE/SOURCE\\Images\\image_jpeg_Screenshot_20231125-214146_Drive.jpg"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_jpeg_Screenshot_20231125-214302_Drive.jpg", "target": "D:/SAMPLE/SOURCE\\Images\\image_jpeg_Screenshot_20231125-214302_Drive.jpg"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_png_12311551satish.png", "target": "D:/SAMPLE/SOURCE\\Images\\image_png_12311551satish.png"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\JAI.txt", "target": "D:/SAMPLE/SOURCE\\Text\\JAI.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\KHF OW.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\KHF OW.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\kjn.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\kjn.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\leap_year.class", "target": "D:/SAMPLE/SOURCE\\Others\\leap_year.class"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\leap_year.java", "target": "D:/SAMPLE/SOURCE\\Others\\leap_year.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\ms.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\ms.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Bitmap image.bmp", "target": "D:/SAMPLE/SOURCE\\Others\\New Bitmap image.bmp"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Microsoft Word Document.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\New Microsoft Word Document.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Rich Text Format.rtf", "target": "D:/SAMPLE/SOURCE\\Word Documents\\New Rich Text Format.rtf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Text Document.txt", "target": "D:/SAMPLE/SOURCE\\Text\\New Text Document.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\nsd.py", "target": "D:/SAMPLE/SOURCE\\Others\\nsd.py"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\restore_log.json", "target": "D:/SAMPLE/SOURCE\\Configuration Files\\restore_log.json"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\rich.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\rich.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Sample.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\Sample.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\satish.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\satish.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\satish.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\satish.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\text_x-python_chatgpt_command.py", "target": "D:/SAMPLE/SOURCE\\Others\\text_x-python_chatgpt_command.py"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__ARRAY LIBRARY.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__ARRAY LIBRARY.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__arrays.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__arrays.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__c2.c", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__c2.c"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__c3.c", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__c3.c"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__class and objects java.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__class and objects java.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__class.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__class.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__functions java.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__functions java.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__java questions.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__java questions.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__loops java.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__loops java.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__MATH LIBRARY.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__MATH LIBRARY.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__Project.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__Project.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\ubuntu-24.04.1-desktop-amd64.iso", "target": "D:/SAMPLE/SOURCE\\Others\\ubuntu-24.04.1-desktop-amd64.iso"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Ubuntu.vbox", "target": "D:/SAMPLE/SOURCE\\Others\\Ubuntu.vbox"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Ubuntu.vbox-prev", "target": "D:/SAMPLE/SOURCE\\Others\\Ubuntu.vbox-prev"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Ubuntu.vdi", "target": "D:/SAMPLE/SOURCE\\Others\\Ubuntu.vdi"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\ugo.rtf", "target": "D:/SAMPLE/SOURCE\\Word Documents\\ugo.rtf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log.1", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log.1"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log.2", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log.2"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log.3", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log.3"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBoxHardening.log", "target": "D:/SAMPLE/SOURCE\\Others\\VBoxHardening.log"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\video sample.mp4", "target": "D:/SAMPLE/SOURCE\\Video\\video sample.mp4"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_GAP AFFIDAVIT.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_GAP AFFIDAVIT.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_indemnification.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_indemnification.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_portfolio.satish.12311551.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_portfolio.satish.12311551.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_transfer certificate.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_transfer certificate.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_undertaking by applicant.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_undertaking by applicant.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L3_Number system .pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L3_Number system .pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L4_Average.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L4_Average.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L5_percentage.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L5_percentage.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L6_percentage.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L6_percentage.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L7_profit and loss.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L7_profit and loss.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L8_profit and loss.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L8_profit and loss.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\CA1.java", "target": "D:/SAMPLE/SOURCE\\Others\\CA1.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\code.py", "target": "D:/SAMPLE/SOURCE\\Others\\code.py"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\d.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\d.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\digits.class", "target": "D:/SAMPLE/SOURCE\\Others\\digits.class"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\digits.java", "target": "D:/SAMPLE/SOURCE\\Others\\digits.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\distance.class", "target": "D:/SAMPLE/SOURCE\\Others\\distance.class"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\distance.java", "target": "D:/SAMPLE/SOURCE\\Others\\distance.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\file_organizer.log", "target": "D:/SAMPLE/SOURCE\\Others\\file_organizer.log"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\fkl.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\fkl.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\hgo.txt", "target": "D:/SAMPLE/SOURCE\\Text\\hgo.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_jpeg_GAP.jpg", "target": "D:/SAMPLE/SOURCE\\Images\\image_jpeg_GAP.jpg"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_jpeg_Screenshot_20231125-214146_Drive.jpg", "target": "D:/SAMPLE/SOURCE\\Images\\image_jpeg_Screenshot_20231125-214146_Drive.jpg"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_jpeg_Screenshot_20231125-214302_Drive.jpg", "target": "D:/SAMPLE/SOURCE\\Images\\image_jpeg_Screenshot_20231125-214302_Drive.jpg"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_png_12311551satish.png", "target": "D:/SAMPLE/SOURCE\\Images\\image_png_12311551satish.png"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\JAI.txt", "target": "D:/SAMPLE/SOURCE\\Text\\JAI.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\KHF OW.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\KHF OW.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\kjn.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\kjn.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\leap_year.class", "target": "D:/SAMPLE/SOURCE\\Others\\leap_year.class"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\leap_year.java", "target": "D:/SAMPLE/SOURCE\\Others\\leap_year.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\ms.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\ms.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Bitmap image.bmp", "target": "D:/SAMPLE/SOURCE\\Others\\New Bitmap image.bmp"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Microsoft Word Document.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\New Microsoft Word Document.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Rich Text Format.rtf", "target": "D:/SAMPLE/SOURCE\\Word Documents\\New Rich Text Format.rtf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Text Document.txt", "target": "D:/SAMPLE/SOURCE\\Text\\New Text Document.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\nsd.py", "target": "D:/SAMPLE/SOURCE\\Others\\nsd.py"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\restore_log.json", "target": "D:/SAMPLE/SOURCE\\Configuration Files\\restore_log.json"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\rich.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\rich.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Sample.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\Sample.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\satish.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\satish.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\satish.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\satish.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\text_x-python_chatgpt_command.py", "target": "D:/SAMPLE/SOURCE\\Others\\text_x-python_chatgpt_command.py"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__ARRAY LIBRARY.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__ARRAY LIBRARY.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__arrays.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__arrays.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__c2.c", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__c2.c"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__c3.c", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__c3.c"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__class and objects java.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__class and objects java.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__class.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__class.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__functions java.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__functions java.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__java questions.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__java questions.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__loops java.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__loops java.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__MATH LIBRARY.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__MATH LIBRARY.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__Project.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__Project.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\ubuntu-24.04.1-desktop-amd64.iso", "target": "D:/SAMPLE/SOURCE\\Others\\ubuntu-24.04.1-desktop-amd64.iso"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Ubuntu.vbox", "target": "D:/SAMPLE/SOURCE\\Others\\Ubuntu.vbox"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Ubuntu.vbox-prev", "target": "D:/SAMPLE/SOURCE\\Others\\Ubuntu.vbox-prev"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Ubuntu.vdi", "target": "D:/SAMPLE/SOURCE\\Others\\Ubuntu.vdi"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\ugo.rtf", "target": "D:/SAMPLE/SOURCE\\Word Documents\\ugo.rtf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log.1", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log.1"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log.2", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log.2"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log.3", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log.3"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBoxHardening.log", "target": "D:/SAMPLE/SOURCE\\Others\\VBoxHardening.log"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\video sample.mp4", "target": "D:/SAMPLE/SOURCE\\Video\\video sample.mp4"}}
+{"operation": "copy", "details": {"source": "D:/SAMPLE/SOURCE/Images/image_jpeg_Screenshot_20231125-214146_Drive.jpg", "target": "D:/SAMPLE/SOURCE\\image_jpeg_Screenshot_20231125-214146_Drive.jpg"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_GAP AFFIDAVIT.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_GAP AFFIDAVIT.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_indemnification.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_indemnification.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_portfolio.satish.12311551.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_portfolio.satish.12311551.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_transfer certificate.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_transfer certificate.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_undertaking by applicant.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_undertaking by applicant.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L3_Number system .pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L3_Number system .pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L4_Average.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L4_Average.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L5_percentage.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L5_percentage.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L6_percentage.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L6_percentage.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L7_profit and loss.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L7_profit and loss.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L8_profit and loss.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L8_profit and loss.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\CA1.java", "target": "D:/SAMPLE/SOURCE\\Others\\CA1.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\code.py", "target": "D:/SAMPLE/SOURCE\\Others\\code.py"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\d.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\d.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\digits.class", "target": "D:/SAMPLE/SOURCE\\Others\\digits.class"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\digits.java", "target": "D:/SAMPLE/SOURCE\\Others\\digits.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\distance.class", "target": "D:/SAMPLE/SOURCE\\Others\\distance.class"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\distance.java", "target": "D:/SAMPLE/SOURCE\\Others\\distance.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\file_organizer.log", "target": "D:/SAMPLE/SOURCE\\Others\\file_organizer.log"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\fkl.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\fkl.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\hgo.txt", "target": "D:/SAMPLE/SOURCE\\Text\\hgo.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_jpeg_GAP.jpg", "target": "D:/SAMPLE/SOURCE\\Images\\image_jpeg_GAP.jpg"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_jpeg_Screenshot_20231125-214146_Drive.jpg", "target": "D:/SAMPLE/SOURCE\\Images\\image_jpeg_Screenshot_20231125-214146_Drive.jpg"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_jpeg_Screenshot_20231125-214302_Drive.jpg", "target": "D:/SAMPLE/SOURCE\\Images\\image_jpeg_Screenshot_20231125-214302_Drive.jpg"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_png_12311551satish.png", "target": "D:/SAMPLE/SOURCE\\Images\\image_png_12311551satish.png"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\JAI.txt", "target": "D:/SAMPLE/SOURCE\\Text\\JAI.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\KHF OW.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\KHF OW.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\kjn.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\kjn.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\leap_year.class", "target": "D:/SAMPLE/SOURCE\\Others\\leap_year.class"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\leap_year.java", "target": "D:/SAMPLE/SOURCE\\Others\\leap_year.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\ms.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\ms.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Bitmap image.bmp", "target": "D:/SAMPLE/SOURCE\\Others\\New Bitmap image.bmp"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Microsoft Word Document.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\New Microsoft Word Document.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Rich Text Format.rtf", "target": "D:/SAMPLE/SOURCE\\Word Documents\\New Rich Text Format.rtf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Text Document.txt", "target": "D:/SAMPLE/SOURCE\\Text\\New Text Document.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\nsd.py", "target": "D:/SAMPLE/SOURCE\\Others\\nsd.py"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\restore_log.json", "target": "D:/SAMPLE/SOURCE\\Configuration Files\\restore_log.json"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\rich.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\rich.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Sample.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\Sample.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\satish.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\satish.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\satish.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\satish.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\text_x-python_chatgpt_command.py", "target": "D:/SAMPLE/SOURCE\\Others\\text_x-python_chatgpt_command.py"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__ARRAY LIBRARY.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__ARRAY LIBRARY.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__arrays.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__arrays.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__c2.c", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__c2.c"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__c3.c", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__c3.c"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__class and objects java.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__class and objects java.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__class.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__class.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__functions java.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__functions java.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__java questions.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__java questions.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__loops java.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__loops java.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__MATH LIBRARY.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__MATH LIBRARY.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__Project.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__Project.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\ubuntu-24.04.1-desktop-amd64.iso", "target": "D:/SAMPLE/SOURCE\\Others\\ubuntu-24.04.1-desktop-amd64.iso"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Ubuntu.vbox", "target": "D:/SAMPLE/SOURCE\\Others\\Ubuntu.vbox"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Ubuntu.vbox-prev", "target": "D:/SAMPLE/SOURCE\\Others\\Ubuntu.vbox-prev"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Ubuntu.vdi", "target": "D:/SAMPLE/SOURCE\\Others\\Ubuntu.vdi"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\ugo.rtf", "target": "D:/SAMPLE/SOURCE\\Word Documents\\ugo.rtf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log.1", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log.1"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log.2", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log.2"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log.3", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log.3"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBoxHardening.log", "target": "D:/SAMPLE/SOURCE\\Others\\VBoxHardening.log"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\video sample.mp4", "target": "D:/SAMPLE/SOURCE\\Video\\video sample.mp4"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_GAP AFFIDAVIT.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_GAP AFFIDAVIT.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_indemnification.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_indemnification.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_portfolio.satish.12311551.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_portfolio.satish.12311551.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_transfer certificate.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_transfer certificate.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_pdf_undertaking by applicant.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\application_pdf_undertaking by applicant.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L3_Number system .pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L3_Number system .pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L4_Average.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L4_Average.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L5_percentage.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L5_percentage.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L6_percentage.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L6_percentage.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L7_profit and loss.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L7_profit and loss.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L8_profit and loss.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\application_vnd.openxmlformats-officedocument.presentationml.presentation_PEA-305_L8_profit and loss.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\CA1.java", "target": "D:/SAMPLE/SOURCE\\Others\\CA1.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\code.py", "target": "D:/SAMPLE/SOURCE\\Others\\code.py"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\d.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\d.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\digits.class", "target": "D:/SAMPLE/SOURCE\\Others\\digits.class"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\digits.java", "target": "D:/SAMPLE/SOURCE\\Others\\digits.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\distance.class", "target": "D:/SAMPLE/SOURCE\\Others\\distance.class"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\distance.java", "target": "D:/SAMPLE/SOURCE\\Others\\distance.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\file_organizer.log", "target": "D:/SAMPLE/SOURCE\\Others\\file_organizer.log"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\fkl.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\fkl.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\hgo.txt", "target": "D:/SAMPLE/SOURCE\\Text\\hgo.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_jpeg_GAP.jpg", "target": "D:/SAMPLE/SOURCE\\Images\\image_jpeg_GAP.jpg"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_jpeg_Screenshot_20231125-214146_Drive.jpg", "target": "D:/SAMPLE/SOURCE\\Images\\image_jpeg_Screenshot_20231125-214146_Drive.jpg"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_jpeg_Screenshot_20231125-214302_Drive.jpg", "target": "D:/SAMPLE/SOURCE\\Images\\image_jpeg_Screenshot_20231125-214302_Drive.jpg"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\image_png_12311551satish.png", "target": "D:/SAMPLE/SOURCE\\Images\\image_png_12311551satish.png"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\JAI.txt", "target": "D:/SAMPLE/SOURCE\\Text\\JAI.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\KHF OW.pptx", "target": "D:/SAMPLE/SOURCE\\Presentations\\KHF OW.pptx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\kjn.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\kjn.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\leap_year.class", "target": "D:/SAMPLE/SOURCE\\Others\\leap_year.class"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\leap_year.java", "target": "D:/SAMPLE/SOURCE\\Others\\leap_year.java"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\ms.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\ms.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Bitmap image.bmp", "target": "D:/SAMPLE/SOURCE\\Others\\New Bitmap image.bmp"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Microsoft Word Document.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\New Microsoft Word Document.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Rich Text Format.rtf", "target": "D:/SAMPLE/SOURCE\\Word Documents\\New Rich Text Format.rtf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\New Text Document.txt", "target": "D:/SAMPLE/SOURCE\\Text\\New Text Document.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\nsd.py", "target": "D:/SAMPLE/SOURCE\\Others\\nsd.py"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\restore_log.json", "target": "D:/SAMPLE/SOURCE\\Configuration Files\\restore_log.json"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\rich.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\rich.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Sample.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\Sample.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\satish.docx", "target": "D:/SAMPLE/SOURCE\\Word Documents\\satish.docx"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\satish.pdf", "target": "D:/SAMPLE/SOURCE\\Documents\\satish.pdf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\text_x-python_chatgpt_command.py", "target": "D:/SAMPLE/SOURCE\\Others\\text_x-python_chatgpt_command.py"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__ARRAY LIBRARY.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__ARRAY LIBRARY.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__arrays.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__arrays.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__c2.c", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__c2.c"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__c3.c", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__c3.c"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__class and objects java.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__class and objects java.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__class.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__class.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__functions java.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__functions java.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__java questions.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__java questions.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__loops java.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__loops java.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__MATH LIBRARY.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__MATH LIBRARY.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\TEXT__Project.txt", "target": "D:/SAMPLE/SOURCE\\Text\\TEXT__Project.txt"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\ubuntu-24.04.1-desktop-amd64.iso", "target": "D:/SAMPLE/SOURCE\\Others\\ubuntu-24.04.1-desktop-amd64.iso"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Ubuntu.vbox", "target": "D:/SAMPLE/SOURCE\\Others\\Ubuntu.vbox"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Ubuntu.vbox-prev", "target": "D:/SAMPLE/SOURCE\\Others\\Ubuntu.vbox-prev"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\Ubuntu.vdi", "target": "D:/SAMPLE/SOURCE\\Others\\Ubuntu.vdi"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\ugo.rtf", "target": "D:/SAMPLE/SOURCE\\Word Documents\\ugo.rtf"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log.1", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log.1"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log.2", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log.2"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBox.log.3", "target": "D:/SAMPLE/SOURCE\\Others\\VBox.log.3"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\VBoxHardening.log", "target": "D:/SAMPLE/SOURCE\\Others\\VBoxHardening.log"}}
+{"operation": "move", "details": {"source": "D:/SAMPLE/SOURCE\\video sample.mp4", "target": "D:/SAMPLE/SOURCE\\Video\\video sample.mp4"}}

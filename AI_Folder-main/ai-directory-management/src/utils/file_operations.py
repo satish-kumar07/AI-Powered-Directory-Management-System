@@ -114,30 +114,43 @@ def categorize_file(file_name, categories):
             return category
     return "Others"
 
-def organize_files(source_dir, target_dir, model):
+def organize_files_task(source_directory, target_directory, model, show_message=None):
     """Organize files in the source directory using the provided model."""
-    if not os.path.exists(source_dir):
-        logging.error(f"Source directory {source_dir} does not exist.")
+    try:
+        if not os.path.exists(source_directory):
+            logging.error(f"Source directory '{source_directory}' does not exist.")
+            if show_message:
+                show_message("Error", f"Source directory '{source_directory}' does not exist.")
+            return
+
+        if not os.path.exists(target_directory):
+            os.makedirs(target_directory)
+
+        for file_name in os.listdir(source_directory):
+            file_path = os.path.join(source_directory, file_name)
+            if os.path.isfile(file_path):
+                file_metadata = {
+                    'name': file_name,
+                    'size': os.path.getsize(file_path),
+                    'type': mimetypes.guess_type(file_path)[0] or 'application/octet-stream'
+                }
+                category = model.predict_category(file_metadata)
+                target_folder = os.path.join(target_directory, category)
+                if not os.path.exists(target_folder):
+                    os.makedirs(target_folder)
+                move_file(file_path, os.path.join(target_folder, file_name), show_dialog=False)
+
+        # Log success and show success message
+        logging.info(f"Files in '{source_directory}' have been organized successfully into '{target_directory}'.")
+        if show_message:
+            show_message("Success", f"Files in '{source_directory}' have been organized successfully into '{target_directory}'.")
+
+        # Stop the function after successful completion
         return
-
-    if not os.path.exists(target_dir):
-        os.makedirs(target_dir)
-
-    for file_name in os.listdir(source_dir):
-        file_path = os.path.join(source_dir, file_name)
-        if os.path.isfile(file_path):
-            file_metadata = {
-                'name': file_name,
-                'size': os.path.getsize(file_path),
-                'type': mimetypes.guess_type(file_path)[0] or 'application/octet-stream'
-            }
-            category = model.predict_category(file_metadata)
-            target_folder = os.path.join(target_dir, category)
-            if not os.path.exists(target_folder):
-                os.makedirs(target_folder)
-            move_file(file_path, os.path.join(target_folder, file_name), show_dialog=False)
-    logging.info("File organization completed.")
-    FileSelector.show_message("Success", "Files organized successfully")
+    except Exception as e:
+        logging.error(f"Error organizing files: {e}")
+        if show_message:
+            show_message("Error", f"Error organizing files: {e}")
 
 def deorganize_files(source_directory):
     """Moves files from subdirectories back to the main directory."""
@@ -168,48 +181,6 @@ def deorganize_files(source_directory):
     except Exception as e:
         logging.error(f"Error during deorganization: {e}")
 
-def hash_file(file_path):
-    """Generate a hash for the given file."""
-    hasher = hashlib.md5()
-    try:
-        with open(file_path, 'rb') as f:
-            while chunk := f.read(8192):
-                hasher.update(chunk)
-    except PermissionError as e:
-        logging.error(f"Permission denied: {e}")
-        return None
-    except Exception as e:
-        logging.error(f"Error reading file {file_path}: {e}")
-        return None
-    file_hash = hasher.hexdigest()
-    logging.info(f"Hash for file {file_path}: {file_hash}")
-    return file_hash
-
-def find_duplicates(directory):
-    """Detect and list duplicate files in the specified directory."""
-    if not os.path.exists(directory):
-        logging.error(f"Directory {directory} does not exist.")
-        return
-
-    file_hashes = {}
-    duplicates = []
-
-    for root, _, files in os.walk(directory):
-        for file_name in files:
-            file_path = os.path.join(root, file_name)
-            file_hash = hash_file(file_path)
-            if file_hash:
-                if file_hash in file_hashes:
-                    duplicates.append((file_path, file_hashes[file_hash]))
-                else:
-                    file_hashes[file_hash] = file_path
-
-    if duplicates:
-        logging.info("Duplicate files found:")
-        for dup in duplicates:
-            logging.info(f"Duplicate: {dup[0]} and {dup[1]}")
-    else:
-        logging.info("No duplicate files found.")
 
 def rename_files(directory):
     """Rename files intelligently based on content/type."""
@@ -289,24 +260,6 @@ class DirectoryEventHandler(FileSystemEventHandler):
         except Exception as e:
             logging.error(f"Error moving file {file_path} to {target_folder}: {e}")
 
-def monitor_directory(source_directory, target_directory, model):
-    """Monitors a directory and organizes new files in real time."""
-    logging.info("Monitoring directory...")
-    
-    processed_files = set()
-
-    while True:
-        try:
-            for file_name in os.listdir(source_directory):
-                file_path = os.path.join(source_directory, file_name)
-                if os.path.isfile(file_path) and file_path not in processed_files:
-                    logging.info(f"New file detected: {file_path}")
-                    processed_files.add(file_path)
-                    # Process the file (e.g., move it to the target directory)
-                    process_file(file_path, target_directory, model)
-        except Exception as e:
-            logging.error(f"Error monitoring directory: {e}")
-        time.sleep(1)  # Adjust the interval as needed
 
 def process_file(file_path, target_directory, model):
     """Process a new file."""
@@ -645,55 +598,3 @@ def analyze_disk_usage(directory):
         logging.error(f"Error analyzing disk usage for {directory}: {e}")
         return None
 
-def compare_directories(dir1, dir2):
-    """Compare two directories and report differences."""
-    try:
-        if not (os.path.exists(dir1) and os.path.exists(dir2)):
-            logging.error("One or both directories do not exist.")
-            return None
-
-        differences = {
-            'only_in_first': [],
-            'only_in_second': [],
-            'different_files': []
-        }
-
-        dir1_files = {}
-        dir2_files = {}
-
-        # Get all files and their hashes from first directory
-        for root, _, files in os.walk(dir1):
-            for file in files:
-                path = os.path.join(root, file)
-                rel_path = os.path.relpath(path, dir1)
-                dir1_files[rel_path] = hash_file(path)
-
-        # Get all files and their hashes from second directory
-        for root, _, files in os.walk(dir2):
-            for file in files:
-                path = os.path.join(root, file)
-                rel_path = os.path.relpath(path, dir2)
-                dir2_files[rel_path] = hash_file(path)
-
-        # Compare files
-        for file in dir1_files:
-            if file not in dir2_files:
-                differences['only_in_first'].append(file)
-            elif dir1_files[file] != dir2_files[file]:
-                differences['different_files'].append(file)
-
-        for file in dir2_files:
-            if file not in dir1_files:
-                differences['only_in_second'].append(file)
-
-        logging.info("Directory comparison completed")
-        logging.info(f"Files only in {dir1}: {len(differences['only_in_first'])}")
-        logging.info(f"Files only in {dir2}: {len(differences['only_in_second'])}")
-        logging.info(f"Different files: {len(differences['different_files'])}")
-
-        return differences
-    except PermissionError as e:
-        logging.error(f"Permission denied: {e}")
-    except Exception as e:
-        logging.error(f"Error comparing directories: {e}")
-        return None
