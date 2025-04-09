@@ -92,7 +92,7 @@ python src/main.py <command> [arguments]
   python src/main.py organize -s <source_directory> -t <target_directory>
   ```
 
-- **move**: Moves a file or folder to a new location.
+- **move**: Moves a file
   ```sh
   # GUI Mode
   python src/main.py --gui move
@@ -101,7 +101,7 @@ python src/main.py <command> [arguments]
   python src/main.py move --source <source> --destination <destination>
   ```
 
-- **copy**: Copies a file or folder to a new location.
+- **copy**: Copies a file
   ```sh
   # GUI Mode
   python src/main.py --gui copy

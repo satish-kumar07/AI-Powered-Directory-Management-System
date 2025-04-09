@@ -495,8 +495,7 @@ def view_file_metadata(file_path):
         if os.path.exists(file_path):
             metadata = {
                 "Size": os.path.getsize(file_path),
-                "Created": time.ctime(os.path.getctime(file_path)),
-                "Modified": time.ctime(os.path.getmtime(file_path)),
+                "Created": time.ctime(os.path.getmtime(file_path)),
                 "Type": mimetypes.guess_type(file_path)[0]
             }
             logging.info(f"Metadata for {file_path}: {metadata}")
