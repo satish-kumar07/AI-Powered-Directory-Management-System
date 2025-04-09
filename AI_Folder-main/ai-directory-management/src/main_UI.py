@@ -1,7 +1,7 @@
 import os
 import logging
 import threading
-import time  # Add this import
+import time  
 import tkinter as tk
 from tkinter import filedialog, messagebox, simpledialog, ttk
 from tkinterdnd2 import TkinterDnD, DND_FILES  # Drag-and-Drop support

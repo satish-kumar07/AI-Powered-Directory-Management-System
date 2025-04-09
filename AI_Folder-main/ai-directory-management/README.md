@@ -228,25 +228,47 @@ python src/main.py <command> [arguments]
 - **Directory Management**: Create, delete, list, and rename directories.
 - **Deorganization**: Moves files from subdirectories back to the main directory.
 
-## Techniques Used
-The AI Directory Management System uses a combination of techniques to categorize and organize files:
+## How AI Works in This Project
 
-1. **File Metadata Analysis**:
-   - The system analyzes file metadata, such as file type and file extension, to predict the appropriate category for each file.
-   - This is done using the `predict_category` method in the `FileCategorizer` class, which checks the file type and assigns a category based on predefined rules.
+### Overview
+This project uses Artificial Intelligence (AI) to automate the categorization and organization of files based on their metadata (e.g., file size, type, creation date). The AI model is trained to recognize patterns in file metadata and predict the appropriate category for each file.
 
-2. **Duplicate Detection**:
-   - The system detects duplicate files by calculating the hash of each file's content.
-   - This is done using the `calculate_file_hash` method in the `FileCategorizer` class, which uses the `hashlib` library to generate a unique hash for each file.
-   - If a file with the same hash already exists, it is categorized as a duplicate.
+### How It Works
+1. **Training the AI Model:**
+   - The AI model is trained using labeled data stored in a CSV file (`labeled_data.csv`).
+   - A **Random Forest Classifier** is used to learn how file metadata maps to categories (e.g., Images, Documents, Videos).
+   - After training, the model is saved as a `.pkl` file (`trained_model.pkl`) for reuse.
 
-3. **File Organization**:
-   - The system organizes files into folders based on their predicted categories.
-   - This is done using the `organize_files` function in the `file_operations.py` module, which moves files to the appropriate target directories based on their categories.
+2. **Using the Trained Model:**
+   - The trained model is loaded in the project using the `FileCategorizer` class in `model.py`.
+   - The `predict_category` method takes file metadata as input and predicts the category of the file.
 
-4. **Deorganization**:
-   - The system can reverse the organization process by moving files from subdirectories back to the main directory.
-   - This is done using the `deorganize_files` function in the `file_operations.py` module.
+3. **File Categorization:**
+   - During file organization, the AI model predicts the category of each file.
+   - Files are then moved to corresponding folders (e.g., Images, Documents) based on the predicted category.
+
+### Role of AI in the Project
+1. **Automated File Categorization:**
+   - AI eliminates the need for manual file sorting by automatically categorizing files into predefined categories.
+
+2. **Improved Accuracy:**
+   - The AI model learns from training data, enabling it to make accurate predictions even for new or unseen files.
+
+3. **Scalability:**
+   - The AI-based approach can handle large numbers of files efficiently, making it suitable for real-world applications.
+
+4. **Customizability:**
+   - The AI model can be retrained with new data to adapt to additional categories or changing requirements.
+
+5. **Integration with File Operations:**
+   - The AI model is seamlessly integrated with file operations, such as organizing files, sorting by category, and handling duplicates.
+
+### Example Workflow
+1. A user selects a source directory to organize.
+2. The AI model predicts the category of each file in the directory based on its metadata.
+3. Files are moved to corresponding folders (e.g., Images, Documents) in the target directory.
+
+By leveraging AI, this project provides an intelligent and efficient solution for file management.
 
 ## Import Libraries
 The following libraries are used in this project:
