@@ -92,15 +92,6 @@ python src/main.py <command> [arguments]
   python src/main.py organize -s <source_directory> -t <target_directory>
   ```
 
-- **find-duplicates**: Detects and lists duplicate files.
-  ```sh
-  # GUI Mode
-  python src/main.py --gui find-duplicates
-
-  # CLI Mode
-  python src/main.py find-duplicates --directory <directory>
-  ```
-
 - **move**: Moves a file or folder to a new location.
   ```sh
   # GUI Mode
@@ -126,24 +117,6 @@ python src/main.py <command> [arguments]
 
   # CLI Mode
   python src/main.py delete -p <path>
-  ```
-
-- **summarize**: Generates an AI-based summary of a text file.
-  ```sh
-  # GUI Mode
-  python src/main.py --gui summarize
-
-  # CLI Mode
-  python src/main.py summarize -f <file>
-  ```
-
-- **monitor**: Watches the directory and organizes new files in real time.
-  ```sh
-  # GUI Mode
-  python src/main.py --gui monitor
-
-  # CLI Mode
-  python src/main.py monitor -s <source_directory> -t <target_directory>
   ```
 
 - **log**: Displays a log of previous operations.
@@ -245,46 +218,15 @@ python src/main.py <command> [arguments]
   python src/main.py preview -f <file_path> --lines <number_of_lines>
   ```
 
-- **batch-rename**: Renames multiple files in a directory based on a pattern.
-  ```sh
-  # GUI Mode
-  python src/main.py --gui batch-rename
-
-  # CLI Mode
-  python src/main.py batch-rename -d <directory> -p <pattern> -r <replacement>
-  ```
-
-- **disk-usage**: Analyzes disk usage of directories and files.
-  ```sh
-  # GUI Mode
-  python src/main.py --gui disk-usage
-
-  # CLI Mode
-  python src/main.py disk-usage -d <directory>
-  ```
-
-- **compare**: Compares two directories and reports differences.
-  ```sh
-  # GUI Mode
-  python src/main.py --gui compare
-
-  # CLI Mode
-  python src/main.py compare -d1 <first_directory> -d2 <second_directory>
-  ```
-
 ## Features
 - **AI-based File Categorization**: Uses content and metadata analysis to categorize files into predefined categories.
 - **Efficient File Organization**: Automatically organizes files into folders based on their categories.
-- **Duplicate Detection**: Identifies and categorizes duplicate files.
 - **Logging**: Logs file operations for tracking and debugging purposes.
 - **File Encryption**: Encrypts files for security.
 - **File Sorting by Date**: Organizes files based on their creation or modification date.
-- **Continuous Monitoring**: Optionally monitor the source directory for changes and automatically organize new files.
+
 - **Directory Management**: Create, delete, list, and rename directories.
 - **Deorganization**: Moves files from subdirectories back to the main directory.
-- **Batch Rename**: Renames multiple files in a directory based on a pattern.
-- **Disk Usage Analysis**: Analyzes disk usage of directories and files.
-- **Directory Comparison**: Compares two directories and reports differences.
 
 ## Techniques Used
 The AI Directory Management System uses a combination of techniques to categorize and organize files:
@@ -305,15 +247,6 @@ The AI Directory Management System uses a combination of techniques to categoriz
 4. **Deorganization**:
    - The system can reverse the organization process by moving files from subdirectories back to the main directory.
    - This is done using the `deorganize_files` function in the `file_operations.py` module.
-
-5. **Batch Rename**:
-   - Renames multiple files in a directory based on a pattern.
-
-6. **Disk Usage Analysis**:
-   - Analyzes disk usage of directories and files.
-
-8. **Directory Comparison**:
-   - Compares two directories and reports differences.
 
 ## Import Libraries
 The following libraries are used in this project:

@@ -9,8 +9,7 @@ from plyer import notification  # For desktop notifications
 from ai.model import FileCategorizer
 from utils.file_operations import (
     display_log,sort_files_by_date, encrypt_file, decrypt_file, move_file, copy_file, delete_file, create_directory,
-    delete_directory, list_files_in_directory, rename_directory,
-    view_file_metadata, preview_file, deorganize_files, batch_rename_files,organize_files_task
+    delete_directory, list_files_in_directory, rename_directory,view_file_metadata, preview_file, deorganize_files,organize_files_task
 )
 
 class FileManagerApp:
@@ -68,7 +67,6 @@ class FileManagerApp:
             ("Decrypt File", self.decrypt_file),
             ("View Metadata", self.view_metadata),
             ("Preview File", self.preview_file),
-            ("Batch Rename Files", self.batch_rename_files),
         ])
 
         # Add Drag-and-Drop Support
@@ -267,15 +265,6 @@ class FileManagerApp:
             deorganize_files(source_directory)
             # Show success message
             self.show_message("Success", f"Files in '{source_directory}' have been deorganized successfully.")
-
-    def batch_rename_files(self):
-        directory = self.select_directory("Select Directory to Batch Rename Files")
-        if directory:
-            pattern = self.get_input("Pattern Input", "Enter the pattern to search for in filenames:")
-            if pattern:
-                replacement = self.get_input("Replacement Input", "Enter the replacement text:")
-                if replacement is not None:  # Allow empty replacement
-                    batch_rename_files(directory, pattern, replacement)
 
 if __name__ == "__main__":
     root = TkinterDnD.Tk()

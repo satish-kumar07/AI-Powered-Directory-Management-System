@@ -88,14 +88,7 @@ def main():
     parser_deorganize = subparsers.add_parser("deorganize", help="Moves files from subdirectories back to the main directory.")
     parser_deorganize.add_argument("-s", "--source-directory", required=False, help="The source directory to deorganize.")
 
-    # Batch rename
-    parser_batch_rename = subparsers.add_parser("batch-rename", help="Rename multiple files based on a pattern.")
-    parser_batch_rename.add_argument("-d", "--directory", required=False, help="The directory containing files to rename.")
-    parser_batch_rename.add_argument("-p", "--pattern", required=False, help="The pattern to search for in filenames.")
-    parser_batch_rename.add_argument("-r", "--replacement", required=False, help="The replacement text.")
-
-    
-
+ 
     args = parser.parse_args()
 
     if args.gui:
@@ -236,23 +229,7 @@ def main():
             source_directory = FileSelector.select_directory("Select Directory to Deorganize")
             if source_directory:
                 deorganize_files(source_directory)
-
-        elif args.command == "batch-rename":
-            directory = FileSelector.select_directory("Select Directory to Batch Rename Files")
-            if directory:
-                pattern = FileSelector.get_input(
-                    "Pattern Input",
-                    "Enter the pattern to search for in filenames:"
-                )
-                if pattern:
-                    replacement = FileSelector.get_input(
-                        "Replacement Input",
-                        "Enter the replacement text:"
-                    )
-                    if replacement is not None:  # Allow empty replacement
-                        batch_rename_files(directory, pattern, replacement)
-
-      
+    
     else:
         # Handle CLI mode (existing code)
         if args.command == "organize":
@@ -354,13 +331,6 @@ def main():
                 deorganize_files(args.source_directory)
             else:
                 logging.error("Source directory is required in CLI mode")
-
-        elif args.command == "batch-rename":
-            if args.directory and args.pattern and args.replacement is not None:
-                batch_rename_files(args.directory, args.pattern, args.replacement)
-            else:
-                logging.error("Directory, pattern, and replacement are required in CLI mode")
-
  
         else:
             parser.print_help()
