@@ -1,0 +1,4 @@
+{"operation": "delete_directory", "details": {"path": "D:/SAMPLE\\Praj"}}
+{"operation": "delete_folder", "details": {"path": "D:/SAMPLE/SOURCE/Configuration Files"}}
+{"operation": "move_folder", "details": {"source": "D:/SAMPLE/TARGET", "target": "D:/SAMPLE/SOURCE"}}
+{"operation": "copy_folder", "details": {"source": "D:/SAMPLE/SOURCE/TARGET", "target": "D:/SAMPLE"}}

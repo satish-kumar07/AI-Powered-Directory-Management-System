@@ -29,6 +29,20 @@ def move_file(source_path, target_path, show_dialog=True):
         if show_dialog:
             FileSelector.show_message("Error", f"Error moving file: {str(e)}", "error")
 
+def move_folder(source_folder, target_folder):
+    """Move a folder to a new location."""
+    try:
+        if os.path.exists(source_folder) and os.path.isdir(source_folder):
+            shutil.move(source_folder, target_folder)
+            logging.info(f"Moved folder {source_folder} to {target_folder}")
+            log_operation('move_folder', {'source': source_folder, 'target': target_folder})
+        else:
+            logging.warning(f"Source folder does not exist: {source_folder}")
+    except PermissionError as e:
+        logging.error(f"Permission denied: {e}")
+    except Exception as e:
+        logging.error(f"Error moving folder {source_folder} to {target_folder}: {e}")
+
 def copy_file(source_path, target_path):
     """Copy a file or folder to a new location."""
     try:
@@ -51,6 +65,29 @@ def copy_file(source_path, target_path):
         logging.error(f"Permission denied: {e}")
     except Exception as e:
         logging.error(f"Error copying {source_path} to {target_path}: {e}")
+
+def copy_folder(source_folder, target_folder):
+    """Copy a folder and its contents to a new location."""
+    try:
+        if os.path.exists(source_folder) and os.path.isdir(source_folder):
+            if not os.path.exists(target_folder):
+                shutil.copytree(source_folder, target_folder)
+            else:
+                for item in os.listdir(source_folder):
+                    s = os.path.join(source_folder, item)
+                    d = os.path.join(target_folder, item)
+                    if os.path.isdir(s):
+                        shutil.copytree(s, d, dirs_exist_ok=True)
+                    else:
+                        shutil.copy2(s, d)
+            logging.info(f"Copied folder {source_folder} to {target_folder}")
+            log_operation('copy_folder', {'source': source_folder, 'target': target_folder})
+        else:
+            logging.warning(f"Source folder does not exist: {source_folder}")
+    except PermissionError as e:
+        logging.error(f"Permission denied: {e}")
+    except Exception as e:
+        logging.error(f"Error copying folder {source_folder} to {target_folder}: {e}")
 
 def delete_file(path):
     """Delete a specified file or folder."""

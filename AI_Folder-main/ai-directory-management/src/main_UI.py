@@ -9,7 +9,8 @@ from plyer import notification  # For desktop notifications
 from ai.model import FileCategorizer
 from utils.file_operations import (
     display_log,sort_files_by_date, encrypt_file, decrypt_file, move_file, copy_file, delete_file, create_directory,
-    delete_directory, list_files_in_directory, rename_directory,view_file_metadata, preview_file, deorganize_files,organize_files_task
+    delete_directory, list_files_in_directory, rename_directory,view_file_metadata, preview_file, deorganize_files,organize_files_task,
+     move_folder, copy_folder
 )
 
 class FileManagerApp:
@@ -47,16 +48,16 @@ class FileManagerApp:
             ("Copy File", self.copy_file),
             ("Delete File", self.delete_file),
             ("Deorganize Files", self.deorganize_files),
-            
-            
         ])
 
         # Add buttons to Directory Operations tab
         self.add_buttons(directory_operations_tab, [
-            ("Create Directory", self.create_directory),
-            ("Delete Directory", self.delete_directory),
+            ("Create Folder", self.create_directory),
+            ("Delete Folder", self.delete_directory),
             ("List Files", self.list_files),
-            ("Rename Directory", self.rename_directory),
+            ("Rename Folder", self.rename_directory),
+            ("Move Folder", self.move_folder),
+            ("Copy Folder", self.copy_folder),
         ])
 
         # Add buttons to Advanced Operations tab
@@ -265,6 +266,22 @@ class FileManagerApp:
             deorganize_files(source_directory)
             # Show success message
             self.show_message("Success", f"Files in '{source_directory}' have been deorganized successfully.")
+
+    def move_folder(self):
+        source_folder = self.select_directory("Select Folder to Move")
+        if source_folder:
+            target_folder = self.select_directory("Select Target Location")
+            if target_folder:
+                move_folder(source_folder, target_folder)
+                self.show_message("Success", f"Moved folder to: {target_folder}")
+
+    def copy_folder(self):
+        source_folder = self.select_directory("Select Folder to Copy")
+        if source_folder:
+            target_folder = self.select_directory("Select Target Location")
+            if target_folder:
+                copy_folder(source_folder, target_folder)
+                self.show_message("Success", f"Copied folder to: {target_folder}")
 
 if __name__ == "__main__":
     root = TkinterDnD.Tk()
