@@ -270,6 +270,23 @@ This project uses Artificial Intelligence (AI) to automate the categorization an
 
 By leveraging AI, this project provides an intelligent and efficient solution for file management.
 
+## Classification Metrics: Precision, Recall, F1-Score, and Support
+
+When evaluating the performance of classification models (such as the AI model used in this project), several key metrics are used:
+
+- **Precision**: Out of all the instances the model predicted as positive, what proportion were actually positive? Precision focuses on minimizing false positives (false alarms).
+  - **Formula**: Precision = TP / (TP + FP), where TP is true positives and FP is false positives.
+
+- **Recall (Sensitivity)**: Out of all the actual positive instances, what proportion did the model correctly identify? Recall focuses on minimizing false negatives (missed opportunities).
+  - **Formula**: Recall = TP / (TP + FN), where TP is true positives and FN is false negatives.
+
+- **F1-Score**: The harmonic mean of precision and recall, providing a single metric that balances both. The F1-score is especially useful when precision and recall are in trade-off, such as with imbalanced datasets.
+  - **Formula**: F1 = 2 * (precision * recall) / (precision + recall)
+
+- **Support**: The number of actual occurrences of a class in the dataset. It represents the total number of instances belonging to that class.
+
+These metrics help you understand how well your AI model is performing in categorizing files, especially when dealing with multiple categories or imbalanced data.
+
 ## Import Libraries
 The following libraries are used in this project:
 - **os**: For interacting with the operating system, such as file and directory operations.
