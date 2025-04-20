@@ -285,7 +285,14 @@ When evaluating the performance of classification models (such as the AI model u
 
 - **Support**: The number of actual occurrences of a class in the dataset. It represents the total number of instances belonging to that class.
 
-These metrics help you understand how well your AI model is performing in categorizing files, especially when dealing with multiple categories or imbalanced data.
+- **True Positives (TP)**: The number of instances that were correctly predicted as positive.
+- **False Positives (FP)**: The number of instances that were incorrectly predicted as positive (predicted positive but actually negative).
+- **False Negatives (FN)**: The number of instances that were incorrectly predicted as negative (predicted negative but actually positive).
+
+- **Macro avg**: Treats all classes equally by calculating the metric independently for each class and then averaging the results, regardless of how many samples each class has.
+- **Weighted avg**: Gives more importance to classes with more samples (support) by averaging the metric for each class weighted by the number of true instances for each class.
+
+These averages are especially useful for evaluating multi-class classification models, helping you understand overall model performance across both balanced and imbalanced datasets.
 
 ## Import Libraries
 The following libraries are used in this project:
