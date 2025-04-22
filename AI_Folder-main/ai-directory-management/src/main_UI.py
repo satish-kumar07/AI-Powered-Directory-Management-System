@@ -1,45 +1,72 @@
 import os
 import logging
 import threading
-import time  
+import time
 import tkinter as tk
 from tkinter import filedialog, messagebox, simpledialog, ttk
-from tkinterdnd2 import TkinterDnD, DND_FILES  # Drag-and-Drop support
+from tkinterdnd2 import TkinterDnD, DND_FILES 
 from plyer import notification  # For desktop notifications
 from ai.model import FileCategorizer
 from utils.file_operations import (
-    display_log,sort_files_by_date, encrypt_file, decrypt_file, move_file, copy_file, delete_file, create_directory,
-    delete_directory, list_files_in_directory, rename_directory,view_file_metadata, preview_file, deorganize_files,organize_files_task,
-     move_folder, copy_folder
+    display_log, sort_files_by_date, encrypt_file, decrypt_file, move_file, copy_file, delete_file, create_directory,
+    delete_directory, list_files_in_directory, rename_directory, view_file_metadata, preview_file, deorganize_files, organize_files_task,
+    move_folder, copy_folder
 )
 
 class FileManagerApp:
     def __init__(self, master):
         self.master = master
         master.title("File Management Operations")
-        master.geometry("1000x800")  # Increased window size
-        master.configure(bg='lightblue')  # Set background color
+        master.geometry("1000x800")
+        master.configure(bg='#f0f9ff')  # Tailwind's 'sky-50' for background
 
         # Set up logging
         logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
+        # Configure ttk style for Tailwind-inspired look
+        style = ttk.Style()
+        style.configure("TNotebook", background="#f0f9ff")
+        style.configure("TNotebook.Tab", font=("Helvetica", 12), padding=[10, 5], background="#e0f2fe")  # Tailwind 'sky-100'
+        style.map("TNotebook.Tab", background=[("selected", "#3b82f6"), ("active", "#93c5fd")], foreground=[("selected", "black")])  # Tailwind 'blue-500' and 'blue-300'
+        style.configure("TButton", font=("Helvetica", 10, "bold"), padding=10, background="#3b82f6")  # Tailwind 'blue-500'
+        style.map("TButton", background=[("active", "#2563eb")])  # Tailwind 'blue-600'
+        style.configure("TProgressbar", thickness=20, troughcolor="#e0f2fe", background="#3b82f6")  # Tailwind 'sky-100' and 'blue-500'
+
         # Add a header label
-        header_label = tk.Label(master, text="File Management Operations", font=("Arial", 24, "bold"), bg="lightblue")
+        header_label = tk.Label(
+            master,
+            text="FILE MANAGEMENT OPERATIONS",
+            font=("Helvetica", 28, "bold"),
+            bg="#f0f9ff",
+            fg="#1e40af"  # Tailwind's 'blue-800'
+        )
         header_label.pack(pady=20)
-        header_label.configure(font=("Helvetica", 24, "bold"))
 
         # Create a tabbed interface
         notebook = ttk.Notebook(master)
-        notebook.pack(expand=True, fill="both")
+        notebook.pack(expand=True, fill="both", padx=20, pady=10)
 
         # Create tabs
-        file_operations_tab = ttk.Frame(notebook)
-        directory_operations_tab = ttk.Frame(notebook)
-        advanced_operations_tab = ttk.Frame(notebook)
+        file_operations_tab = ttk.Frame(notebook, style="TNotebook")
+        directory_operations_tab = ttk.Frame(notebook, style="TNotebook")
+        advanced_operations_tab = ttk.Frame(notebook, style="TNotebook")
 
         notebook.add(file_operations_tab, text="File Operations")
         notebook.add(directory_operations_tab, text="Directory Operations")
         notebook.add(advanced_operations_tab, text="Advanced Operations")
+
+        # Tailwind-inspired button styling
+        button_style = {
+            "font": ("Helvetica", 10, "bold"),
+            "bg": "#3b82f6",  # Tailwind's 'blue-500'
+            "fg": "white",
+            "activebackground": "#2563eb",  # Tailwind's 'blue-600'
+            "activeforeground": "white",
+            "bd": 0,
+            "relief": "flat",
+            "width": 20,
+            "height": 2
+        }
 
         # Add buttons to File Operations tab
         self.add_buttons(file_operations_tab, [
@@ -48,7 +75,7 @@ class FileManagerApp:
             ("Copy File", self.copy_file),
             ("Delete File", self.delete_file),
             ("Deorganize Files", self.deorganize_files),
-        ])
+        ], button_style)
 
         # Add buttons to Directory Operations tab
         self.add_buttons(directory_operations_tab, [
@@ -58,7 +85,7 @@ class FileManagerApp:
             ("Rename Folder", self.rename_directory),
             ("Move Folder", self.move_folder),
             ("Copy Folder", self.copy_folder),
-        ])
+        ], button_style)
 
         # Add buttons to Advanced Operations tab
         self.add_buttons(advanced_operations_tab, [
@@ -68,27 +95,31 @@ class FileManagerApp:
             ("Decrypt File", self.decrypt_file),
             ("View Metadata", self.view_metadata),
             ("Preview File", self.preview_file),
-        ])
+        ], button_style)
 
         # Add Drag-and-Drop Support
         master.drop_target_register(DND_FILES)
         master.dnd_bind('<<Drop>>', self.handle_drop)
 
         # Add Progress Bar
-        self.progress = ttk.Progressbar(master, orient="horizontal", length=300, mode="determinate")
+        self.progress = ttk.Progressbar(master, orient="horizontal", length=300, mode="determinate", style="TProgressbar")
         self.progress.pack(pady=10)
 
-    def add_buttons(self, frame, buttons):
-        """Helper method to add buttons to a frame."""
+    def add_buttons(self, frame, buttons, button_style):
+        """Helper method to add buttons to a frame with Tailwind-inspired styling."""
         row, column = 0, 0
         for text, command in buttons:
-            button = tk.Button(frame, text=text, command=command, width=20, height=2, bg="white", fg="black", font=("Arial", 10, "bold"))
-            button.grid(row=row, column=column, padx=10, pady=10)
+            button = tk.Button(
+                frame,
+                text=text,
+                command=command,
+                **button_style
+            )
+            button.grid(row=row, column=column, padx=10, pady=10, sticky="ew")
             column += 1
-            if column > 3:  # Adjust the number of columns per row as needed
+            if column > 3:  # 4 buttons per row
                 column = 0
                 row += 1
-
 
     def handle_drop(self, event):
         """Handle files dropped into the application."""
@@ -154,7 +185,7 @@ class FileManagerApp:
         if source:
             destination = self.select_directory("Select Destination Directory")
             if destination:
-                copy_file(source, os.path.join(destination, os.path.basename(source)))
+                move_file(source, os.path.join(destination, os.path.basename(source)))  # Fixed to use move_file
 
     def copy_file(self):
         source = self.select_file("Select File to Copy")
@@ -264,7 +295,6 @@ class FileManagerApp:
         source_directory = self.select_directory("Select Directory to Deorganize")
         if source_directory:
             deorganize_files(source_directory)
-            # Show success message
             self.show_message("Success", f"Files in '{source_directory}' have been deorganized successfully.")
 
     def move_folder(self):

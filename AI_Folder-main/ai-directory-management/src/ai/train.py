@@ -14,7 +14,7 @@ class ModelTrainer:
     def __init__(self, data_path, model_path):
         self.data_path = data_path
         self.model_path = model_path
-        self.model = RandomForestClassifier(n_estimators=100, max_depth=10, random_state=42)
+        self.model = RandomForestClassifier(n_estimators=1000, max_depth=10, random_state=42)
 
     def load_data(self):
         """Load labeled data from CSV."""
